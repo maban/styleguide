@@ -49,14 +49,15 @@ module.exports = function(grunt) {
                 tasks: ['concat', 'uglify'],
                 options: {
                     spawn: false,
-                },
-            }
-            css: {
-                files: ['_style/scss/*.scss'],
-                tasks: ['sass'],
-                options: {
-                    spawn: false,
                 }
+            }
+        },
+            
+        css: {
+            files: ['_style/scss/*.scss'],
+            tasks: ['sass'],
+            options: {
+                spawn: false,
             }
         }
         

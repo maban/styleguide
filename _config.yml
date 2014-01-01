@@ -1,0 +1,4 @@
+name: Seed
+markdown: redcarpet
+pygments: true
+exclude: [node_modules, package.json]
