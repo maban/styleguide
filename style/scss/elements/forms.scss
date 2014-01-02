@@ -49,11 +49,11 @@ label {
     	}
 
 input.invalid {
-    border: 1px solid $color-red;
+    
     }
 
 input[type="text"][disabled] {
-    @include background-color($color-light-gray, 0.5);
+    @include background-color($color-base, 0.25);
     }
 
 abbr[title="required"],

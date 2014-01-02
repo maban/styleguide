@@ -33,7 +33,7 @@ main {
 
 abbr {
     border-bottom: 1px dotted;
-    @include border-color($color-medium-gray, 1);
+    @include border-color($color-base, 0.5);
     }
 
 abbr:hover {

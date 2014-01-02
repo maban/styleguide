@@ -38,7 +38,7 @@ module.exports = function(grunt) {
                     style: 'compressed'
                 },
                 files: {
-                    '_style/css/main.css': '_style/scss/main.scss'
+                    '_site/style/css/main.css': '_style/scss/main.scss'
                 }
             } 
         },
@@ -50,23 +50,29 @@ module.exports = function(grunt) {
                 options: {
                     spawn: false,
                 }
-            }
-        },
+            },
             
-        css: {
-            files: ['_style/scss/*.scss'],
-            tasks: ['sass'],
-            options: {
-                spawn: false,
+            css: {
+                files: ['_style/scss/*.scss'],
+                tasks: ['sass'],
+                options: {
+                    spawn: false,
+                }
             }
+        
         }
+            
+        
         
     });
 
     grunt.loadNpmTasks('grunt-contrib-concat');
     grunt.loadNpmTasks('grunt-contrib-uglify');
     grunt.loadNpmTasks('grunt-contrib-imagemin');
+    grunt.loadNpmTasks('grunt-contrib-sass');
+    grunt.loadNpmTasks('grunt-contrib-watch');
+    grunt.loadNpmTasks('grunt-contrib-css');
     
-    grunt.registerTask('default', ['concat', 'uglify', 'imagemin']);
+    grunt.registerTask('default', ['concat', 'uglify', 'imagemin', 'sass', 'watch']);
     
 };
