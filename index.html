@@ -4,7 +4,17 @@ title: Home
 ---
 
 
+{% directory path: _includes/kernel %}
+    <p>{{ file.name }}</p>
+{% enddirectory %}
+
+
 {% include kernel/a-rel-external.html %}
+
+    {% highlight html %}
+        {% include kernel/a-rel-external.html %}
+    {% endhighlight %}
+
 {% include kernel/a.html %}
 {% include kernel/alert.html %}
 {% include kernel/alert-info.html %}

@@ -7,8 +7,8 @@ module.exports = function(grunt) {
         concat: {   
             dist: {
                 src: [
-                    '_script/*.js',
-                    '_script/libs/*.js'
+                    'script/*.js',
+                    'script/libs/*.js'
                 ],
                 dest: '_site/script/main.js'
             }
@@ -25,7 +25,7 @@ module.exports = function(grunt) {
             dynamic: {
                 files: [{
                     expand: true,
-                    cwd: '_media/image/',
+                    cwd: 'media/image/',
                     src: ['**/*.{png,jpg,gif}'],
                     dest: '_site/media/image/'
                 }]
@@ -38,14 +38,14 @@ module.exports = function(grunt) {
                     style: 'compressed'
                 },
                 files: {
-                    '_site/style/css/main.css': '_style/scss/main.scss'
+                    '_site/style/css/main.css': 'style/scss/main.scss'
                 }
             } 
         },
         
         watch: {
             scripts: {
-                files: ['_script/*.js'],
+                files: ['script/*.js'],
                 tasks: ['concat', 'uglify'],
                 options: {
                     spawn: false,
@@ -53,7 +53,7 @@ module.exports = function(grunt) {
             },
             
             css: {
-                files: ['_style/scss/*.scss'],
+                files: ['style/scss/*.scss'],
                 tasks: ['sass'],
                 options: {
                     spawn: false,
@@ -65,13 +65,12 @@ module.exports = function(grunt) {
         
         
     });
-
+    
     grunt.loadNpmTasks('grunt-contrib-concat');
     grunt.loadNpmTasks('grunt-contrib-uglify');
     grunt.loadNpmTasks('grunt-contrib-imagemin');
     grunt.loadNpmTasks('grunt-contrib-sass');
     grunt.loadNpmTasks('grunt-contrib-watch');
-    grunt.loadNpmTasks('grunt-contrib-css');
     
     grunt.registerTask('default', ['concat', 'uglify', 'imagemin', 'sass', 'watch']);
     
