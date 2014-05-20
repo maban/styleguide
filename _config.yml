@@ -1,4 +1,0 @@
-name: Seed
-markdown: redcarpet
-pygments: true
-exclude: [node_modules, package.json, npm-debug.log, Gruntfile.js, scss]
