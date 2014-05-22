@@ -3,9 +3,9 @@ img {
     }
 
 audio {
-	@include rem(margin, 16px 0);
+	@include rem(margin, $base-font-size 0);
 	}
 
 video {
-	@include rem(margin, 16px 0);
+	@include rem(margin, $base-font-size 0);
 	}

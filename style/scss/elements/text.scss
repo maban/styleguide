@@ -3,13 +3,12 @@ body {
     font-size: $base-font-size;
     margin: 0;
     padding: 0;
+    
+    @media print {
+        @include rem(font-size, 14px);
+        }
+    
     }
-
-@media print {
-	body {
-		@include rem(font-size, 14px);
-		}
-	}
 
 article,
 aside,
@@ -20,6 +19,7 @@ footer,
 header,
 hgroup,
 menu,
+main,
 nav,
 section,
 summary,
@@ -93,6 +93,9 @@ pre code {
     }
 
 blockquote {
+    font-family: $font-serif-regular;
+    background-color: rgba(255,255,255,0.8);
+    padding: 0.05em 1em;
     }
 
 blockquote p {

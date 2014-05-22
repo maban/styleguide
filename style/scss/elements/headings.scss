@@ -4,7 +4,7 @@ h3,
 h4,
 h5,
 h6 {
-    @include font-serif-bold;
+    @include font-sans-bold;
     font-weight: normal;
     margin: 0 0 0.5em 0;
     }
@@ -23,13 +23,6 @@ h3,
 .h3 {
     @include rem(font-size, 30px);
     }
-    
-    @media print {
-    	h3,
-    	.h3 {
-    		@include rem(font-size, 25px);
-    		}
-    	}
 
 h4,
 .h4 {
@@ -39,11 +32,9 @@ h4,
 h5,
 .h5 {
     @include rem(font-size, 20px);
-    text-transform: uppercase;
     }
 
 h6,
 .h6 {
     @include rem(font-size, 18px);
-    text-transform: uppercase;
     }

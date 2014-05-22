@@ -1,0 +1,12 @@
+.nav-breadcrumb li {
+    color: $color-muted-alt;
+}
+
+.nav-breadcrumb li:after {
+    content: ">";
+    margin-left: 1em;
+}
+
+.nav-breadcrumb li:last-child:after {
+    content: "";
+}

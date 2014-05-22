@@ -1,10 +1,10 @@
-//  Fonts ––––––––––––––––––––––––––––––––––––––––––––––––
+//  Fonts ––––––––––––––––––––––––––––––––––––––––––––
 
-$base-font-size: 16px;
+$base-font-size: 15px;
 
 // Sans serif --------------------------------------------
 
-$font-sans-regular-fallback: "Verdana", "Helvetica", "Arial";
+$font-sans-regular-fallback: "Helvetica", "Arial";
 
 $font-sans-regular: $font-sans-regular-fallback;
 
@@ -26,7 +26,7 @@ $font-monospace-regular: "Monaco", "Courier", monospace;
     font-style: normal;
     }
 
-// Serif -------------------------------------------------
+// Serif ---------------------------------------------
 
 @mixin font-serif-bold {
     font-family: $font-serif-regular;

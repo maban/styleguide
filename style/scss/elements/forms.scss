@@ -1,59 +1,55 @@
 textarea,
 input,
 select {
-	@include rem(border-radius, 4px);
     border-width: 1px;
     border-style: solid;
-    @include border-color($color-base, 0.5);
     font-family: $font-sans-regular;
-    }
-
-input,
-select {
-    }
+    @include rem(border-radius, 3px);
+    @include border-color($color-base, 0.5);
+    @include rem(font-size, 14px);
+    @include rem(padding, 7px 5px);
+    @include rem(margin, 5px);
+    @include rem(line-height, 16px);
     
     @media print {
-    input,
-    select,
-    textarea {
-    	border: 1px solid $color-base;
-    	}
+        border: 1px solid $color-base;
+        }
+
     }
 
 select {
 	font-size: 1em;
 	line-height: 1.4em;
 	min-width: 150px;
-	}
-
-select[disabled],
-select[multiple] {
-	background-image: none;
+	
+	&:hover {	
+		cursor: pointer;
+		}
+    
+    &[disabled],
+    &[multiple] {
+        background-image: none;
+        }
+    
 	}
 
 label {
 	@include rem(line-height, 18px);
     display: block;
-    margin-right: 0.5em;
-    text-transform: uppercase;
-    color: $color-base;
+    @include rem(margin, 5px);
+    @include color($color-base, 0.85);
     vertical-align: middle;
     margin-bottom: 0;
-    font-size: 0.8em;
-    }
+    font-size: 0.9em;
     
-    @media print {
-    	label {
-    		color: $color-base;
-    		}
-    	}
+        @media print {
+            color: $color-base;
+        }
+    
+    }
 
 input.invalid {
     
-    }
-
-input[type="text"][disabled] {
-    @include background-color($color-base, 0.25);
     }
 
 abbr[title="required"],
@@ -63,14 +59,18 @@ abbr[title="Required"] {
 
 textarea {
     max-width: 98%;
-    padding: 1em 1%;
-    font-size: 1em;
-    margin: 0;
     }
 
-textarea[disabled] {
-    cursor: not-allowed;
-    @include background-color($color-base, 0.25);
+textarea[disabled],
+input[type="text"][disabled],
+select[disabled] {
+    background-color: $color-muted;
+    color: $color-muted-alt;
+
+    &:hover {
+        cursor: not-allowed;
+        }
+    
     }
 
 video {
@@ -79,13 +79,4 @@ video {
 
 fieldset {
     border: none;
-    }
-
-select:hover {	
-	cursor: pointer;
-	}
-
-select[disabled] {
-    cursor: not-allowed;
-    @include background-color($color-base, 0.25);
     }

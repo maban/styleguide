@@ -2,10 +2,17 @@
 @import 'base/transitions.scss';
 @import 'base/typography.scss';
 
+@import 'elements/text.scss';
 @import 'elements/forms.scss';
 @import 'elements/headings.scss';
 @import 'elements/links.scss';
+@import 'elements/buttons.scss';
 @import 'elements/lists.scss';
+@import 'elements/list-horizontal.scss';
 @import 'elements/media.scss';
 @import 'elements/tables.scss';
-@import 'elements/text.scss';
+
+@import 'elements/nav-breadcrumb.scss';
+@import 'elements/nav-page.scss';
+
+@import 'elements/alert.scss';

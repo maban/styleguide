@@ -1,0 +1,17 @@
+.alert {
+    background-color: #D3D3A9;
+    @include rem(border-radius, 3px);
+    @include rem(padding, 0 10px);
+    }
+
+.alert-success {
+    background-color: #B1C79D;
+    }
+
+.alert-info {
+    background-color: #A9CCD3;
+    }
+
+.alert-failure {
+    background-color: #D3A9B1;
+    }

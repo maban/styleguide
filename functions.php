@@ -89,16 +89,8 @@ function displayPatterns($dir) {
             $pathToFile = str_replace($patternsPath, '', $dir);
             
             if(is_dir($dir.'/'.$ff)) { // If main section
-                if ($fName == 'article') {
-                    echo "<section class=\"xx-section\" id=\"".$fName."\">\n";
-                    echo "    <h3 class=\"xx-section-title\">".$fPlain."</h3>\n";
-                    echo "    <article class=\"article-layout hentry\">\n";
-                    echo "        <div class=\"main-content\">\n\n";
-                    
-                } else {
-                    echo "<section class=\"xx-section\" id=\"".$fName."\">\n";
-                    echo "    <h3 class=\"xx-section-title\">".$fPlain."</h3>\n\n";
-                }
+                echo "<section class=\"xx-section\" id=\"".$fName."\">\n";
+                echo "    <h3 class=\"xx-section-title\">".$fPlain."</h3>\n\n";
             } else { // If sub section
                 if(pathinfo($ff,PATHINFO_EXTENSION) == 'html' && $ff != 'foot.html') { // Skip non-HTML files
                     echo "<div class=\"xx-pattern\" id=\"".$fName."\">\n";
@@ -132,13 +124,8 @@ function displayOptions($dir) {
             $fName = basename($ff,'.html');
             $fPlain = ucwords(str_replace('-', '. ', $fName));
             $pathToFile = str_replace($patternsPath, '', $dir);
-
             if(is_dir($dir.'/'.$ff)) { // If main section
-                if ($fName == 'article') {
-                    echo "<optgroup label=\"".$fPlain."\"/>\n";
-                } else {
-                    echo "    <option value=\"#".$fName."\">".$fPlain."</option>\n";
-                }
+                echo "    <option value=\"#".$fName."\">".$fPlain."</option>\n";
             } else { // If sub section
                 if(pathinfo($ff,PATHINFO_EXTENSION) == 'html' && $ff != 'foot.html') { // Skip non-HTML files
                     echo "    <option value=\"#".$fName."\">&#160;&#160;&#160;&#160;".$fName."</option>\n";
@@ -147,12 +134,6 @@ function displayOptions($dir) {
             if(is_dir($dir.'/'.$ff)) {
                 displayOptions($dir.'/'.$ff);
             }
-            if(is_dir($dir.'/'.$ff)) { // If main section
-                if ($fName == 'article') {
-                    echo "</optgroup>\n";
-                }
-            }
-            
         }
     }
 }

@@ -1,0 +1,10 @@
+.nav-page li {
+    color: $color-muted-alt;
+}
+
+.nav-page li a {
+    background-color: $color-link;
+    @include rem(padding, 5px 10px);
+    border-radius: 3px;
+    color: #fff;
+}
