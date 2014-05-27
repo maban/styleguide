@@ -18,9 +18,11 @@ a.button-disabled {
     @include rem(line-height, 16px);
     font-family: $font-sans-regular;
     
-    &:hover {
+    &:hover,
+    &:focus,
+    &:active {
         cursor: pointer;
-        @include background-color($color-link, 0.8);
+        @include background-color($color-link-focus);
     }
 
 }
