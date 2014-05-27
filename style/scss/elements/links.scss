@@ -14,19 +14,13 @@ a:active {
     @include border-color($color-link, 0.7);
     }
 
-@media print {
-	main a:link:after,
-	main a:visited:after { 
-		content:" [" attr(href) "] "; 
-		}
-	}
-
-a img { // IE adds a border around images if a link
+a img { // IE adds a border around images if a link.
 	border: none;
 	}
 
-.link-unstyled:hover,
-.link-unstyled:focus,
-.link-unstyled:active {
-	border-bottom: none;
+@media print {
+	main a:link:after,
+	main a:visited:after { 
+		content:" [" attr(href) "] "; // Adds the full url after a link if it's in the main body of the page.
+		}
 	}
