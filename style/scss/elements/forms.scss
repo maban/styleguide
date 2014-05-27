@@ -1,3 +1,9 @@
+abbr[title="required"],
+abbr[title="Required"] {
+    border-bottom: none;
+    }
+
+
 textarea,
 input,
 select {
@@ -17,21 +23,6 @@ select {
 
     }
 
-select {
-	font-size: 1em;
-	line-height: 1.4em;
-	min-width: 150px;
-	
-	&:hover {	
-		cursor: pointer;
-		}
-    
-    &[disabled],
-    &[multiple] {
-        background-image: none;
-        }
-    
-	}
 
 label {
 	@include rem(line-height, 18px);
@@ -48,24 +39,40 @@ label {
     
     }
 
-input.invalid {
-    
+
+fieldset {
+    border: none;
     }
 
-abbr[title="required"],
-abbr[title="Required"] {
-    border-bottom: none;
-    }
+
+select {
+	font-size: 1em;
+	line-height: 1.4em;
+	min-width: 150px;
+	
+	&:hover {	
+		cursor: pointer;
+		}
+    
+	}
+
 
 textarea {
     max-width: 98%;
     }
+
+
+video {
+    max-width: 100%;
+    }
+
 
 textarea[disabled],
 input[type="text"][disabled],
 select[disabled] {
     background-color: $color-muted;
     color: $color-muted-alt;
+    background-image: none;
 
     &:hover {
         cursor: not-allowed;
@@ -73,10 +80,7 @@ select[disabled] {
     
     }
 
-video {
-    max-width: 100%;
-    }
 
-fieldset {
-    border: none;
+input.invalid {
+    
     }
