@@ -7,4 +7,9 @@
     @include rem(padding, 5px 10px);
     border-radius: 3px;
     color: #fff;
+    
+    &:hover {
+        border-bottom: none;
+    }
+
 }
