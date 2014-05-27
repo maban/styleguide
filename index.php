@@ -34,7 +34,7 @@
         
             <h1 class="xx-title">Pattern Library</h1>
 
-            <nav class="xx-nav">
+            <nav class="xx-nav" role="navigation" aria-label="Global">
                 <ul class="xx-nav-items">
                     <li class="xx-nav-item"><a href="http://alistapart.com">Home</a></li>
                     <li class="xx-nav-item"><a href="patchwork.php">View as patchwork</a></li>
