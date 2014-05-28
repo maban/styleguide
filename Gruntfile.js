@@ -43,6 +43,18 @@ module.exports = function(grunt) {
             } 
         },
         
+        perfbudget: {
+            foo: {
+                options: {
+                    url: 'http://google.com',
+                    key: 'YOUR_API_KEY',
+                    budget: {
+                        SpeedIndex: '1000'
+                    }
+                }
+            }
+        },
+        
         watch: {
             scripts: {
                 files: ['script/*.js'],
@@ -70,8 +82,9 @@ module.exports = function(grunt) {
     grunt.loadNpmTasks('grunt-contrib-uglify');
     grunt.loadNpmTasks('grunt-contrib-imagemin');
     grunt.loadNpmTasks('grunt-contrib-sass');
+    grunt.loadNpmTasks('grunt-contrib-perfbudget');
     grunt.loadNpmTasks('grunt-contrib-watch');
     
-    grunt.registerTask('default', ['concat', 'uglify', 'imagemin', 'sass', 'watch']);
+    grunt.registerTask('default', ['concat', 'uglify', 'imagemin', 'sass', 'perfbudget', 'watch']);
     
 };
