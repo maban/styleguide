@@ -45,7 +45,7 @@ ul,
 ol,
 dl {
     @include rem(line-height, 27px);
-    margin: 1em 0;
+    @include rem(margin, $base-font-size 0);
     }
 
 @media print {
@@ -65,26 +65,28 @@ code,
 .code {
     font-family: $font-monospace-regular; 
     background-color: #f5f2f0;
-    padding: 2px 4px;
+    @include rem(padding, 2px 4px);
+    border-radius: $measure-xxs;
     }
 
 
 mark {
     @include background-color($color-highlight, 1);
     padding: 0 0.1em;
-    border-radius: 0.1em;
+    border-radius: $measure-xxs;
     }
 
 kbd {
     font-family: $font-monospace-regular; 
     @include background-color($color-base, 0.25);
-    padding: 0.5em 0.5em 0.4em;
-    border-radius: 0.3em;
+    @include rem(padding, 8px 8px 6px);
+    border-radius: $measure-xxs;
     }
 
 pre {
     white-space: pre-wrap;
     max-width: 100%;
+    border-radius: $measure-xxs;
     }
 
 pre code {
@@ -95,7 +97,7 @@ pre code {
 blockquote {
     font-family: $font-serif-regular;
     background-color: rgba(255,255,255,0.8);
-    padding: 0.05em 1em;
+    @include rem(padding, 1px $base-font-size);
     }
 
 blockquote p {

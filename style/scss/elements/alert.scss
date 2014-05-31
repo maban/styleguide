@@ -1,7 +1,7 @@
 .alert {
     background-color: #D3D3A9;
-    @include rem(border-radius, 3px);
-    @include rem(padding, 0 10px);
+    border-radius: $measure-xxs;
+    @include rem(padding, 0 $measure-s);
     }
 
 .alert-success {

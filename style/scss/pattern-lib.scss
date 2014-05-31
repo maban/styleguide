@@ -19,8 +19,8 @@
 
 .xx-pattern-name {
     background-color: #419DD2;
-    background-image: -webkit-linear-gradient($color-link 95.4%, #2779a9 100%);
-    background-image: linear-gradient($color-link 95.4%, #2779a9 100%);
+    background-image: -webkit-linear-gradient(#419DD2 95.4%, #2779a9 100%);
+    background-image: linear-gradient(#419DD2 95.4%, #2779a9 100%);
     font-family: Helvetica, Arial, sans-serif;
     font-weight: 400;
     position: relative;
@@ -32,8 +32,8 @@
     
     &:focus {
         outline: none;
-        background-image: -webkit-linear-gradient($color-link-focus 95.4%, #2794a9 100%);
-        background-image: linear-gradient($color-link-focus 95.4%, #2794a9 100%);
+        background-image: -webkit-linear-gradient(#40BAD2 95.4%, #2794a9 100%);
+        background-image: linear-gradient(#40BAD2 95.4%, #2794a9 100%);
     }
     
 }
@@ -70,6 +70,7 @@ a.xx-pattern-link {
 
 .xx-pattern-markup[class*="language-"] {
     margin: 0;
+    border-radius: 3px;
     }
 
 .xx-pattern-usage {

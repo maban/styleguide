@@ -7,7 +7,7 @@ a.button,
 a.button-disabled {
     background-image: none;
     border: none;
-    border-radius: 3px;
+    border-radius: $measure-xxs;
     color: #FFF;
     display: inline-block;
     text-shadow: -1px -1px 0 rgba(0,0,0,0.2);

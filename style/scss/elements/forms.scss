@@ -10,7 +10,7 @@ select {
     border-width: 1px;
     border-style: solid;
     font-family: $font-sans-regular;
-    @include rem(border-radius, 3px);
+    border-radius: $measure-xxs;
     @include border-color($color-base, 0.5);
     @include rem(font-size, 14px);
     @include rem(padding, 7px 5px);
