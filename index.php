@@ -38,7 +38,7 @@
                 <ul class="xx-nav-items">
                     <li class="xx-nav-item"><a href="http://alistapart.com">Home</a></li>
                     <li class="xx-nav-item"><a href="patchwork.php">View as patchwork</a></li>
-                    <li class="xx-nav-item"><a href="https://github.com/alistapart/pattern-library">Github Repo</a></li>
+                    <li class="xx-nav-item"><a href="https://github.com/maban/seed">Github Repo</a></li>
                 </ul>
             </nav>
             
