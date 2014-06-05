@@ -1,0 +1,9 @@
+title: Pattern Library
+description: A collection of patterns to help you build up a style guide for your site
+baseurl: ""
+markdown: kramdown
+permalink: pretty
+highlighter: pygments
+collections: 
+    patterns:
+        output: true

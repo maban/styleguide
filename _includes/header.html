@@ -1,0 +1,25 @@
+<body class="xx">
+
+<div class="xx-container">
+        
+    <h1 class="xx-title">Pattern Library</h1>
+
+    <nav class="xx-nav" role="navigation" aria-label="Global">
+        <ul class="xx-nav-items">
+            <li class="xx-nav-item"><a href="/">Home</a></li>
+            <li class="xx-nav-item"><a href="patchwork.php">View as patchwork</a></li>
+            <li class="xx-nav-item"><a href="https://github.com/maban/seed">Github Repo</a></li>
+        </ul>
+    </nav>
+    
+    <form action="" method="post" id="pattern" class="xx-pattern-jump">
+        <select name="section" id="pattern-select" class="nav-section-select">
+            <option value="">Jump to&#8230;</option>
+            {% for page in site.documents %}
+                <option value="#{{ page.url | replace:'.html','' | replace:'/patterns/','' }}">&nbsp;&nbsp;&nbsp;&nbsp;{{ page.url | replace:'.html','' | replace:'/patterns/','' }}</option>
+            {% endfor %}
+        </select>
+        <button type="submit" id="pattern-submit">Go</button>
+    </form>
+    
+    <main role="main">

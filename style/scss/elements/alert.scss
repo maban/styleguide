@@ -1,5 +1,5 @@
 .alert {
-    background-color: #D3D3A9;
+    background-color: $color-highlight;
     border-radius: $measure-xxs;
     @include rem(padding, 0 $measure-s);
     }

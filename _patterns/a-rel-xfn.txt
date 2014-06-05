@@ -1,0 +1,20 @@
+
+rel=…
+* friend
+* acquaintance
+* contact
+* met
+* co-worker
+* colleague
+* co-resident
+* neighbour
+* child
+* parent
+* sibling
+* spouse
+* kin
+* muse
+* crush
+* date
+* sweetheart
+* me

@@ -5,7 +5,7 @@ body {
     padding: 0;
     
     @media print {
-        @include rem(font-size, 14px);
+        font-size: $base-font-size;
         }
     
     }
@@ -106,6 +106,10 @@ blockquote p {
 figure {
 	margin: 0;
 	}
+
+figcaption {
+    font-size: $measure-s;
+    }
 
 .hidden {
     border: 0;

@@ -68,8 +68,9 @@ video {
 
 
 textarea[disabled],
-input[type="text"][disabled],
-select[disabled] {
+input[disabled],
+select[disabled],
+.disabled {
     background-color: $color-muted;
     color: $color-muted-alt;
     background-image: none;
@@ -80,7 +81,26 @@ select[disabled] {
     
     }
 
+input[type="file"] {
+    border: 2px dotted #ccc;
+    width: 94%;
+    padding: 1em 2%;
+    line-height: 1;
+    border-radius: $measure-xs;
+    }
+
 
 input.invalid {
-    
     }
+
+.list-form {
+    padding-left: 0
+    }
+
+.list-form li {
+    list-style-type: none;
+    }
+
+[title="Required"] {
+    color: #af2121;
+}
