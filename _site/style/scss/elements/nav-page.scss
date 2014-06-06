@@ -1,0 +1,45 @@
+.nav-page li {
+    color: $color-muted-alt;
+    @include rem(margin-bottom, 10px);
+    border-radius: $measure-xxs;
+    display: inline-block;
+    
+    a,
+    .is-empty,
+    .is-active {
+    min-width: 1.2em;
+    display: block;
+    text-align: center;
+    @include rem(padding, 5px 10px 4px);
+    border-radius: $measure-xxs;
+    border-radius: 3px;
+    font-size: 1.1em;
+    }
+    
+    a {
+        background-color: $color-link;
+        color: #fff;
+        
+        &:hover {
+            border-bottom: none;
+            background-color: $color-link-focus;
+        }
+    
+    }
+    
+    .is-active {
+        background-color: $color-link-focus;
+        color: #fff;
+        &:hover {
+            cursor: default;
+        }
+    }
+    
+    .is-empty {
+        background-color: $color-muted;
+        &:hover {
+            cursor: default;
+        }
+    }    
+
+}

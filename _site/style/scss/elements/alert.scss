@@ -1,0 +1,17 @@
+.alert {
+    background-color: $color-highlight;
+    border-radius: $measure-xxs;
+    @include rem(padding, 0 $measure-s);
+    }
+
+.alert-success {
+    background-color: #B1C79D;
+    }
+
+.alert-info {
+    background-color: #A9CCD3;
+    }
+
+.alert-failure {
+    background-color: #D3A9B1;
+    }

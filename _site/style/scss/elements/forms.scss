@@ -1,0 +1,106 @@
+abbr[title="required"],
+abbr[title="Required"] {
+    border-bottom: none;
+    }
+
+
+textarea,
+input,
+select {
+    border-width: 1px;
+    border-style: solid;
+    font-family: $font-sans-regular;
+    border-radius: $measure-xxs;
+    @include border-color($color-base, 0.5);
+    @include rem(font-size, 14px);
+    @include rem(padding, 7px 5px);
+    @include rem(margin, 5px);
+    @include rem(line-height, 16px);
+    
+    @media print {
+        border: 1px solid $color-base;
+        }
+
+    }
+
+
+label {
+	@include rem(line-height, 18px);
+    display: block;
+    @include rem(margin, 5px);
+    @include color($color-base, 0.85);
+    vertical-align: middle;
+    margin-bottom: 0;
+    font-size: 0.9em;
+    
+        @media print {
+            color: $color-base;
+        }
+    
+    }
+
+
+fieldset {
+    border: none;
+    }
+
+
+select {
+	font-size: 1em;
+	line-height: 1.4em;
+	min-width: 150px;
+	
+	&:hover {	
+		cursor: pointer;
+		}
+    
+	}
+
+
+textarea {
+    max-width: 98%;
+    }
+
+
+video {
+    max-width: 100%;
+    }
+
+
+textarea[disabled],
+input[disabled],
+select[disabled],
+.disabled {
+    background-color: $color-muted;
+    color: $color-muted-alt;
+    background-image: none;
+
+    &:hover {
+        cursor: not-allowed;
+        }
+    
+    }
+
+input[type="file"] {
+    border: 2px dotted #ccc;
+    width: 94%;
+    padding: 1em 2%;
+    line-height: 1;
+    border-radius: $measure-xs;
+    }
+
+
+input.invalid {
+    }
+
+.list-form {
+    padding-left: 0
+    }
+
+.list-form li {
+    list-style-type: none;
+    }
+
+[title="Required"] {
+    color: #af2121;
+}

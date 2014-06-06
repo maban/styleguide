@@ -1,0 +1,17 @@
+.nav-breadcrumb {
+
+    li {
+    color: $color-muted-alt;
+    
+        &:after {
+        content: ">";
+        margin-left: 1em;
+        }
+        
+        &:last-child:after {
+        content: "";
+        }
+    
+    }
+
+}
