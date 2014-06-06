@@ -180,23 +180,20 @@ a.xx-pattern-link {
     }
 
 
-.highlight { 
-    display: block;
-    background-color: #fff;
-    margin: 0;
-    padding: 1em;
-    color: #333;
-    font-size: 0.85em;
-    border-bottom: 1px solid #ccc;
-    }
-
 // Syntax Highlighting
     
 .xx-pattern-details {
     
-    .lineno {
-    color: #D5D5D5;
-    }
+    .highlight { 
+        display: block;
+        background-color: #fff;
+        margin: 0;
+        padding: 1em;
+        color: #333;
+        font-size: 0.85em;
+        border-bottom: 1px solid #ccc;
+        line-height: 1.2;
+        }
 
     .highlight .c /* Comment */ {
         color: #999988; font-style: italic 
@@ -433,6 +430,11 @@ a.xx-pattern-link {
     .highlight .il { 
         color: #009999 
         } /* Literal.Number.Integer.Long */
-        
+    
+    .lineno {
+        color: #D5D5D5;
+        border-right: 1px solid #e7e7e7;
+        padding-right: 0.8em;
+        }
 
 }

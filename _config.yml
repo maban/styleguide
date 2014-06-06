@@ -19,5 +19,4 @@ permalink: pretty
 highlighter: pygments
 
 collections: 
-    patterns:
-        output: true
+- patterns

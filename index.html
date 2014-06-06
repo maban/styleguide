@@ -3,87 +3,86 @@ title: Pattern Primer
 layout: default
 ---
     
-        <ul class="xx-swatches">
-            <li class="xx-swatch">
-                <span class="xx-swatch-preview" style="background-color: #363942;"></span>
-                <span class="xx-swatch-details">#363942 <code>$color-base</code> <strong>Body text</strong></span>
-            </li>
-            <li class="xx-swatch">
-                <span class="xx-swatch-preview" style="background-color: #419DD2;"></span>
-                <span class="xx-swatch-details">#419DD2 <code>$color-link</code> <strong>Link</strong></span>
-            </li>
-            <li class="xx-swatch">
-                <span class="xx-swatch-preview" style="background-color: #40bad2;"></span>
-                <span class="xx-swatch-details">#40BAD2 <code>$color-link-focus</code> <strong>Link hover</strong></span>
-            </li>
-            <li class="xx-swatch">
-                <span class="xx-swatch-preview" style="background-color: #EEEE8F;"></span>
-                <span class="xx-swatch-details">#EEEE8F <code>$color-highlight</code> <strong>Highlight</strong></span>
-            </li>
-            <li class="xx-swatch">
-                <span class="xx-swatch-preview" style="background-color: #ddd;"></span>
-                <span class="xx-swatch-details">#DDD <code>$color-muted</code> <strong>Muted</strong></span>
-            </li>
-            <li class="xx-swatch">
-                <span class="xx-swatch-preview" style="background-color: #999;"></span>
-                <span class="xx-swatch-details">#999 <code>$color-muted-alt</code> <strong>Muted (Alt)</strong></span>
-            </li>
-            <li class="xx-swatch">
-                <span class="xx-swatch-preview" style="background-color: #f0f0f0;"></span>
-                <span class="xx-swatch-details">#F0F0F0 <code>$color-canvas</code> <strong>Canvas</strong></span>
-            </li>
-        </ul>
-        
-        <ul class="xx-swatches">
-        
-        	<li class="xx-swatch">
-        	    <span class="xx-swatch-preview" style="font-family: 'Lucida Grande', 'Helvetica', 'Arial', sans-serif">
-        		    ABCDEFGHIJKLMNOPQRSTUVWXYZ<br/>
-        		    abcdefghijklmnopqrstuvwxyz<br/>
-        		    0123456789!?@£$%^&*()_+-=’”,.:;
-        	    </span>
-        	    <span class="xx-swatch-details">Lucida Grande <code>$font-sans-regular</code> <strong>Body text</strong></span>
-        	</li>
-        	
-        	<li class="xx-swatch">
-        	    <span class="xx-swatch-preview" style="font-family: 'Georgia', 'Times', sans-serif">
-        	        ABCDEFGHIJKLMNOPQRSTUVWXYZ<br/>
-        	        abcdefghijklmnopqrstuvwxyz<br/>
-        	        0123456789!?@£$%^&*()_+-=’”,.:;
-        	    </span>
-        	    <span class="xx-swatch-details">Georgia <code>$font-serif-regular</code> <strong>Body text alt</strong></span>
-        	</li>
-        	
-        	<li class="xx-swatch">
-        	    <span class="xx-swatch-preview" style="font-family: 'Monaco', 'Courier', monospace">
-        	        ABCDEFGHIJKLMNOPQRSTUVWXYZ<br/>
-        	        abcdefghijklmnopqrstuvwxyz<br/>
-        	        0123456789!?@£$%^&*()_+-=’”,.:;
-        	    </span>
-        	    <span class="xx-swatch-details">Monaco <code>$font-monospace-regular</code> <strong>Body text alt 2</strong></span>
-        	</li>
-        	
-        </ul>
+<ul class="xx-swatches">
+    <li class="xx-swatch">
+        <span class="xx-swatch-preview" style="background-color: #363942;"></span>
+        <span class="xx-swatch-details">#363942 <code>$color-base</code> <strong>Body text</strong></span>
+    </li>
+    <li class="xx-swatch">
+        <span class="xx-swatch-preview" style="background-color: #419DD2;"></span>
+        <span class="xx-swatch-details">#419DD2 <code>$color-link</code> <strong>Link</strong></span>
+    </li>
+    <li class="xx-swatch">
+        <span class="xx-swatch-preview" style="background-color: #40bad2;"></span>
+        <span class="xx-swatch-details">#40BAD2 <code>$color-link-focus</code> <strong>Link hover</strong></span>
+    </li>
+    <li class="xx-swatch">
+        <span class="xx-swatch-preview" style="background-color: #EEEE8F;"></span>
+        <span class="xx-swatch-details">#EEEE8F <code>$color-highlight</code> <strong>Highlight</strong></span>
+    </li>
+    <li class="xx-swatch">
+        <span class="xx-swatch-preview" style="background-color: #ddd;"></span>
+        <span class="xx-swatch-details">#DDD <code>$color-muted</code> <strong>Muted</strong></span>
+    </li>
+    <li class="xx-swatch">
+        <span class="xx-swatch-preview" style="background-color: #999;"></span>
+        <span class="xx-swatch-details">#999 <code>$color-muted-alt</code> <strong>Muted (Alt)</strong></span>
+    </li>
+    <li class="xx-swatch">
+        <span class="xx-swatch-preview" style="background-color: #f0f0f0;"></span>
+        <span class="xx-swatch-details">#F0F0F0 <code>$color-canvas</code> <strong>Canvas</strong></span>
+    </li>
+</ul>
 
-        {% for page in site.documents %}
-        {% if page.url contains '.html' %}
-        <div class="xx-pattern" id="{{ page.url | replace:'.html','' | replace:'/patterns/','' }}">
+<ul class="xx-swatches">
+
+    <li class="xx-swatch">
+        <span class="xx-swatch-preview" style="font-family: 'Lucida Grande', 'Helvetica', 'Arial', sans-serif">
+    	    ABCDEFGHIJKLMNOPQRSTUVWXYZ<br/>
+    	    abcdefghijklmnopqrstuvwxyz<br/>
+    	    0123456789!?@£$%^&*()_+-=’”,.:;
+        </span>
+        <span class="xx-swatch-details">Lucida Grande <code>$font-sans-regular</code> <strong>Body text</strong></span>
+    </li>
+    
+    <li class="xx-swatch">
+        <span class="xx-swatch-preview" style="font-family: 'Georgia', 'Times', sans-serif">
+            ABCDEFGHIJKLMNOPQRSTUVWXYZ<br/>
+            abcdefghijklmnopqrstuvwxyz<br/>
+            0123456789!?@£$%^&*()_+-=’”,.:;
+        </span>
+        <span class="xx-swatch-details">Georgia <code>$font-serif-regular</code> <strong>Body text alt</strong></span>
+    </li>
+    
+    <li class="xx-swatch">
+        <span class="xx-swatch-preview" style="font-family: 'Monaco', 'Courier', monospace">
+            ABCDEFGHIJKLMNOPQRSTUVWXYZ<br/>
+            abcdefghijklmnopqrstuvwxyz<br/>
+            0123456789!?@£$%^&*()_+-=’”,.:;
+        </span>
+        <span class="xx-swatch-details">Monaco <code>$font-monospace-regular</code> <strong>Body text alt 2</strong></span>
+    </li>
+	
+</ul>
+
+{% for patterns in site.patterns %}
+{% if patterns.url contains '.html' %}
+<div class="xx-pattern" id="{{ patterns.url | replace:'.html','' | replace:'/patterns/','' }}">
+
+    <details class="xx-pattern-details">
+    
+        <summary class="xx-pattern-name">{{ patterns.url | replace:'.html','' | replace:'/patterns/','' }}</summary>
         
-            <details class="xx-pattern-details">
-            
-                <summary class="xx-pattern-name">{{ page.url | replace:'.html','' | replace:'/patterns/','' }}</summary>
-                
-                {% highlight html linenos %}
-                    {{ page.content }}
-                {% endhighlight %}
-                
-            </details>
-            
-            <div class="xx-pattern-preview">
-                {{ page.content }}
-            </div>
-            
-        </div>
-        {% endif %}
-        {% endfor %}
+        {% highlight html linenos %}
+            {{ patterns.content }}
+        {% endhighlight %}
         
+    </details>
+    
+    <div class="xx-pattern-preview">
+        {{ patterns.content }}
+    </div>
+    
+</div>
+{% endif %}
+{% endfor %}
