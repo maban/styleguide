@@ -1,3 +1,0 @@
-
-.is-active = Current page is selected
-.is-empty = There is no content on this page

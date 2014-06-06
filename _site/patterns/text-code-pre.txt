@@ -1,5 +1,0 @@
-The code is styled using a class on the code element:
-
-* language-css for css
-* language-javascript for javascript
-* language-html for html
