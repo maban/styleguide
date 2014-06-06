@@ -2,7 +2,8 @@ title: Pattern Library
 description: A collection of patterns to help you build up a style guide for your site
 
 baseurl: /
-url:         /styleguide
+url:     /styleguide
+lsi:     false
 
 source:      .
 destination: ./_site
