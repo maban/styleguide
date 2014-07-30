@@ -1,0 +1,51 @@
+.availability {
+    
+    border-collapse: inherit;
+    border-spacing: 4px;
+    table-layout: fixed;
+    
+    th,
+    td {
+        border: none;
+        padding: 0;
+        @include rem(font-size, 12px);
+    }
+    
+    .availability-year {
+        
+        border: none;
+    }
+    
+    .availability-month {
+        border: none;
+        th {
+        
+        }
+        
+        abbr {
+            border: none;   
+        }
+        
+    }
+    
+    .availability-schedule {
+        text-indent: -9999px;
+        overflow: hidden;
+        td {
+            height: 20px;
+        }
+    }
+    
+    .availability-available {
+        background-color: #B1C79D;
+    }
+    
+    .availability-unavailable {
+        background-color: #D3A9B1;
+    }
+    
+    .availability-limited {
+        background-color: #e2ac48;
+    }
+    
+}
