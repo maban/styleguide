@@ -3,7 +3,6 @@ description: A collection of patterns to help you build up a style guide for you
 
 baseurl: /
 url:     /styleguide
-lsi:     false
 
 source:      .
 destination: ./_site
