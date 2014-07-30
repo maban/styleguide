@@ -20,3 +20,6 @@ highlighter: pygments
 
 collections: 
 - patterns
+
+sass:
+    sass_dir: ./style/_sass
