@@ -52,3 +52,7 @@ The `_site` folder contains the generated HTML files. **Do not make any changes 
     * **_sass** There's a sass file for every pattern. When adding new sass patterns, you'll need to import these into the `main.css` file.
     * **main.scss** imports all the sass files into one file. This is output in _sites/style/main.css
     * **pattern-lib.scss** styles specific to the style guide, not the site
+
+## Thank you
+
+Many thanks to [@paulrobertlloyd](http://twitter.com/paulrobertlloyd) for his [barebones style guide](http://barebones.paulrobertlloyd.com/), which is better than this one, just not using Jekyll.
