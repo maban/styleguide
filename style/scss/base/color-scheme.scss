@@ -1,5 +1,13 @@
 //  Colors –––––––––––––––––––––––––––––––––––––––––––––––
 
+$color-base: #363942;
+$color-muted: #DDD;
+$color-muted-alt: #999;
+$color-canvas: #D8CAA8;
+$color-link: #419DD2;
+$color-link-focus: #40BAD2;
+$color-highlight: #EEEE8F;
+
 @mixin color($color, $opacity: 1) {
     color: $color; // fallback
     color: rgba($color, $opacity);
@@ -14,11 +22,3 @@
     border-color: $color; // fallback
     border-color: rgba($color, $opacity);
     }
-
-$color-base: #363942;
-$color-muted: #DDD;
-$color-muted-alt: #999;
-$color-canvas: #D8CAA8;
-$color-link: #419DD2;
-$color-link-focus: #40BAD2;
-$color-highlight: #EEEE8F;
