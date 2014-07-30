@@ -1,8 +1,11 @@
+// Base
 @import 'base/color-scheme.scss';
 @import 'base/transitions.scss';
 @import 'base/typography.scss';
 @import 'base/measure.scss';
 
+
+// Elements
 @import 'elements/text.scss';
 @import 'elements/forms.scss';
 @import 'elements/headings.scss';
@@ -13,8 +16,12 @@
 @import 'elements/media.scss';
 @import 'elements/tables.scss';
 
-@import 'elements/nav.scss';
-@import 'elements/nav-breadcrumb.scss';
-@import 'elements/nav-page.scss';
 
-@import 'elements/alert.scss';
+// Modules
+@import 'modules/alert.scss';
+@import 'modules/availability.scss';
+@import 'modules/nav.scss';
+@import 'modules/nav-breadcrumb.scss';
+@import 'modules/nav-page.scss';
+
+@import 'modules/alert.scss';
