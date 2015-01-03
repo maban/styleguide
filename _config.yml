@@ -12,13 +12,12 @@ include:     ['.htaccess']
 exclude:     []
 keep_files:  ['.git']
 gems:        []
-timezone:    nil
-encoding:    nil
-markdown: kramdown
-permalink: pretty
+timezone:    Europe/London
+markdown:    kramdown
+permalink:   pretty
 highlighter: pygments
 
-collections: 
+collections:
 - patterns
 
 sass:

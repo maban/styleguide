@@ -2,7 +2,7 @@
 title: Pattern Primer
 layout: default
 ---
-    
+
 <ul class="xx-swatches">
     <li class="xx-swatch">
         <span class="xx-swatch-preview" style="background-color: #363942;"></span>
@@ -44,7 +44,7 @@ layout: default
         </span>
         <span class="xx-swatch-details">Lucida Grande <code>$font-sans-regular</code> <strong>Body text</strong></span>
     </li>
-    
+
     <li class="xx-swatch">
         <span class="xx-swatch-preview" style="font-family: 'Georgia', 'Times', sans-serif">
             ABCDEFGHIJKLMNOPQRSTUVWXYZ<br/>
@@ -53,7 +53,7 @@ layout: default
         </span>
         <span class="xx-swatch-details">Georgia <code>$font-serif-regular</code> <strong>Body text alt</strong></span>
     </li>
-    
+
     <li class="xx-swatch">
         <span class="xx-swatch-preview" style="font-family: 'Monaco', 'Courier', monospace">
             ABCDEFGHIJKLMNOPQRSTUVWXYZ<br/>
@@ -62,7 +62,7 @@ layout: default
         </span>
         <span class="xx-swatch-details">Monaco <code>$font-monospace-regular</code> <strong>Body text alt 2</strong></span>
     </li>
-	
+
 </ul>
 
 {% for patterns in site.patterns %}
@@ -70,19 +70,21 @@ layout: default
 <div class="xx-pattern" id="{{ patterns.url | replace:'.html','' | replace:'/patterns/','' }}">
 
     <details class="xx-pattern-details">
-    
+
         <summary class="xx-pattern-name">{{ patterns.url | replace:'.html','' | replace:'/patterns/','' }}</summary>
-        
+
         {% highlight html linenos %}
             {{ patterns.content }}
         {% endhighlight %}
-        
+
+        <div class="xx-pattern-description">{{ patterns.description }}</div>
+
     </details>
-    
+
     <div class="xx-pattern-preview">
         {{ patterns.content }}
     </div>
-    
+
 </div>
 {% endif %}
 {% endfor %}
