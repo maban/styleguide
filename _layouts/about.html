@@ -4,12 +4,6 @@
 
     {{ content }}
 
-    {% capture alert-default %}
-	   {% include_relative ../_patterns/alert-default.html %}
-     {% endcapture %}
-     {{ includedfile | removefrontmatter }}
-
-
 {% include footer.html %}
 
 {% include foot.html %}
