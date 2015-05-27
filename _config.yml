@@ -9,16 +9,20 @@ destination: ./_site
 plugins:     ./_plugins
 layouts:     ./_layouts
 include:     ['.htaccess']
-exclude:     []
+exclude:
+  - _config.yaml
+  - example.info
+  - Gemfile
+  - Gemfile.lock
+  - README.md
 keep_files:  ['.git']
-gems:        []
 timezone:    Europe/London
 markdown:    kramdown
 permalink:   pretty
 highlighter: pygments
 
 collections:
-- patterns
+  - patterns
 
 sass:
-    sass_dir: ./style/_sass
+  sass_dir: ./style/_sass

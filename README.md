@@ -9,7 +9,7 @@ A boilerplate style guide built entirely in Jekyll so that it can be hosted on G
 To run this locally, you'll need to install Jekyll:
 
     $ gem install jekyll
-    
+
 …or update to the latest version of Jekyll (it doesn't work on older versions):
 
     $ gem update jekyll
@@ -19,7 +19,7 @@ To run this locally, you'll need to install Jekyll:
 Fork or download the repository. I like to save things like this in my Sites folder, so the path to the repository would be **Sites/styleguide**
 
 In the command line, navigate to where the repository is saved on your computer. So if it's saved in the Sites folder…
-    
+
     $ cd Sites/styleguide
 
 Get Jekyll running. (the `--watch` command checks for changes.)
@@ -52,6 +52,40 @@ The `_site` folder contains the generated HTML files. **Do not make any changes 
     * **_sass** There's a sass file for every pattern. When adding new sass patterns, you'll need to import these into the `main.css` file.
     * **main.scss** imports all the sass files into one file. This is output in _sites/style/main.css
     * **pattern-lib.scss** styles specific to the style guide, not the site
+
+## Including patterns in templates
+
+Normally when we include files in a Jekyll template, we write this:
+
+```
+{% include header.html %}
+```
+
+Jekyll includes only work with files within the _includes folder. Since the patterns live within the _patterns folder, a normal Jekyll include like this can't be used.
+
+Another option is `include_relative`, which includes files from a different folder:
+
+```
+{% include_relative _patterns/include-case-study.html %}
+```
+
+But `include_relative` doesn't work when it's used in a layout file (any file within the _layouts folder).
+
+The _patterns folder is a Jekyll collection. Moving all the pattern files into the _includes folder was another option, so we could use normal Jekyll includes anywhere, but the code that pulls all the files into the style guide doesn't understand files that don't have a YAML front-matter (even if it's empty). That's why every pattern within the pattern folder has a front-matter. This is actually good – it gives us the added option of putting content in the front-matter that's different to what we want to use in our templates. It also means we can store a description of the pattern in the same file, that then gets output into the styleguide.
+
+Another problem is that including a file in the normal way adds the front-matter into the template as text – it doesn't strip it out.
+
+So the workaround was to add a Jekyll plugin that lets us include a pattern in a layout file, and strip out the front-matter. Within the _includes folder is a file called pattern.html, and that does the relative include. We then use these two lines of code when doing a pattern include:
+
+```
+{% include pattern.html param='alert-default' %}
+{{ include alert-default.html | removefrontmatter }}
+```
+
+On the first line, we pass in the paramter (the name of the pattern) so that the pattern file knows where to look to do its thing, and on the second line, point to the file that needs including, and we tell it to strip out the front-matter (which is handled by the plugin).
+
+This is not an elegant solution (I don't like that you have to type the pattern name one both lines, or that it's 2 lines rather than 1), but it means we can have the patterns within their collection, and still benefit from all that YAMLy goodness.
+
 
 ## Thank you
 
