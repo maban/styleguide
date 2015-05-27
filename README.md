@@ -6,13 +6,13 @@ A boilerplate style guide built entirely in Jekyll so that it can be hosted on G
 
 ### Prerequisites
 
-To run this locally, you'll need to install Jekyll:
+To run this locally, you'll need to install the Github Pages gem:
+
+    $ gem install github-pages
+
+and Jekyll:
 
     $ gem install jekyll
-
-…or update to the latest version of Jekyll (it doesn't work on older versions):
-
-    $ gem update jekyll
 
 ### Running the repo locally
 
