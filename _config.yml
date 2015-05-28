@@ -24,4 +24,4 @@ collections:
   - patterns
 
 sass:
-  sass_dir: ./style/_sass
+  sass_dir: style/_sass
