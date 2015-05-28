@@ -1,13 +1,12 @@
 title: Pattern Library
 description: A collection of patterns to help you build up a style guide for your site
 
-baseurl: /
-url:     /styleguide
+source:    templates
 
-source:      .
 destination: ./_site
-plugins:     ./_plugins
-layouts:     ./_layouts
+plugins:     _plugins
+layouts:     _layouts
+includes:    _includes
 include:     ['.htaccess']
 exclude:
   - _config.yaml
@@ -18,7 +17,7 @@ exclude:
 keep_files:  ['.git']
 timezone:    Europe/London
 markdown:    kramdown
-permalink:   pretty
+permalink:   none
 highlighter: pygments
 
 collections:

@@ -4,6 +4,9 @@
 
     {{ content }}
 
+    {% include pattern.html param='media-image' %}
+    {{ include media-image.html | removefrontmatter }}
+
 {% include footer.html %}
 
 {% include foot.html %}
