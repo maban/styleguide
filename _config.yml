@@ -1,7 +1,7 @@
 title: Pattern Library
 description: A collection of patterns to help you build up a style guide for your site
 
-source:    templates
+source:    ./templates
 
 destination: ./_site
 plugins:     _plugins
