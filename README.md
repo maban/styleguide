@@ -88,7 +88,9 @@ On the first line, we pass in the paramter (the name of the pattern) so that the
 
 This is not an elegant solution (I don't like that you have to type the pattern name one both lines, or that it's 2 lines rather than 1), but it means we can have the patterns within their collection, and still benefit from all that YAMLy goodness.
 
-The major flaw is that you can't have a proper directory structure – all the pages have to be flat in the template folder. That really sucks if you want subpages. It's great for prototyping for now, but I wouldn't recommend trying to build a full-scale site out of it.
+The major flaw is that you can't have a proper directory structure – all the pages have to be flat in the template folder. That really sucks if you want subpages. You can't even have Jekyll being served from a different directory if you plan on using GitHub Pages and Jekyll's built-in Sass compiling – it causes markdown syntax errors with the main scss file.
+
+For these reasons, it's great for prototyping for now, but I wouldn't recommend trying to build a full-scale site out of it.
 
 ## Thank you
 
