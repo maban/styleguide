@@ -16,7 +16,7 @@ exclude:
   - README.md
 keep_files:  ['.git']
 timezone:    Europe/London
-markdown:    kramdown
+markdown:    redcarpet
 permalink:   none
 highlighter: pygments
 
