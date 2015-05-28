@@ -1,0 +1,2996 @@
+<!doctype HTML>
+<html lang="en">
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Pattern Library</title>
+
+    <link rel="icon" href="favicon.ico">
+    <link rel="apple-touch-icon" href="icon.png"/>
+    <link rel="msapplication-TileColor" content="#FFF"/>
+    <link rel="msapplication-TileImage" content="icon.png"/>
+
+    <link rel="stylesheet" href="./style/main.css" />
+    <link rel="stylesheet" href="./style/pattern-lib.css" />
+    <link rel="stylesheet" href="./script/prism/prism.css" />
+
+</head>
+
+
+<body class="xx">
+
+<div class="xx-container">
+        
+    <h1 class="xx-title">Pattern Library</h1>
+
+    <nav class="xx-nav" role="navigation" aria-label="Global">
+        <ul class="xx-nav-items">
+            <!--<li class="xx-nav-item"><a href="/">Home</a></li>-->
+            <!--<li class="xx-nav-item"><a href="patchwork.php">View as patchwork</a></li>-->
+            <li class="xx-nav-item"><a href="https://github.com/maban/seed">Github Repo</a></li>
+        </ul>
+    </nav>
+    
+    <form action="" method="post" id="pattern" class="xx-pattern-jump">
+        <select name="section" id="pattern-select" class="nav-section-select">
+            <option value="">Jump to&#8230;</option>
+            
+                <option value="#a-mail">&nbsp;&nbsp;&nbsp;&nbsp;a-mail</option>
+            
+                <option value="#a-rel-external">&nbsp;&nbsp;&nbsp;&nbsp;a-rel-external</option>
+            
+                <option value="#a-rel-xfn">&nbsp;&nbsp;&nbsp;&nbsp;a-rel-xfn</option>
+            
+                <option value="#a-rel-xfn.txt">&nbsp;&nbsp;&nbsp;&nbsp;a-rel-xfn.txt</option>
+            
+                <option value="#a">&nbsp;&nbsp;&nbsp;&nbsp;a</option>
+            
+                <option value="#alert-default">&nbsp;&nbsp;&nbsp;&nbsp;alert-default</option>
+            
+                <option value="#alert-failure">&nbsp;&nbsp;&nbsp;&nbsp;alert-failure</option>
+            
+                <option value="#alert-info">&nbsp;&nbsp;&nbsp;&nbsp;alert-info</option>
+            
+                <option value="#alert-success">&nbsp;&nbsp;&nbsp;&nbsp;alert-success</option>
+            
+                <option value="#availability">&nbsp;&nbsp;&nbsp;&nbsp;availability</option>
+            
+                <option value="#contact">&nbsp;&nbsp;&nbsp;&nbsp;contact</option>
+            
+                <option value="#form-button-default">&nbsp;&nbsp;&nbsp;&nbsp;form-button-default</option>
+            
+                <option value="#form-button-size-l">&nbsp;&nbsp;&nbsp;&nbsp;form-button-size-l</option>
+            
+                <option value="#form-button-size-s">&nbsp;&nbsp;&nbsp;&nbsp;form-button-size-s</option>
+            
+                <option value="#form-button-style-disabled">&nbsp;&nbsp;&nbsp;&nbsp;form-button-style-disabled</option>
+            
+                <option value="#form-button-style-disabled.txt">&nbsp;&nbsp;&nbsp;&nbsp;form-button-style-disabled.txt</option>
+            
+                <option value="#form-datalist-multiple">&nbsp;&nbsp;&nbsp;&nbsp;form-datalist-multiple</option>
+            
+                <option value="#form-datalist">&nbsp;&nbsp;&nbsp;&nbsp;form-datalist</option>
+            
+                <option value="#form-fieldset-select-checkboxes-captions">&nbsp;&nbsp;&nbsp;&nbsp;form-fieldset-select-checkboxes-captions</option>
+            
+                <option value="#form-fieldset-select-checkboxes">&nbsp;&nbsp;&nbsp;&nbsp;form-fieldset-select-checkboxes</option>
+            
+                <option value="#form-fieldset-select-radios">&nbsp;&nbsp;&nbsp;&nbsp;form-fieldset-select-radios</option>
+            
+                <option value="#form-fieldset">&nbsp;&nbsp;&nbsp;&nbsp;form-fieldset</option>
+            
+                <option value="#form-file-multiple">&nbsp;&nbsp;&nbsp;&nbsp;form-file-multiple</option>
+            
+                <option value="#form-file">&nbsp;&nbsp;&nbsp;&nbsp;form-file</option>
+            
+                <option value="#form-input-checkbox-disabled">&nbsp;&nbsp;&nbsp;&nbsp;form-input-checkbox-disabled</option>
+            
+                <option value="#form-input-checkbox">&nbsp;&nbsp;&nbsp;&nbsp;form-input-checkbox</option>
+            
+                <option value="#form-input-color">&nbsp;&nbsp;&nbsp;&nbsp;form-input-color</option>
+            
+                <option value="#form-input-date">&nbsp;&nbsp;&nbsp;&nbsp;form-input-date</option>
+            
+                <option value="#form-input-email">&nbsp;&nbsp;&nbsp;&nbsp;form-input-email</option>
+            
+                <option value="#form-input-number">&nbsp;&nbsp;&nbsp;&nbsp;form-input-number</option>
+            
+                <option value="#form-input-password">&nbsp;&nbsp;&nbsp;&nbsp;form-input-password</option>
+            
+                <option value="#form-input-range">&nbsp;&nbsp;&nbsp;&nbsp;form-input-range</option>
+            
+                <option value="#form-input-search">&nbsp;&nbsp;&nbsp;&nbsp;form-input-search</option>
+            
+                <option value="#form-input-tel">&nbsp;&nbsp;&nbsp;&nbsp;form-input-tel</option>
+            
+                <option value="#form-input-text-disabled">&nbsp;&nbsp;&nbsp;&nbsp;form-input-text-disabled</option>
+            
+                <option value="#form-input-text">&nbsp;&nbsp;&nbsp;&nbsp;form-input-text</option>
+            
+                <option value="#form-input-url">&nbsp;&nbsp;&nbsp;&nbsp;form-input-url</option>
+            
+                <option value="#form-inputs-combined">&nbsp;&nbsp;&nbsp;&nbsp;form-inputs-combined</option>
+            
+                <option value="#form-options.checkboxes-captions">&nbsp;&nbsp;&nbsp;&nbsp;form-options.checkboxes-captions</option>
+            
+                <option value="#form-options.checkboxes">&nbsp;&nbsp;&nbsp;&nbsp;form-options.checkboxes</option>
+            
+                <option value="#form-options.radios">&nbsp;&nbsp;&nbsp;&nbsp;form-options.radios</option>
+            
+                <option value="#form-search-global">&nbsp;&nbsp;&nbsp;&nbsp;form-search-global</option>
+            
+                <option value="#form-select-disabled">&nbsp;&nbsp;&nbsp;&nbsp;form-select-disabled</option>
+            
+                <option value="#form-select-multiple-disabled">&nbsp;&nbsp;&nbsp;&nbsp;form-select-multiple-disabled</option>
+            
+                <option value="#form-select-multiple">&nbsp;&nbsp;&nbsp;&nbsp;form-select-multiple</option>
+            
+                <option value="#form-select">&nbsp;&nbsp;&nbsp;&nbsp;form-select</option>
+            
+                <option value="#form-signup">&nbsp;&nbsp;&nbsp;&nbsp;form-signup</option>
+            
+                <option value="#form-textarea-disabled">&nbsp;&nbsp;&nbsp;&nbsp;form-textarea-disabled</option>
+            
+                <option value="#form-textarea">&nbsp;&nbsp;&nbsp;&nbsp;form-textarea</option>
+            
+                <option value="#heading-1">&nbsp;&nbsp;&nbsp;&nbsp;heading-1</option>
+            
+                <option value="#heading-2">&nbsp;&nbsp;&nbsp;&nbsp;heading-2</option>
+            
+                <option value="#heading-3">&nbsp;&nbsp;&nbsp;&nbsp;heading-3</option>
+            
+                <option value="#heading-4">&nbsp;&nbsp;&nbsp;&nbsp;heading-4</option>
+            
+                <option value="#heading-5">&nbsp;&nbsp;&nbsp;&nbsp;heading-5</option>
+            
+                <option value="#heading-6">&nbsp;&nbsp;&nbsp;&nbsp;heading-6</option>
+            
+                <option value="#lede">&nbsp;&nbsp;&nbsp;&nbsp;lede</option>
+            
+                <option value="#list-horizontal">&nbsp;&nbsp;&nbsp;&nbsp;list-horizontal</option>
+            
+                <option value="#list-ordered">&nbsp;&nbsp;&nbsp;&nbsp;list-ordered</option>
+            
+                <option value="#list-unordered">&nbsp;&nbsp;&nbsp;&nbsp;list-unordered</option>
+            
+                <option value="#media-audio">&nbsp;&nbsp;&nbsp;&nbsp;media-audio</option>
+            
+                <option value="#media-image">&nbsp;&nbsp;&nbsp;&nbsp;media-image</option>
+            
+                <option value="#media-video">&nbsp;&nbsp;&nbsp;&nbsp;media-video</option>
+            
+                <option value="#nav-breadcrumb">&nbsp;&nbsp;&nbsp;&nbsp;nav-breadcrumb</option>
+            
+                <option value="#nav-page-alphabet">&nbsp;&nbsp;&nbsp;&nbsp;nav-page-alphabet</option>
+            
+                <option value="#nav-page-alphabet.txt">&nbsp;&nbsp;&nbsp;&nbsp;nav-page-alphabet.txt</option>
+            
+                <option value="#nav-page">&nbsp;&nbsp;&nbsp;&nbsp;nav-page</option>
+            
+                <option value="#nav-page.txt">&nbsp;&nbsp;&nbsp;&nbsp;nav-page.txt</option>
+            
+                <option value="#nav">&nbsp;&nbsp;&nbsp;&nbsp;nav</option>
+            
+                <option value="#table">&nbsp;&nbsp;&nbsp;&nbsp;table</option>
+            
+                <option value="#text-abbr">&nbsp;&nbsp;&nbsp;&nbsp;text-abbr</option>
+            
+                <option value="#text-addr">&nbsp;&nbsp;&nbsp;&nbsp;text-addr</option>
+            
+                <option value="#text-blockquote">&nbsp;&nbsp;&nbsp;&nbsp;text-blockquote</option>
+            
+                <option value="#text-caption">&nbsp;&nbsp;&nbsp;&nbsp;text-caption</option>
+            
+                <option value="#text-cite">&nbsp;&nbsp;&nbsp;&nbsp;text-cite</option>
+            
+                <option value="#text-code-pre">&nbsp;&nbsp;&nbsp;&nbsp;text-code-pre</option>
+            
+                <option value="#text-code-pre.txt">&nbsp;&nbsp;&nbsp;&nbsp;text-code-pre.txt</option>
+            
+                <option value="#text-code">&nbsp;&nbsp;&nbsp;&nbsp;text-code</option>
+            
+                <option value="#text-dfn">&nbsp;&nbsp;&nbsp;&nbsp;text-dfn</option>
+            
+                <option value="#text-figure">&nbsp;&nbsp;&nbsp;&nbsp;text-figure</option>
+            
+                <option value="#">&nbsp;&nbsp;&nbsp;&nbsp;</option>
+            
+        </select>
+        <button type="submit" id="pattern-submit">Go</button>
+    </form>
+    
+    <main role="main">
+
+    
+    <ul class="xx-swatches">
+    <li class="xx-swatch">
+        <span class="xx-swatch-preview" style="background-color: #363942;"></span>
+        <span class="xx-swatch-details">#363942 <code>$color-base</code> <strong>Body text</strong></span>
+    </li>
+    <li class="xx-swatch">
+        <span class="xx-swatch-preview" style="background-color: #419DD2;"></span>
+        <span class="xx-swatch-details">#419DD2 <code>$color-link</code> <strong>Link</strong></span>
+    </li>
+    <li class="xx-swatch">
+        <span class="xx-swatch-preview" style="background-color: #40bad2;"></span>
+        <span class="xx-swatch-details">#40BAD2 <code>$color-link-focus</code> <strong>Link hover</strong></span>
+    </li>
+    <li class="xx-swatch">
+        <span class="xx-swatch-preview" style="background-color: #EEEE8F;"></span>
+        <span class="xx-swatch-details">#EEEE8F <code>$color-highlight</code> <strong>Highlight</strong></span>
+    </li>
+    <li class="xx-swatch">
+        <span class="xx-swatch-preview" style="background-color: #ddd;"></span>
+        <span class="xx-swatch-details">#DDD <code>$color-muted</code> <strong>Muted</strong></span>
+    </li>
+    <li class="xx-swatch">
+        <span class="xx-swatch-preview" style="background-color: #999;"></span>
+        <span class="xx-swatch-details">#999 <code>$color-muted-alt</code> <strong>Muted (Alt)</strong></span>
+    </li>
+    <li class="xx-swatch">
+        <span class="xx-swatch-preview" style="background-color: #f0f0f0;"></span>
+        <span class="xx-swatch-details">#F0F0F0 <code>$color-canvas</code> <strong>Canvas</strong></span>
+    </li>
+</ul>
+
+<ul class="xx-swatches">
+
+    <li class="xx-swatch">
+        <span class="xx-swatch-preview" style="font-family: 'Lucida Grande', 'Helvetica', 'Arial', sans-serif">
+    	    ABCDEFGHIJKLMNOPQRSTUVWXYZ<br/>
+    	    abcdefghijklmnopqrstuvwxyz<br/>
+    	    0123456789!?@£$%^&*()_+-=’”,.:;
+        </span>
+        <span class="xx-swatch-details">Lucida Grande <code>$font-sans-regular</code> <strong>Body text</strong></span>
+    </li>
+
+    <li class="xx-swatch">
+        <span class="xx-swatch-preview" style="font-family: 'Georgia', 'Times', sans-serif">
+            ABCDEFGHIJKLMNOPQRSTUVWXYZ<br/>
+            abcdefghijklmnopqrstuvwxyz<br/>
+            0123456789!?@£$%^&*()_+-=’”,.:;
+        </span>
+        <span class="xx-swatch-details">Georgia <code>$font-serif-regular</code> <strong>Body text alt</strong></span>
+    </li>
+
+    <li class="xx-swatch">
+        <span class="xx-swatch-preview" style="font-family: 'Monaco', 'Courier', monospace">
+            ABCDEFGHIJKLMNOPQRSTUVWXYZ<br/>
+            abcdefghijklmnopqrstuvwxyz<br/>
+            0123456789!?@£$%^&*()_+-=’”,.:;
+        </span>
+        <span class="xx-swatch-details">Monaco <code>$font-monospace-regular</code> <strong>Body text alt 2</strong></span>
+    </li>
+
+</ul>
+
+
+
+<div class="xx-pattern" id="a-mail">
+
+    <details class="xx-pattern-details">
+
+        <summary class="xx-pattern-name">a-mail</summary>
+
+        <div class="highlight"><pre><code class="language-html" data-lang="html"><span class="lineno">1</span> <span class="nt">&lt;p&gt;</span>This is <span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">&quot;mailto:&quot;</span><span class="nt">&gt;</span>an email link<span class="nt">&lt;/a&gt;&lt;/p&gt;</span></code></pre></div>
+
+        <div class="xx-pattern-description"></div>
+
+    </details>
+
+    <div class="xx-pattern-preview">
+        <p>This is <a href="mailto:">an email link</a></p>
+
+    </div>
+
+</div>
+
+
+
+<div class="xx-pattern" id="a-rel-external">
+
+    <details class="xx-pattern-details">
+
+        <summary class="xx-pattern-name">a-rel-external</summary>
+
+        <div class="highlight"><pre><code class="language-html" data-lang="html"><span class="lineno">1</span> <span class="nt">&lt;p&gt;</span>This is <span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">&quot;http://google.com&quot;</span> <span class="na">rel=</span><span class="s">&quot;external&quot;</span><span class="nt">&gt;</span>an external link<span class="nt">&lt;/a&gt;&lt;/p&gt;</span></code></pre></div>
+
+        <div class="xx-pattern-description"></div>
+
+    </details>
+
+    <div class="xx-pattern-preview">
+        <p>This is <a href="http://google.com" rel="external">an external link</a></p>
+
+    </div>
+
+</div>
+
+
+
+<div class="xx-pattern" id="a-rel-xfn">
+
+    <details class="xx-pattern-details">
+
+        <summary class="xx-pattern-name">a-rel-xfn</summary>
+
+        <div class="highlight"><pre><code class="language-html" data-lang="html"><span class="lineno">1</span> <span class="nt">&lt;p&gt;</span>This is <span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">&quot;http://maban.co.uk&quot;</span> <span class="na">rel=</span><span class="s">&quot;me&quot;</span><span class="nt">&gt;</span>my website<span class="nt">&lt;/a&gt;&lt;/p&gt;</span></code></pre></div>
+
+        <div class="xx-pattern-description"></div>
+
+    </details>
+
+    <div class="xx-pattern-preview">
+        <p>This is <a href="http://maban.co.uk" rel="me">my website</a></p>
+
+    </div>
+
+</div>
+
+
+
+
+
+<div class="xx-pattern" id="a">
+
+    <details class="xx-pattern-details">
+
+        <summary class="xx-pattern-name">a</summary>
+
+        <div class="highlight"><pre><code class="language-html" data-lang="html"><span class="lineno">1</span> <span class="nt">&lt;p&gt;</span>This is <span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">&quot;#&quot;</span><span class="nt">&gt;</span>an inline link<span class="nt">&lt;/a&gt;</span>.<span class="nt">&lt;/p&gt;</span></code></pre></div>
+
+        <div class="xx-pattern-description"></div>
+
+    </details>
+
+    <div class="xx-pattern-preview">
+        <p>This is <a href="#">an inline link</a>.</p>
+
+    </div>
+
+</div>
+
+
+
+<div class="xx-pattern" id="alert-default">
+
+    <details class="xx-pattern-details">
+
+        <summary class="xx-pattern-name">alert-default</summary>
+
+        <div class="highlight"><pre><code class="language-html" data-lang="html"><span class="lineno">1</span> <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">&quot;alert&quot;</span><span class="nt">&gt;</span>
+<span class="lineno">2</span>     <span class="nt">&lt;p&gt;</span>This is a general notification.<span class="nt">&lt;/p&gt;</span>
+<span class="lineno">3</span> <span class="nt">&lt;/div&gt;</span><span class="c">&lt;!-- .alert --&gt;</span></code></pre></div>
+
+        <div class="xx-pattern-description"></div>
+
+    </details>
+
+    <div class="xx-pattern-preview">
+        <div class="alert">
+    <p>This is a general notification.</p>
+</div><!-- .alert -->
+
+    </div>
+
+</div>
+
+
+
+<div class="xx-pattern" id="alert-failure">
+
+    <details class="xx-pattern-details">
+
+        <summary class="xx-pattern-name">alert-failure</summary>
+
+        <div class="highlight"><pre><code class="language-html" data-lang="html"><span class="lineno">1</span> <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">&quot;alert alert-failure&quot;</span><span class="nt">&gt;</span>
+<span class="lineno">2</span>     <span class="nt">&lt;p&gt;</span>This is a notification of a failed action or event.<span class="nt">&lt;/p&gt;</span>
+<span class="lineno">3</span> <span class="nt">&lt;/div&gt;</span><span class="c">&lt;!-- .alert-failure --&gt;</span></code></pre></div>
+
+        <div class="xx-pattern-description"></div>
+
+    </details>
+
+    <div class="xx-pattern-preview">
+        <div class="alert alert-failure">
+    <p>This is a notification of a failed action or event.</p>
+</div><!-- .alert-failure -->
+
+    </div>
+
+</div>
+
+
+
+<div class="xx-pattern" id="alert-info">
+
+    <details class="xx-pattern-details">
+
+        <summary class="xx-pattern-name">alert-info</summary>
+
+        <div class="highlight"><pre><code class="language-html" data-lang="html"><span class="lineno">1</span> <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">&quot;alert alert-info&quot;</span><span class="nt">&gt;</span>
+<span class="lineno">2</span>     <span class="nt">&lt;p&gt;</span>This is a notification with some information.<span class="nt">&lt;/p&gt;</span>
+<span class="lineno">3</span> <span class="nt">&lt;/div&gt;</span><span class="c">&lt;!-- .alert-info --&gt;</span></code></pre></div>
+
+        <div class="xx-pattern-description"></div>
+
+    </details>
+
+    <div class="xx-pattern-preview">
+        <div class="alert alert-info">
+    <p>This is a notification with some information.</p>
+</div><!-- .alert-info -->
+
+    </div>
+
+</div>
+
+
+
+<div class="xx-pattern" id="alert-success">
+
+    <details class="xx-pattern-details">
+
+        <summary class="xx-pattern-name">alert-success</summary>
+
+        <div class="highlight"><pre><code class="language-html" data-lang="html"><span class="lineno">1</span> <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">&quot;alert alert-success&quot;</span><span class="nt">&gt;</span>
+<span class="lineno">2</span>     <span class="nt">&lt;p&gt;</span>This is a notification of a successful action or event.<span class="nt">&lt;/p&gt;</span>
+<span class="lineno">3</span> <span class="nt">&lt;/div&gt;</span><span class="c">&lt;!-- .alert-success --&gt;</span></code></pre></div>
+
+        <div class="xx-pattern-description"></div>
+
+    </details>
+
+    <div class="xx-pattern-preview">
+        <div class="alert alert-success">
+    <p>This is a notification of a successful action or event.</p>
+</div><!-- .alert-success -->
+
+    </div>
+
+</div>
+
+
+
+<div class="xx-pattern" id="availability">
+
+    <details class="xx-pattern-details">
+
+        <summary class="xx-pattern-name">availability</summary>
+
+        <div class="highlight"><pre><code class="language-html" data-lang="html"><span class="lineno"> 1</span> <span class="c">&lt;!-- Inspired by http://csswizardry.com/work/ --&gt;</span>
+<span class="lineno"> 2</span> 
+<span class="lineno"> 3</span> <span class="nt">&lt;table</span> <span class="na">class=</span><span class="s">&quot;availability&quot;</span><span class="nt">&gt;</span>
+<span class="lineno"> 4</span>     <span class="nt">&lt;tfoot&gt;</span>
+<span class="lineno"> 5</span>         <span class="nt">&lt;tr</span> <span class="na">class=</span><span class="s">&quot;availability-year&quot;</span><span class="nt">&gt;</span>
+<span class="lineno"> 6</span>             <span class="nt">&lt;th</span> <span class="na">colspan=</span><span class="s">&quot;8&quot;</span><span class="nt">&gt;</span>2014<span class="nt">&lt;/th&gt;</span>
+<span class="lineno"> 7</span>             <span class="nt">&lt;th</span> <span class="na">colspan=</span><span class="s">&quot;4&quot;</span><span class="nt">&gt;</span>2015<span class="nt">&lt;/th&gt;</span>
+<span class="lineno"> 8</span>         <span class="nt">&lt;/tr&gt;</span>
+<span class="lineno"> 9</span>     <span class="nt">&lt;/tfoot&gt;</span>
+<span class="lineno">10</span>     <span class="nt">&lt;thead</span> <span class="na">class=</span><span class="s">&quot;availability-header&quot;</span><span class="nt">&gt;</span>
+<span class="lineno">11</span>         <span class="nt">&lt;tr</span> <span class="na">class=</span><span class="s">&quot;availability-month&quot;</span><span class="nt">&gt;</span>
+<span class="lineno">12</span>             <span class="nt">&lt;th&gt;&lt;abbr</span> <span class="na">title=</span><span class="s">&quot;May 2014&quot;</span><span class="nt">&gt;</span>May<span class="nt">&lt;/abbr&gt;&lt;/th&gt;</span>
+<span class="lineno">13</span>             <span class="nt">&lt;th&gt;&lt;abbr</span> <span class="na">title=</span><span class="s">&quot;June 2014&quot;</span><span class="nt">&gt;</span>Jun<span class="nt">&lt;/abbr&gt;&lt;/th&gt;</span>
+<span class="lineno">14</span>             <span class="nt">&lt;th&gt;&lt;abbr</span> <span class="na">title=</span><span class="s">&quot;July 2014&quot;</span><span class="nt">&gt;</span>Jul<span class="nt">&lt;/abbr&gt;&lt;/th&gt;</span>
+<span class="lineno">15</span>             <span class="nt">&lt;th&gt;&lt;abbr</span> <span class="na">title=</span><span class="s">&quot;August 2014&quot;</span><span class="nt">&gt;</span>Aug<span class="nt">&lt;/abbr&gt;&lt;/th&gt;</span>
+<span class="lineno">16</span>             <span class="nt">&lt;th&gt;&lt;abbr</span> <span class="na">title=</span><span class="s">&quot;September 2014&quot;</span><span class="nt">&gt;</span>Sep<span class="nt">&lt;/abbr&gt;&lt;/th&gt;</span>
+<span class="lineno">17</span>             <span class="nt">&lt;th&gt;&lt;abbr</span> <span class="na">title=</span><span class="s">&quot;October 2014&quot;</span><span class="nt">&gt;</span>Oct<span class="nt">&lt;/abbr&gt;&lt;/th&gt;</span>
+<span class="lineno">18</span>             <span class="nt">&lt;th&gt;&lt;abbr</span> <span class="na">title=</span><span class="s">&quot;November 2014&quot;</span><span class="nt">&gt;</span>Nov<span class="nt">&lt;/abbr&gt;&lt;/th&gt;</span>
+<span class="lineno">19</span>             <span class="nt">&lt;th&gt;&lt;abbr</span> <span class="na">title=</span><span class="s">&quot;December 2015&quot;</span><span class="nt">&gt;</span>Dec<span class="nt">&lt;/abbr&gt;&lt;/th&gt;</span>
+<span class="lineno">20</span>             <span class="nt">&lt;th&gt;&lt;abbr</span> <span class="na">title=</span><span class="s">&quot;January 2015&quot;</span><span class="nt">&gt;</span>Jan<span class="nt">&lt;/abbr&gt;&lt;/th&gt;</span>
+<span class="lineno">21</span>             <span class="nt">&lt;th&gt;&lt;abbr</span> <span class="na">title=</span><span class="s">&quot;February 2015&quot;</span><span class="nt">&gt;</span>Feb<span class="nt">&lt;/abbr&gt;&lt;/th&gt;</span>
+<span class="lineno">22</span>             <span class="nt">&lt;th&gt;&lt;abbr</span> <span class="na">title=</span><span class="s">&quot;March 2015&quot;</span><span class="nt">&gt;</span>Mar<span class="nt">&lt;/abbr&gt;&lt;/th&gt;</span>
+<span class="lineno">23</span>             <span class="nt">&lt;th&gt;&lt;abbr</span> <span class="na">title=</span><span class="s">&quot;April 2015&quot;</span><span class="nt">&gt;</span>Apr<span class="nt">&lt;/abbr&gt;&lt;/th&gt;</span>
+<span class="lineno">24</span>         <span class="nt">&lt;/tr&gt;</span>
+<span class="lineno">25</span>     <span class="nt">&lt;/thead&gt;</span>
+<span class="lineno">26</span>     <span class="nt">&lt;tbody</span> <span class="na">class=</span><span class="s">&quot;availability-body&quot;</span><span class="nt">&gt;</span>
+<span class="lineno">27</span>         <span class="nt">&lt;tr</span> <span class="na">class=</span><span class="s">&quot;availability-schedule&quot;</span><span class="nt">&gt;</span>
+<span class="lineno">28</span>             <span class="nt">&lt;td</span> <span class="na">class=</span><span class="s">&quot;availability-unavailable&quot;</span> <span class="na">title=</span><span class="s">&quot;Unavailable&quot;</span><span class="nt">&gt;</span>Unavailable<span class="nt">&lt;/td&gt;</span>
+<span class="lineno">29</span>             <span class="nt">&lt;td</span> <span class="na">class=</span><span class="s">&quot;availability-unavailable&quot;</span> <span class="na">title=</span><span class="s">&quot;Unavailable&quot;</span><span class="nt">&gt;</span>Unavailable<span class="nt">&lt;/td&gt;</span>
+<span class="lineno">30</span>             <span class="nt">&lt;td</span> <span class="na">class=</span><span class="s">&quot;availability-unavailable&quot;</span> <span class="na">title=</span><span class="s">&quot;Unavailable&quot;</span><span class="nt">&gt;</span>Unavailable<span class="nt">&lt;/td&gt;</span>
+<span class="lineno">31</span>             <span class="nt">&lt;td</span> <span class="na">class=</span><span class="s">&quot;availability-unavailable&quot;</span> <span class="na">title=</span><span class="s">&quot;Unavailable&quot;</span><span class="nt">&gt;</span>Unavailable<span class="nt">&lt;/td&gt;</span>
+<span class="lineno">32</span>             <span class="nt">&lt;td</span> <span class="na">class=</span><span class="s">&quot;availability-limited&quot;</span> <span class="na">title=</span><span class="s">&quot;Limited Availability&quot;</span><span class="nt">&gt;</span>Limited<span class="nt">&lt;/td&gt;</span>
+<span class="lineno">33</span>             <span class="nt">&lt;td</span> <span class="na">class=</span><span class="s">&quot;availability-limited&quot;</span> <span class="na">title=</span><span class="s">&quot;Limited Availability&quot;</span><span class="nt">&gt;</span>Limited<span class="nt">&lt;/td&gt;</span>
+<span class="lineno">34</span>             <span class="nt">&lt;td</span> <span class="na">class=</span><span class="s">&quot;availability-available&quot;</span> <span class="na">title=</span><span class="s">&quot;Availabile&quot;</span><span class="nt">&gt;</span>Available<span class="nt">&lt;/td&gt;</span>
+<span class="lineno">35</span>             <span class="nt">&lt;td</span> <span class="na">class=</span><span class="s">&quot;availability-available&quot;</span> <span class="na">title=</span><span class="s">&quot;Availabile&quot;</span><span class="nt">&gt;</span>Available<span class="nt">&lt;/td&gt;</span>
+<span class="lineno">36</span>             <span class="nt">&lt;td</span> <span class="na">class=</span><span class="s">&quot;availability-available&quot;</span> <span class="na">title=</span><span class="s">&quot;Availabile&quot;</span><span class="nt">&gt;</span>Available<span class="nt">&lt;/td&gt;</span>
+<span class="lineno">37</span>             <span class="nt">&lt;td</span> <span class="na">class=</span><span class="s">&quot;availability-available&quot;</span> <span class="na">title=</span><span class="s">&quot;Availabile&quot;</span><span class="nt">&gt;</span>Available<span class="nt">&lt;/td&gt;</span>
+<span class="lineno">38</span>             <span class="nt">&lt;td</span> <span class="na">class=</span><span class="s">&quot;availability-available&quot;</span> <span class="na">title=</span><span class="s">&quot;Availabile&quot;</span><span class="nt">&gt;</span>Available<span class="nt">&lt;/td&gt;</span>
+<span class="lineno">39</span>             <span class="nt">&lt;td</span> <span class="na">class=</span><span class="s">&quot;availability-available&quot;</span> <span class="na">title=</span><span class="s">&quot;Availabile&quot;</span><span class="nt">&gt;</span>Available<span class="nt">&lt;/td&gt;</span>
+<span class="lineno">40</span>         <span class="nt">&lt;/tr&gt;</span>
+<span class="lineno">41</span>     <span class="nt">&lt;/tbody&gt;</span>
+<span class="lineno">42</span> <span class="nt">&lt;/table&gt;</span></code></pre></div>
+
+        <div class="xx-pattern-description"></div>
+
+    </details>
+
+    <div class="xx-pattern-preview">
+        <!-- Inspired by http://csswizardry.com/work/ -->
+
+<table class="availability">
+    <tfoot>
+        <tr class="availability-year">
+            <th colspan="8">2014</th>
+            <th colspan="4">2015</th>
+        </tr>
+    </tfoot>
+    <thead class="availability-header">
+        <tr class="availability-month">
+            <th><abbr title="May 2014">May</abbr></th>
+            <th><abbr title="June 2014">Jun</abbr></th>
+            <th><abbr title="July 2014">Jul</abbr></th>
+            <th><abbr title="August 2014">Aug</abbr></th>
+            <th><abbr title="September 2014">Sep</abbr></th>
+            <th><abbr title="October 2014">Oct</abbr></th>
+            <th><abbr title="November 2014">Nov</abbr></th>
+            <th><abbr title="December 2015">Dec</abbr></th>
+            <th><abbr title="January 2015">Jan</abbr></th>
+            <th><abbr title="February 2015">Feb</abbr></th>
+            <th><abbr title="March 2015">Mar</abbr></th>
+            <th><abbr title="April 2015">Apr</abbr></th>
+        </tr>
+    </thead>
+    <tbody class="availability-body">
+        <tr class="availability-schedule">
+            <td class="availability-unavailable" title="Unavailable">Unavailable</td>
+            <td class="availability-unavailable" title="Unavailable">Unavailable</td>
+            <td class="availability-unavailable" title="Unavailable">Unavailable</td>
+            <td class="availability-unavailable" title="Unavailable">Unavailable</td>
+            <td class="availability-limited" title="Limited Availability">Limited</td>
+            <td class="availability-limited" title="Limited Availability">Limited</td>
+            <td class="availability-available" title="Availabile">Available</td>
+            <td class="availability-available" title="Availabile">Available</td>
+            <td class="availability-available" title="Availabile">Available</td>
+            <td class="availability-available" title="Availabile">Available</td>
+            <td class="availability-available" title="Availabile">Available</td>
+            <td class="availability-available" title="Availabile">Available</td>
+        </tr>
+    </tbody>
+</table>
+
+    </div>
+
+</div>
+
+
+
+<div class="xx-pattern" id="contact">
+
+    <details class="xx-pattern-details">
+
+        <summary class="xx-pattern-name">contact</summary>
+
+        <div class="highlight"><pre><code class="language-html" data-lang="html"><span class="lineno"> 1</span> <span class="nt">&lt;p</span> <span class="na">class=</span><span class="s">&quot;vcard&quot;</span><span class="nt">&gt;</span>
+<span class="lineno"> 2</span>     Name: <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">&quot;honorific-prefix&quot;</span><span class="nt">&gt;</span> <span class="nt">&lt;/span&gt;</span> <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">&quot;fn&quot;</span><span class="nt">&gt;</span> <span class="nt">&lt;/span&gt;&lt;br/&gt;</span>
+<span class="lineno"> 3</span>     Nickname: <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">&quot;nickname&quot;</span><span class="nt">&gt;</span> <span class="nt">&lt;/span&gt;&lt;br/&gt;</span>
+<span class="lineno"> 4</span>     Role: <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">&quot;role&quot;</span><span class="nt">&gt;</span> <span class="nt">&lt;/span&gt;&lt;br/&gt;</span>
+<span class="lineno"> 5</span>     Organisation: <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">&quot;org&quot;</span><span class="nt">&gt;</span> <span class="nt">&lt;/span&gt;&lt;br/&gt;</span>
+<span class="lineno"> 6</span>     Website: <span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">&quot;#&quot;</span> <span class="na">class=</span><span class="s">&quot;url&quot;</span><span class="nt">&gt;</span> <span class="nt">&lt;/a&gt;&lt;br/&gt;</span>
+<span class="lineno"> 7</span>     Email: <span class="nt">&lt;a</span> <span class="na">mailto=</span><span class="s">&quot;#&quot;</span> <span class="na">class=</span><span class="s">&quot;email&quot;</span><span class="nt">&gt;</span> <span class="nt">&lt;/a&gt;&lt;br/&gt;</span>
+<span class="lineno"> 8</span>     Tel: <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">&quot;tel&quot;</span><span class="nt">&gt;</span> <span class="nt">&lt;/span&gt;&lt;br/&gt;</span>
+<span class="lineno"> 9</span>     Birthday: <span class="nt">&lt;time</span> <span class="na">class=</span><span class="s">&quot;bday&quot;</span><span class="nt">&gt;</span> <span class="nt">&lt;/time&gt;&lt;br/&gt;</span>
+<span class="lineno">10</span>     <span class="nt">&lt;img</span> <span class="na">src=</span><span class="s">&quot;&quot;</span> <span class="na">class=</span><span class="s">&quot;photo&quot;</span> <span class="nt">/&gt;</span>
+<span class="lineno">11</span> <span class="nt">&lt;/p&gt;</span></code></pre></div>
+
+        <div class="xx-pattern-description"></div>
+
+    </details>
+
+    <div class="xx-pattern-preview">
+        <p class="vcard">
+    Name: <span class="honorific-prefix"> </span> <span class="fn"> </span><br/>
+    Nickname: <span class="nickname"> </span><br/>
+    Role: <span class="role"> </span><br/>
+    Organisation: <span class="org"> </span><br/>
+    Website: <a href="#" class="url"> </a><br/>
+    Email: <a mailto="#" class="email"> </a><br/>
+    Tel: <span class="tel"> </span><br/>
+    Birthday: <time class="bday"> </time><br/>
+    <img src="" class="photo" />
+</p>
+
+    </div>
+
+</div>
+
+
+
+<div class="xx-pattern" id="form-button-default">
+
+    <details class="xx-pattern-details">
+
+        <summary class="xx-pattern-name">form-button-default</summary>
+
+        <div class="highlight"><pre><code class="language-html" data-lang="html"><span class="lineno">1</span> <span class="nt">&lt;button&gt;</span>Button<span class="nt">&lt;/button&gt;</span>
+<span class="lineno">2</span> <span class="nt">&lt;button</span> <span class="na">type=</span><span class="s">&quot;submit&quot;</span><span class="nt">&gt;</span>Submit button<span class="nt">&lt;/button&gt;</span>
+<span class="lineno">3</span> <span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">&quot;#&quot;</span> <span class="na">class=</span><span class="s">&quot;button&quot;</span><span class="nt">&gt;</span>Link button<span class="nt">&lt;/a&gt;</span>
+<span class="lineno">4</span> <span class="nt">&lt;input</span> <span class="na">type=</span><span class="s">&quot;button&quot;</span> <span class="na">value=</span><span class="s">&quot;Input button&quot;</span><span class="nt">&gt;</span>
+<span class="lineno">5</span> <span class="nt">&lt;input</span> <span class="na">type=</span><span class="s">&quot;submit&quot;</span> <span class="na">value=</span><span class="s">&quot;Input submit button&quot;</span><span class="nt">&gt;</span></code></pre></div>
+
+        <div class="xx-pattern-description"></div>
+
+    </details>
+
+    <div class="xx-pattern-preview">
+        <button>Button</button>
+<button type="submit">Submit button</button>
+<a href="#" class="button">Link button</a>
+<input type="button" value="Input button">
+<input type="submit" value="Input submit button">
+
+    </div>
+
+</div>
+
+
+
+<div class="xx-pattern" id="form-button-size-l">
+
+    <details class="xx-pattern-details">
+
+        <summary class="xx-pattern-name">form-button-size-l</summary>
+
+        <div class="highlight"><pre><code class="language-html" data-lang="html"><span class="lineno">1</span> <span class="nt">&lt;button</span> <span class="na">class=</span><span class="s">&quot;button-l&quot;</span><span class="nt">&gt;</span>Button<span class="nt">&lt;/button&gt;</span>
+<span class="lineno">2</span> <span class="nt">&lt;button</span> <span class="na">type=</span><span class="s">&quot;submit&quot;</span> <span class="na">class=</span><span class="s">&quot;button-l&quot;</span><span class="nt">&gt;</span>Submit button<span class="nt">&lt;/button&gt;</span>
+<span class="lineno">3</span> <span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">&quot;#&quot;</span> <span class="na">class=</span><span class="s">&quot;button button-l&quot;</span><span class="nt">&gt;</span>Link button<span class="nt">&lt;/a&gt;</span>
+<span class="lineno">4</span> <span class="nt">&lt;input</span> <span class="na">type=</span><span class="s">&quot;button&quot;</span> <span class="na">value=</span><span class="s">&quot;Input button&quot;</span> <span class="na">class=</span><span class="s">&quot;button-l&quot;</span><span class="nt">&gt;</span>
+<span class="lineno">5</span> <span class="nt">&lt;input</span> <span class="na">type=</span><span class="s">&quot;submit&quot;</span> <span class="na">value=</span><span class="s">&quot;Input submit button&quot;</span> <span class="na">class=</span><span class="s">&quot;button-l&quot;</span><span class="nt">&gt;</span></code></pre></div>
+
+        <div class="xx-pattern-description"></div>
+
+    </details>
+
+    <div class="xx-pattern-preview">
+        <button class="button-l">Button</button>
+<button type="submit" class="button-l">Submit button</button>
+<a href="#" class="button button-l">Link button</a>
+<input type="button" value="Input button" class="button-l">
+<input type="submit" value="Input submit button" class="button-l">
+
+    </div>
+
+</div>
+
+
+
+<div class="xx-pattern" id="form-button-size-s">
+
+    <details class="xx-pattern-details">
+
+        <summary class="xx-pattern-name">form-button-size-s</summary>
+
+        <div class="highlight"><pre><code class="language-html" data-lang="html"><span class="lineno">1</span> <span class="nt">&lt;button</span> <span class="na">class=</span><span class="s">&quot;button-s&quot;</span><span class="nt">&gt;</span>Button<span class="nt">&lt;/button&gt;</span>
+<span class="lineno">2</span> <span class="nt">&lt;button</span> <span class="na">type=</span><span class="s">&quot;submit&quot;</span> <span class="na">class=</span><span class="s">&quot;button-s&quot;</span><span class="nt">&gt;</span>Submit button<span class="nt">&lt;/button&gt;</span>
+<span class="lineno">3</span> <span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">&quot;#&quot;</span> <span class="na">class=</span><span class="s">&quot;button button-s&quot;</span><span class="nt">&gt;</span>Link button<span class="nt">&lt;/a&gt;</span>
+<span class="lineno">4</span> <span class="nt">&lt;input</span> <span class="na">type=</span><span class="s">&quot;button&quot;</span> <span class="na">value=</span><span class="s">&quot;Input button&quot;</span> <span class="na">class=</span><span class="s">&quot;button-s&quot;</span><span class="nt">&gt;</span>
+<span class="lineno">5</span> <span class="nt">&lt;input</span> <span class="na">type=</span><span class="s">&quot;submit&quot;</span> <span class="na">value=</span><span class="s">&quot;Input submit button&quot;</span> <span class="na">class=</span><span class="s">&quot;button-s&quot;</span><span class="nt">&gt;</span></code></pre></div>
+
+        <div class="xx-pattern-description"></div>
+
+    </details>
+
+    <div class="xx-pattern-preview">
+        <button class="button-s">Button</button>
+<button type="submit" class="button-s">Submit button</button>
+<a href="#" class="button button-s">Link button</a>
+<input type="button" value="Input button" class="button-s">
+<input type="submit" value="Input submit button" class="button-s">
+
+    </div>
+
+</div>
+
+
+
+<div class="xx-pattern" id="form-button-style-disabled">
+
+    <details class="xx-pattern-details">
+
+        <summary class="xx-pattern-name">form-button-style-disabled</summary>
+
+        <div class="highlight"><pre><code class="language-html" data-lang="html"><span class="lineno">1</span> <span class="nt">&lt;button</span> <span class="na">disabled</span><span class="nt">&gt;</span>Button<span class="nt">&lt;/button&gt;</span>
+<span class="lineno">2</span> <span class="nt">&lt;button</span> <span class="na">type=</span><span class="s">&quot;submit&quot;</span> <span class="na">disabled</span><span class="nt">&gt;</span>Submit button<span class="nt">&lt;/button&gt;</span>
+<span class="lineno">3</span> <span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">&quot;#&quot;</span> <span class="na">class=</span><span class="s">&quot;button-disabled&quot;</span><span class="nt">&gt;</span>Link button<span class="nt">&lt;/a&gt;</span>
+<span class="lineno">4</span> <span class="nt">&lt;input</span> <span class="na">type=</span><span class="s">&quot;button&quot;</span> <span class="na">value=</span><span class="s">&quot;Input button&quot;</span> <span class="na">disabled</span><span class="nt">&gt;</span>
+<span class="lineno">5</span> <span class="nt">&lt;input</span> <span class="na">type=</span><span class="s">&quot;submit&quot;</span> <span class="na">value=</span><span class="s">&quot;Input submit button&quot;</span> <span class="na">disabled</span><span class="nt">&gt;</span></code></pre></div>
+
+        <div class="xx-pattern-description"></div>
+
+    </details>
+
+    <div class="xx-pattern-preview">
+        <button disabled>Button</button>
+<button type="submit" disabled>Submit button</button>
+<a href="#" class="button-disabled">Link button</a>
+<input type="button" value="Input button" disabled>
+<input type="submit" value="Input submit button" disabled>
+
+    </div>
+
+</div>
+
+
+
+
+
+<div class="xx-pattern" id="form-datalist-multiple">
+
+    <details class="xx-pattern-details">
+
+        <summary class="xx-pattern-name">form-datalist-multiple</summary>
+
+        <div class="highlight"><pre><code class="language-html" data-lang="html"><span class="lineno"> 1</span> <span class="nt">&lt;p&gt;</span>
+<span class="lineno"> 2</span> 	<span class="nt">&lt;label</span> <span class="na">for=</span><span class="s">&quot;locations&quot;</span><span class="nt">&gt;</span>Select your State <span class="nt">&lt;abbr</span> <span class="na">title=</span><span class="s">&quot;Required&quot;</span><span class="nt">&gt;</span>*<span class="nt">&lt;/abbr&gt;&lt;/label&gt;</span>
+<span class="lineno"> 3</span> 	<span class="nt">&lt;datalist</span> <span class="na">id=</span><span class="s">&quot;locations&quot;</span><span class="nt">&gt;</span>
+<span class="lineno"> 4</span> 	    <span class="nt">&lt;select</span> <span class="na">name=</span><span class="s">&quot;locations&quot;</span><span class="nt">&gt;</span><span class="c">&lt;!-- Browser Fallback --&gt;</span>
+<span class="lineno"> 5</span>     	    <span class="nt">&lt;option</span> <span class="na">value=</span><span class="s">&quot;United Kingdom&quot;</span><span class="nt">&gt;</span>United Kingdom<span class="nt">&lt;/option&gt;</span>
+<span class="lineno"> 6</span>     	    <span class="nt">&lt;option</span> <span class="na">value=</span><span class="s">&quot;United States&quot;</span><span class="nt">&gt;</span>United States<span class="nt">&lt;/option&gt;</span>
+<span class="lineno"> 7</span>     	    <span class="nt">&lt;option</span> <span class="na">value=</span><span class="s">&quot;France&quot;</span><span class="nt">&gt;</span>France<span class="nt">&lt;/option&gt;</span>
+<span class="lineno"> 8</span>     	    <span class="nt">&lt;option</span> <span class="na">value=</span><span class="s">&quot;Spain&quot;</span><span class="nt">&gt;</span>Spain<span class="nt">&lt;/option&gt;</span>
+<span class="lineno"> 9</span>     	    <span class="nt">&lt;option</span> <span class="na">value=</span><span class="s">&quot;Germany&quot;</span><span class="nt">&gt;</span>Germany<span class="nt">&lt;/option&gt;</span>
+<span class="lineno">10</span>     	    <span class="nt">&lt;option</span> <span class="na">value=</span><span class="s">&quot;Russia&quot;</span><span class="nt">&gt;</span>Russia<span class="nt">&lt;/option&gt;</span>
+<span class="lineno">11</span>     	    <span class="nt">&lt;option</span> <span class="na">value=</span><span class="s">&quot;China&quot;</span><span class="nt">&gt;</span>China<span class="nt">&lt;/option&gt;</span>
+<span class="lineno">12</span> 	    <span class="nt">&lt;/select&gt;</span>
+<span class="lineno">13</span> 	    If other, please specify:
+<span class="lineno">14</span> 	<span class="nt">&lt;/datalist&gt;</span>
+<span class="lineno">15</span> 	<span class="nt">&lt;input</span> <span class="na">id=</span><span class="s">&quot;text&quot;</span> <span class="na">type=</span><span class="s">&quot;text&quot;</span> <span class="na">name=</span><span class="s">&quot;location&quot;</span> <span class="na">list=</span><span class="s">&quot;locations&quot;</span> <span class="na">multiple</span><span class="nt">/&gt;</span>
+<span class="lineno">16</span> 	<span class="nt">&lt;small</span> <span class="na">class=</span><span class="s">&quot;note&quot;</span><span class="nt">&gt;</span>Note about this selection<span class="nt">&lt;/small&gt;</span>
+<span class="lineno">17</span> <span class="nt">&lt;/p&gt;</span></code></pre></div>
+
+        <div class="xx-pattern-description"></div>
+
+    </details>
+
+    <div class="xx-pattern-preview">
+        <p>
+	<label for="locations">Select your State <abbr title="Required">*</abbr></label>
+	<datalist id="locations">
+	    <select name="locations"><!-- Browser Fallback -->
+    	    <option value="United Kingdom">United Kingdom</option>
+    	    <option value="United States">United States</option>
+    	    <option value="France">France</option>
+    	    <option value="Spain">Spain</option>
+    	    <option value="Germany">Germany</option>
+    	    <option value="Russia">Russia</option>
+    	    <option value="China">China</option>
+	    </select>
+	    If other, please specify:
+	</datalist>
+	<input id="text" type="text" name="location" list="locations" multiple/>
+	<small class="note">Note about this selection</small>
+</p>
+
+    </div>
+
+</div>
+
+
+
+<div class="xx-pattern" id="form-datalist">
+
+    <details class="xx-pattern-details">
+
+        <summary class="xx-pattern-name">form-datalist</summary>
+
+        <div class="highlight"><pre><code class="language-html" data-lang="html"><span class="lineno"> 1</span> <span class="nt">&lt;p&gt;</span>
+<span class="lineno"> 2</span> 	<span class="nt">&lt;label</span> <span class="na">for=</span><span class="s">&quot;locations&quot;</span><span class="nt">&gt;</span>Select your State <span class="nt">&lt;abbr</span> <span class="na">title=</span><span class="s">&quot;Required&quot;</span><span class="nt">&gt;</span>*<span class="nt">&lt;/abbr&gt;&lt;/label&gt;</span>
+<span class="lineno"> 3</span> 	<span class="nt">&lt;datalist</span> <span class="na">id=</span><span class="s">&quot;locations&quot;</span><span class="nt">&gt;</span>
+<span class="lineno"> 4</span> 	    <span class="nt">&lt;select</span> <span class="na">name=</span><span class="s">&quot;locations&quot;</span><span class="nt">&gt;</span><span class="c">&lt;!-- Browser Fallback --&gt;</span>
+<span class="lineno"> 5</span>     	    <span class="nt">&lt;option</span> <span class="na">value=</span><span class="s">&quot;United Kingdom&quot;</span><span class="nt">&gt;</span>United Kingdom<span class="nt">&lt;/option&gt;</span>
+<span class="lineno"> 6</span>     	    <span class="nt">&lt;option</span> <span class="na">value=</span><span class="s">&quot;United States&quot;</span><span class="nt">&gt;</span>United States<span class="nt">&lt;/option&gt;</span>
+<span class="lineno"> 7</span>     	    <span class="nt">&lt;option</span> <span class="na">value=</span><span class="s">&quot;France&quot;</span><span class="nt">&gt;</span>France<span class="nt">&lt;/option&gt;</span>
+<span class="lineno"> 8</span>     	    <span class="nt">&lt;option</span> <span class="na">value=</span><span class="s">&quot;Spain&quot;</span><span class="nt">&gt;</span>Spain<span class="nt">&lt;/option&gt;</span>
+<span class="lineno"> 9</span>     	    <span class="nt">&lt;option</span> <span class="na">value=</span><span class="s">&quot;Germany&quot;</span><span class="nt">&gt;</span>Germany<span class="nt">&lt;/option&gt;</span>
+<span class="lineno">10</span>     	    <span class="nt">&lt;option</span> <span class="na">value=</span><span class="s">&quot;Russia&quot;</span><span class="nt">&gt;</span>Russia<span class="nt">&lt;/option&gt;</span>
+<span class="lineno">11</span>     	    <span class="nt">&lt;option</span> <span class="na">value=</span><span class="s">&quot;China&quot;</span><span class="nt">&gt;</span>China<span class="nt">&lt;/option&gt;</span>
+<span class="lineno">12</span> 	    <span class="nt">&lt;/select&gt;</span>
+<span class="lineno">13</span> 	    If other, please specify:
+<span class="lineno">14</span> 	<span class="nt">&lt;/datalist&gt;</span>
+<span class="lineno">15</span> 	<span class="nt">&lt;input</span> <span class="na">id=</span><span class="s">&quot;text&quot;</span> <span class="na">type=</span><span class="s">&quot;text&quot;</span> <span class="na">name=</span><span class="s">&quot;location&quot;</span> <span class="na">list=</span><span class="s">&quot;locations&quot;</span><span class="nt">/&gt;</span>
+<span class="lineno">16</span> 	<span class="nt">&lt;small</span> <span class="na">class=</span><span class="s">&quot;note&quot;</span><span class="nt">&gt;</span>Note about this selection<span class="nt">&lt;/small&gt;</span>
+<span class="lineno">17</span> <span class="nt">&lt;/p&gt;</span></code></pre></div>
+
+        <div class="xx-pattern-description"></div>
+
+    </details>
+
+    <div class="xx-pattern-preview">
+        <p>
+	<label for="locations">Select your State <abbr title="Required">*</abbr></label>
+	<datalist id="locations">
+	    <select name="locations"><!-- Browser Fallback -->
+    	    <option value="United Kingdom">United Kingdom</option>
+    	    <option value="United States">United States</option>
+    	    <option value="France">France</option>
+    	    <option value="Spain">Spain</option>
+    	    <option value="Germany">Germany</option>
+    	    <option value="Russia">Russia</option>
+    	    <option value="China">China</option>
+	    </select>
+	    If other, please specify:
+	</datalist>
+	<input id="text" type="text" name="location" list="locations"/>
+	<small class="note">Note about this selection</small>
+</p>
+
+    </div>
+
+</div>
+
+
+
+<div class="xx-pattern" id="form-fieldset-select-checkboxes-captions">
+
+    <details class="xx-pattern-details">
+
+        <summary class="xx-pattern-name">form-fieldset-select-checkboxes-captions</summary>
+
+        <div class="highlight"><pre><code class="language-html" data-lang="html"><span class="lineno"> 1</span> <span class="nt">&lt;form&gt;</span>
+<span class="lineno"> 2</span>     <span class="nt">&lt;fieldset</span> <span class="na">class=</span><span class="s">&quot;select field&quot;</span><span class="nt">&gt;</span>
+<span class="lineno"> 3</span>         <span class="nt">&lt;legend&gt;</span>Checkboxes with captions <span class="nt">&lt;abbr</span> <span class="na">title=</span><span class="s">&quot;Required&quot;</span><span class="nt">&gt;</span>*<span class="nt">&lt;/abbr&gt;&lt;/legend&gt;</span>
+<span class="lineno"> 4</span>         <span class="nt">&lt;ul</span> <span class="na">class=</span><span class="s">&quot;list-form&quot;</span><span class="nt">&gt;</span>
+<span class="lineno"> 5</span>             <span class="nt">&lt;li&gt;</span>
+<span class="lineno"> 6</span>                 <span class="nt">&lt;label</span> <span class="na">for=</span><span class="s">&quot;checkbox11&quot;</span><span class="nt">&gt;&lt;input</span> <span class="na">id=</span><span class="s">&quot;checkbox11&quot;</span> <span class="na">name=</span><span class="s">&quot;checkbox&quot;</span> <span class="na">type=</span><span class="s">&quot;checkbox&quot;</span> <span class="na">checked</span><span class="nt">/&gt;</span> Choice A<span class="nt">&lt;/label&gt;</span>
+<span class="lineno"> 7</span>                 <span class="nt">&lt;small</span> <span class="na">class=</span><span class="s">&quot;note&quot;</span><span class="nt">&gt;</span>Note about this option<span class="nt">&lt;/small&gt;</span>
+<span class="lineno"> 8</span>             <span class="nt">&lt;/li&gt;</span>
+<span class="lineno"> 9</span>             <span class="nt">&lt;li&gt;</span>
+<span class="lineno">10</span>                 <span class="nt">&lt;label</span> <span class="na">for=</span><span class="s">&quot;checkbox21&quot;</span><span class="nt">&gt;&lt;input</span> <span class="na">id=</span><span class="s">&quot;checkbox21&quot;</span> <span class="na">name=</span><span class="s">&quot;checkbox&quot;</span> <span class="na">type=</span><span class="s">&quot;checkbox&quot;</span><span class="nt">/&gt;</span> Choice B<span class="nt">&lt;/label&gt;</span>
+<span class="lineno">11</span>                 <span class="nt">&lt;small</span> <span class="na">class=</span><span class="s">&quot;note&quot;</span><span class="nt">&gt;</span>Note about this option<span class="nt">&lt;/small&gt;</span>
+<span class="lineno">12</span>             <span class="nt">&lt;/li&gt;</span>
+<span class="lineno">13</span>             <span class="nt">&lt;li&gt;</span>
+<span class="lineno">14</span>                 <span class="nt">&lt;label</span> <span class="na">for=</span><span class="s">&quot;checkbox31&quot;</span><span class="nt">&gt;&lt;input</span> <span class="na">id=</span><span class="s">&quot;checkbox31&quot;</span> <span class="na">name=</span><span class="s">&quot;checkbox&quot;</span> <span class="na">type=</span><span class="s">&quot;checkbox&quot;</span><span class="nt">/&gt;</span> Choice C<span class="nt">&lt;/label&gt;</span>
+<span class="lineno">15</span>                 <span class="nt">&lt;small</span> <span class="na">class=</span><span class="s">&quot;note&quot;</span><span class="nt">&gt;</span>Note about this option<span class="nt">&lt;/small&gt;</span>
+<span class="lineno">16</span>             <span class="nt">&lt;/li&gt;</span>
+<span class="lineno">17</span>         <span class="nt">&lt;/ul&gt;</span>
+<span class="lineno">18</span>     <span class="nt">&lt;/fieldset&gt;</span>
+<span class="lineno">19</span> <span class="nt">&lt;/form&gt;</span></code></pre></div>
+
+        <div class="xx-pattern-description"></div>
+
+    </details>
+
+    <div class="xx-pattern-preview">
+        <form>
+    <fieldset class="select field">
+        <legend>Checkboxes with captions <abbr title="Required">*</abbr></legend>
+        <ul class="list-form">
+            <li>
+                <label for="checkbox11"><input id="checkbox11" name="checkbox" type="checkbox" checked/> Choice A</label>
+                <small class="note">Note about this option</small>
+            </li>
+            <li>
+                <label for="checkbox21"><input id="checkbox21" name="checkbox" type="checkbox"/> Choice B</label>
+                <small class="note">Note about this option</small>
+            </li>
+            <li>
+                <label for="checkbox31"><input id="checkbox31" name="checkbox" type="checkbox"/> Choice C</label>
+                <small class="note">Note about this option</small>
+            </li>
+        </ul>
+    </fieldset>
+</form>
+
+    </div>
+
+</div>
+
+
+
+<div class="xx-pattern" id="form-fieldset-select-checkboxes">
+
+    <details class="xx-pattern-details">
+
+        <summary class="xx-pattern-name">form-fieldset-select-checkboxes</summary>
+
+        <div class="highlight"><pre><code class="language-html" data-lang="html"><span class="lineno"> 1</span> <span class="nt">&lt;form&gt;</span>
+<span class="lineno"> 2</span>     <span class="nt">&lt;fieldset</span> <span class="na">class=</span><span class="s">&quot;select field&quot;</span><span class="nt">&gt;</span>
+<span class="lineno"> 3</span>         <span class="nt">&lt;legend&gt;</span>Checkboxes <span class="nt">&lt;abbr</span> <span class="na">title=</span><span class="s">&quot;Required&quot;</span><span class="nt">&gt;</span>*<span class="nt">&lt;/abbr&gt;&lt;/legend&gt;</span>
+<span class="lineno"> 4</span>         <span class="nt">&lt;ul</span> <span class="na">class=</span><span class="s">&quot;list-form&quot;</span><span class="nt">&gt;</span>
+<span class="lineno"> 5</span>             <span class="nt">&lt;li&gt;</span>
+<span class="lineno"> 6</span>                 <span class="nt">&lt;label</span> <span class="na">for=</span><span class="s">&quot;checkbox10&quot;</span><span class="nt">&gt;&lt;input</span> <span class="na">id=</span><span class="s">&quot;checkbox10&quot;</span> <span class="na">name=</span><span class="s">&quot;checkbox&quot;</span> <span class="na">type=</span><span class="s">&quot;checkbox&quot;</span> <span class="na">checked</span><span class="nt">/&gt;</span> Choice A<span class="nt">&lt;/label&gt;</span>
+<span class="lineno"> 7</span>             <span class="nt">&lt;/li&gt;</span>
+<span class="lineno"> 8</span>             <span class="nt">&lt;li&gt;</span>
+<span class="lineno"> 9</span>                 <span class="nt">&lt;label</span> <span class="na">for=</span><span class="s">&quot;checkbox20&quot;</span><span class="nt">&gt;&lt;input</span> <span class="na">id=</span><span class="s">&quot;checkbox20&quot;</span> <span class="na">name=</span><span class="s">&quot;checkbox&quot;</span> <span class="na">type=</span><span class="s">&quot;checkbox&quot;</span><span class="nt">/&gt;</span> Choice B<span class="nt">&lt;/label&gt;</span>
+<span class="lineno">10</span>             <span class="nt">&lt;/li&gt;</span>
+<span class="lineno">11</span>             <span class="nt">&lt;li&gt;</span>
+<span class="lineno">12</span>                 <span class="nt">&lt;label</span> <span class="na">for=</span><span class="s">&quot;checkbox30&quot;</span><span class="nt">&gt;&lt;input</span> <span class="na">id=</span><span class="s">&quot;checkbox30&quot;</span> <span class="na">name=</span><span class="s">&quot;checkbox&quot;</span> <span class="na">type=</span><span class="s">&quot;checkbox&quot;</span><span class="nt">/&gt;</span> Choice C<span class="nt">&lt;/label&gt;</span>
+<span class="lineno">13</span>             <span class="nt">&lt;/li&gt;</span>
+<span class="lineno">14</span>         <span class="nt">&lt;/ul&gt;</span>
+<span class="lineno">15</span>         <span class="nt">&lt;small</span> <span class="na">class=</span><span class="s">&quot;note&quot;</span><span class="nt">&gt;</span>Note about these options<span class="nt">&lt;/small&gt;</span>
+<span class="lineno">16</span>     <span class="nt">&lt;/fieldset&gt;</span>
+<span class="lineno">17</span> <span class="nt">&lt;/form&gt;</span></code></pre></div>
+
+        <div class="xx-pattern-description"></div>
+
+    </details>
+
+    <div class="xx-pattern-preview">
+        <form>
+    <fieldset class="select field">
+        <legend>Checkboxes <abbr title="Required">*</abbr></legend>
+        <ul class="list-form">
+            <li>
+                <label for="checkbox10"><input id="checkbox10" name="checkbox" type="checkbox" checked/> Choice A</label>
+            </li>
+            <li>
+                <label for="checkbox20"><input id="checkbox20" name="checkbox" type="checkbox"/> Choice B</label>
+            </li>
+            <li>
+                <label for="checkbox30"><input id="checkbox30" name="checkbox" type="checkbox"/> Choice C</label>
+            </li>
+        </ul>
+        <small class="note">Note about these options</small>
+    </fieldset>
+</form>
+
+    </div>
+
+</div>
+
+
+
+<div class="xx-pattern" id="form-fieldset-select-radios">
+
+    <details class="xx-pattern-details">
+
+        <summary class="xx-pattern-name">form-fieldset-select-radios</summary>
+
+        <div class="highlight"><pre><code class="language-html" data-lang="html"><span class="lineno"> 1</span> <span class="nt">&lt;form&gt;</span>
+<span class="lineno"> 2</span>     <span class="nt">&lt;fieldset</span> <span class="na">class=</span><span class="s">&quot;select field&quot;</span><span class="nt">&gt;</span>
+<span class="lineno"> 3</span>         <span class="nt">&lt;legend&gt;</span>Radios <span class="nt">&lt;abbr</span> <span class="na">title=</span><span class="s">&quot;Required&quot;</span><span class="nt">&gt;</span>*<span class="nt">&lt;/abbr&gt;&lt;/legend&gt;</span>
+<span class="lineno"> 4</span>         <span class="nt">&lt;ul</span> <span class="na">class=</span><span class="s">&quot;list-form&quot;</span><span class="nt">&gt;</span>
+<span class="lineno"> 5</span>             <span class="nt">&lt;li&gt;</span>
+<span class="lineno"> 6</span>                 <span class="nt">&lt;label</span> <span class="na">for=</span><span class="s">&quot;radio1&quot;</span><span class="nt">&gt;&lt;input</span> <span class="na">id=</span><span class="s">&quot;radio1&quot;</span> <span class="na">name=</span><span class="s">&quot;radio&quot;</span> <span class="na">type=</span><span class="s">&quot;radio&quot;</span> <span class="na">checked</span><span class="nt">/&gt;</span> Option 1<span class="nt">&lt;/label&gt;</span>
+<span class="lineno"> 7</span>             <span class="nt">&lt;/li&gt;</span>
+<span class="lineno"> 8</span>             <span class="nt">&lt;li&gt;</span>
+<span class="lineno"> 9</span>                 <span class="nt">&lt;label</span> <span class="na">for=</span><span class="s">&quot;radio2&quot;</span><span class="nt">&gt;&lt;input</span> <span class="na">id=</span><span class="s">&quot;radio2&quot;</span> <span class="na">name=</span><span class="s">&quot;radio&quot;</span> <span class="na">type=</span><span class="s">&quot;radio&quot;</span><span class="nt">/&gt;</span> Option 2<span class="nt">&lt;/label&gt;</span>
+<span class="lineno">10</span>             <span class="nt">&lt;/li&gt;</span>
+<span class="lineno">11</span>             <span class="nt">&lt;li&gt;</span>
+<span class="lineno">12</span>                 <span class="nt">&lt;label</span> <span class="na">for=</span><span class="s">&quot;radio3&quot;</span><span class="nt">&gt;&lt;input</span> <span class="na">id=</span><span class="s">&quot;radio3&quot;</span> <span class="na">name=</span><span class="s">&quot;radio&quot;</span> <span class="na">type=</span><span class="s">&quot;radio&quot;</span><span class="nt">/&gt;</span> Option 3<span class="nt">&lt;/label&gt;</span>
+<span class="lineno">13</span>             <span class="nt">&lt;/li&gt;</span>
+<span class="lineno">14</span>         <span class="nt">&lt;/ul&gt;</span>
+<span class="lineno">15</span>         <span class="nt">&lt;small</span> <span class="na">class=</span><span class="s">&quot;note&quot;</span><span class="nt">&gt;</span>Note about these options<span class="nt">&lt;/small&gt;</span>
+<span class="lineno">16</span>     <span class="nt">&lt;/fieldset&gt;</span>
+<span class="lineno">17</span> <span class="nt">&lt;/form&gt;</span></code></pre></div>
+
+        <div class="xx-pattern-description"></div>
+
+    </details>
+
+    <div class="xx-pattern-preview">
+        <form>
+    <fieldset class="select field">
+        <legend>Radios <abbr title="Required">*</abbr></legend>
+        <ul class="list-form">
+            <li>
+                <label for="radio1"><input id="radio1" name="radio" type="radio" checked/> Option 1</label>
+            </li>
+            <li>
+                <label for="radio2"><input id="radio2" name="radio" type="radio"/> Option 2</label>
+            </li>
+            <li>
+                <label for="radio3"><input id="radio3" name="radio" type="radio"/> Option 3</label>
+            </li>
+        </ul>
+        <small class="note">Note about these options</small>
+    </fieldset>
+</form>
+
+    </div>
+
+</div>
+
+
+
+<div class="xx-pattern" id="form-fieldset">
+
+    <details class="xx-pattern-details">
+
+        <summary class="xx-pattern-name">form-fieldset</summary>
+
+        <div class="highlight"><pre><code class="language-html" data-lang="html"><span class="lineno">1</span> <span class="nt">&lt;form&gt;</span>
+<span class="lineno">2</span>     <span class="nt">&lt;fieldset&gt;</span>
+<span class="lineno">3</span>     	<span class="nt">&lt;legend&gt;</span>Legend<span class="nt">&lt;/legend&gt;</span>
+<span class="lineno">4</span>     	<span class="nt">&lt;p&gt;&lt;small</span> <span class="na">class=</span><span class="s">&quot;note&quot;</span><span class="nt">&gt;</span>Required fields are marked <span class="nt">&lt;abbr</span> <span class="na">title=</span><span class="s">&quot;Required&quot;</span><span class="nt">&gt;</span>*<span class="nt">&lt;/abbr&gt;&lt;/small&gt;&lt;/p&gt;</span>
+<span class="lineno">5</span>     <span class="nt">&lt;/fieldset&gt;</span>
+<span class="lineno">6</span> <span class="nt">&lt;/form&gt;</span></code></pre></div>
+
+        <div class="xx-pattern-description"></div>
+
+    </details>
+
+    <div class="xx-pattern-preview">
+        <form>
+    <fieldset>
+    	<legend>Legend</legend>
+    	<p><small class="note">Required fields are marked <abbr title="Required">*</abbr></small></p>
+    </fieldset>
+</form>
+
+    </div>
+
+</div>
+
+
+
+<div class="xx-pattern" id="form-file-multiple">
+
+    <details class="xx-pattern-details">
+
+        <summary class="xx-pattern-name">form-file-multiple</summary>
+
+        <div class="highlight"><pre><code class="language-html" data-lang="html"><span class="lineno">1</span> <span class="nt">&lt;p</span> <span class="na">class=</span><span class="s">&quot;field&quot;</span><span class="nt">&gt;</span>
+<span class="lineno">2</span>     <span class="nt">&lt;label</span> <span class="na">for=</span><span class="s">&quot;upload-multiple&quot;</span><span class="nt">&gt;</span>Upload Files<span class="nt">&lt;/label&gt;</span>
+<span class="lineno">3</span>     <span class="nt">&lt;input</span> <span class="na">name=</span><span class="s">&quot;upload-multiple&quot;</span> <span class="na">type=</span><span class="s">&quot;file&quot;</span> <span class="na">multiple</span><span class="nt">/&gt;</span>
+<span class="lineno">4</span> <span class="nt">&lt;/p&gt;</span></code></pre></div>
+
+        <div class="xx-pattern-description"></div>
+
+    </details>
+
+    <div class="xx-pattern-preview">
+        <p class="field">
+    <label for="upload-multiple">Upload Files</label>
+    <input name="upload-multiple" type="file" multiple/>
+</p>
+
+    </div>
+
+</div>
+
+
+
+<div class="xx-pattern" id="form-file">
+
+    <details class="xx-pattern-details">
+
+        <summary class="xx-pattern-name">form-file</summary>
+
+        <div class="highlight"><pre><code class="language-html" data-lang="html"><span class="lineno">1</span> <span class="nt">&lt;p</span> <span class="na">class=</span><span class="s">&quot;field&quot;</span><span class="nt">&gt;</span>
+<span class="lineno">2</span>     <span class="nt">&lt;label</span> <span class="na">for=</span><span class="s">&quot;upload&quot;</span><span class="nt">&gt;</span>Upload Files<span class="nt">&lt;/label&gt;</span>
+<span class="lineno">3</span>     <span class="nt">&lt;input</span> <span class="na">name=</span><span class="s">&quot;upload&quot;</span> <span class="na">type=</span><span class="s">&quot;file&quot;</span> <span class="nt">/&gt;</span>
+<span class="lineno">4</span> <span class="nt">&lt;/p&gt;</span></code></pre></div>
+
+        <div class="xx-pattern-description"></div>
+
+    </details>
+
+    <div class="xx-pattern-preview">
+        <p class="field">
+    <label for="upload">Upload Files</label>
+    <input name="upload" type="file" />
+</p>
+
+    </div>
+
+</div>
+
+
+
+<div class="xx-pattern" id="form-input-checkbox-disabled">
+
+    <details class="xx-pattern-details">
+
+        <summary class="xx-pattern-name">form-input-checkbox-disabled</summary>
+
+        <div class="highlight"><pre><code class="language-html" data-lang="html"><span class="lineno">1</span> <span class="nt">&lt;p&gt;</span>
+<span class="lineno">2</span>     <span class="nt">&lt;label</span> <span class="na">for=</span><span class="s">&quot;checkbox&quot;</span><span class="nt">&gt;&lt;input</span> <span class="na">id=</span><span class="s">&quot;checkbox&quot;</span> <span class="na">type=</span><span class="s">&quot;checkbox&quot;</span> <span class="na">disabled</span><span class="nt">/&gt;</span> Disabled checkbox<span class="nt">&lt;/label&gt;</span>
+<span class="lineno">3</span>     <span class="nt">&lt;small</span> <span class="na">class=</span><span class="s">&quot;note&quot;</span><span class="nt">&gt;</span>Note about this field<span class="nt">&lt;/small&gt;</span>
+<span class="lineno">4</span> <span class="nt">&lt;p&gt;</span></code></pre></div>
+
+        <div class="xx-pattern-description"></div>
+
+    </details>
+
+    <div class="xx-pattern-preview">
+        <p>
+    <label for="checkbox"><input id="checkbox" type="checkbox" disabled/> Disabled checkbox</label>
+    <small class="note">Note about this field</small>
+<p>
+
+    </div>
+
+</div>
+
+
+
+<div class="xx-pattern" id="form-input-checkbox">
+
+    <details class="xx-pattern-details">
+
+        <summary class="xx-pattern-name">form-input-checkbox</summary>
+
+        <div class="highlight"><pre><code class="language-html" data-lang="html"><span class="lineno">1</span> <span class="nt">&lt;p</span> <span class="na">class=</span><span class="s">&quot;field&quot;</span><span class="nt">&gt;</span>
+<span class="lineno">2</span>     <span class="nt">&lt;label</span> <span class="na">for=</span><span class="s">&quot;checkbox&quot;</span><span class="nt">&gt;&lt;input</span> <span class="na">id=</span><span class="s">&quot;checkbox&quot;</span> <span class="na">type=</span><span class="s">&quot;checkbox&quot;</span><span class="nt">/&gt;</span> Checkbox<span class="nt">&lt;/label&gt;</span>
+<span class="lineno">3</span>     <span class="nt">&lt;small</span> <span class="na">class=</span><span class="s">&quot;note&quot;</span><span class="nt">&gt;</span>Note about this field<span class="nt">&lt;/small&gt;</span>
+<span class="lineno">4</span> <span class="nt">&lt;p&gt;</span></code></pre></div>
+
+        <div class="xx-pattern-description"></div>
+
+    </details>
+
+    <div class="xx-pattern-preview">
+        <p class="field">
+    <label for="checkbox"><input id="checkbox" type="checkbox"/> Checkbox</label>
+    <small class="note">Note about this field</small>
+<p>
+
+    </div>
+
+</div>
+
+
+
+<div class="xx-pattern" id="form-input-color">
+
+    <details class="xx-pattern-details">
+
+        <summary class="xx-pattern-name">form-input-color</summary>
+
+        <div class="highlight"><pre><code class="language-html" data-lang="html"><span class="lineno">1</span> <span class="nt">&lt;p</span> <span class="na">class=</span><span class="s">&quot;field&quot;</span><span class="nt">&gt;</span>
+<span class="lineno">2</span>     <span class="nt">&lt;label</span> <span class="na">for=</span><span class="s">&quot;color&quot;</span><span class="nt">&gt;</span>Pick a colour<span class="nt">&lt;/label&gt;</span>
+<span class="lineno">3</span>     <span class="nt">&lt;input</span> <span class="na">name=</span><span class="s">&quot;color&quot;</span> <span class="na">type=</span><span class="s">&quot;color&quot;</span><span class="nt">/&gt;</span>
+<span class="lineno">4</span> <span class="nt">&lt;/p&gt;</span></code></pre></div>
+
+        <div class="xx-pattern-description"></div>
+
+    </details>
+
+    <div class="xx-pattern-preview">
+        <p class="field">
+    <label for="color">Pick a colour</label>
+    <input name="color" type="color"/>
+</p>
+
+    </div>
+
+</div>
+
+
+
+<div class="xx-pattern" id="form-input-date">
+
+    <details class="xx-pattern-details">
+
+        <summary class="xx-pattern-name">form-input-date</summary>
+
+        <div class="highlight"><pre><code class="language-html" data-lang="html"><span class="lineno"> 1</span> <span class="nt">&lt;p</span> <span class="na">class=</span><span class="s">&quot;field&quot;</span><span class="nt">&gt;</span>
+<span class="lineno"> 2</span>     <span class="nt">&lt;label</span> <span class="na">for=</span><span class="s">&quot;date&quot;</span><span class="nt">&gt;</span>Pick a date<span class="nt">&lt;/label&gt;</span>
+<span class="lineno"> 3</span>     <span class="nt">&lt;input</span> <span class="na">name=</span><span class="s">&quot;date&quot;</span> <span class="na">type=</span><span class="s">&quot;date&quot;</span><span class="nt">/&gt;</span>
+<span class="lineno"> 4</span> <span class="nt">&lt;/p&gt;</span>
+<span class="lineno"> 5</span> 
+<span class="lineno"> 6</span> <span class="nt">&lt;p</span> <span class="na">class=</span><span class="s">&quot;field&quot;</span><span class="nt">&gt;</span>
+<span class="lineno"> 7</span>     <span class="nt">&lt;label</span> <span class="na">for=</span><span class="s">&quot;date-ranged&quot;</span><span class="nt">&gt;</span>Pick a date in 2013<span class="nt">&lt;/label&gt;</span>
+<span class="lineno"> 8</span>     <span class="nt">&lt;input</span> <span class="na">name=</span><span class="s">&quot;date-ranged&quot;</span> <span class="na">type=</span><span class="s">&quot;date&quot;</span> <span class="na">min=</span><span class="s">&quot;2013-01-01&quot;</span> <span class="na">max=</span><span class="s">&quot;2013-12-31&quot;</span><span class="nt">/&gt;</span>
+<span class="lineno"> 9</span> <span class="nt">&lt;/p&gt;</span>
+<span class="lineno">10</span> 
+<span class="lineno">11</span> <span class="nt">&lt;p</span> <span class="na">class=</span><span class="s">&quot;field&quot;</span><span class="nt">&gt;</span>
+<span class="lineno">12</span>     <span class="nt">&lt;label</span> <span class="na">for=</span><span class="s">&quot;date-month&quot;</span><span class="nt">&gt;</span>Pick a month<span class="nt">&lt;/label&gt;</span>
+<span class="lineno">13</span>     <span class="nt">&lt;input</span> <span class="na">name=</span><span class="s">&quot;date-month&quot;</span> <span class="na">type=</span><span class="s">&quot;month&quot;</span><span class="nt">/&gt;</span>
+<span class="lineno">14</span> <span class="nt">&lt;/p&gt;</span>
+<span class="lineno">15</span> 
+<span class="lineno">16</span> <span class="nt">&lt;p</span> <span class="na">class=</span><span class="s">&quot;field&quot;</span><span class="nt">&gt;</span>
+<span class="lineno">17</span>     <span class="nt">&lt;label</span> <span class="na">for=</span><span class="s">&quot;date-week&quot;</span><span class="nt">&gt;</span>Pick a week<span class="nt">&lt;/label&gt;</span>
+<span class="lineno">18</span>     <span class="nt">&lt;input</span> <span class="na">name=</span><span class="s">&quot;date-week&quot;</span> <span class="na">type=</span><span class="s">&quot;week&quot;</span><span class="nt">/&gt;</span>
+<span class="lineno">19</span> <span class="nt">&lt;/p&gt;</span>
+<span class="lineno">20</span> 
+<span class="lineno">21</span> <span class="nt">&lt;p</span> <span class="na">class=</span><span class="s">&quot;field&quot;</span><span class="nt">&gt;</span>
+<span class="lineno">22</span>     <span class="nt">&lt;label</span> <span class="na">for=</span><span class="s">&quot;date-time&quot;</span><span class="nt">&gt;</span>Pick a time<span class="nt">&lt;/label&gt;</span>
+<span class="lineno">23</span>     <span class="nt">&lt;input</span> <span class="na">name=</span><span class="s">&quot;date-time&quot;</span> <span class="na">type=</span><span class="s">&quot;time&quot;</span><span class="nt">/&gt;</span>
+<span class="lineno">24</span> <span class="nt">&lt;/p&gt;</span></code></pre></div>
+
+        <div class="xx-pattern-description"></div>
+
+    </details>
+
+    <div class="xx-pattern-preview">
+        <p class="field">
+    <label for="date">Pick a date</label>
+    <input name="date" type="date"/>
+</p>
+
+<p class="field">
+    <label for="date-ranged">Pick a date in 2013</label>
+    <input name="date-ranged" type="date" min="2013-01-01" max="2013-12-31"/>
+</p>
+
+<p class="field">
+    <label for="date-month">Pick a month</label>
+    <input name="date-month" type="month"/>
+</p>
+
+<p class="field">
+    <label for="date-week">Pick a week</label>
+    <input name="date-week" type="week"/>
+</p>
+
+<p class="field">
+    <label for="date-time">Pick a time</label>
+    <input name="date-time" type="time"/>
+</p>
+
+    </div>
+
+</div>
+
+
+
+<div class="xx-pattern" id="form-input-email">
+
+    <details class="xx-pattern-details">
+
+        <summary class="xx-pattern-name">form-input-email</summary>
+
+        <div class="highlight"><pre><code class="language-html" data-lang="html"><span class="lineno">1</span> <span class="nt">&lt;p</span> <span class="na">class=</span><span class="s">&quot;field&quot;</span><span class="nt">&gt;</span>
+<span class="lineno">2</span>     <span class="nt">&lt;label</span> <span class="na">for=</span><span class="s">&quot;email&quot;</span><span class="nt">&gt;</span>Email address <span class="nt">&lt;abbr</span> <span class="na">title=</span><span class="s">&quot;Required&quot;</span><span class="nt">&gt;</span>*<span class="nt">&lt;/abbr&gt;&lt;/label&gt;</span>
+<span class="lineno">3</span>     <span class="nt">&lt;input</span> <span class="na">id=</span><span class="s">&quot;email&quot;</span> <span class="na">type=</span><span class="s">&quot;email&quot;</span> <span class="na">placeholder=</span><span class="s">&quot;you@example.com&quot;</span> <span class="na">required</span><span class="nt">/&gt;</span>
+<span class="lineno">4</span>     <span class="nt">&lt;small</span> <span class="na">class=</span><span class="s">&quot;note&quot;</span><span class="nt">&gt;</span>Note about this field<span class="nt">&lt;/small&gt;</span>
+<span class="lineno">5</span> <span class="nt">&lt;/p&gt;</span></code></pre></div>
+
+        <div class="xx-pattern-description"></div>
+
+    </details>
+
+    <div class="xx-pattern-preview">
+        <p class="field">
+    <label for="email">Email address <abbr title="Required">*</abbr></label>
+    <input id="email" type="email" placeholder="you@example.com" required/>
+    <small class="note">Note about this field</small>
+</p>
+
+    </div>
+
+</div>
+
+
+
+<div class="xx-pattern" id="form-input-number">
+
+    <details class="xx-pattern-details">
+
+        <summary class="xx-pattern-name">form-input-number</summary>
+
+        <div class="highlight"><pre><code class="language-html" data-lang="html"><span class="lineno">1</span> <span class="nt">&lt;p</span> <span class="na">class=</span><span class="s">&quot;field&quot;</span><span class="nt">&gt;</span>
+<span class="lineno">2</span>     <span class="nt">&lt;label</span> <span class="na">for=</span><span class="s">&quot;number&quot;</span><span class="nt">&gt;</span>Pick a number<span class="nt">&lt;/label&gt;</span>
+<span class="lineno">3</span>     <span class="nt">&lt;input</span> <span class="na">name=</span><span class="s">&quot;number&quot;</span> <span class="na">type=</span><span class="s">&quot;number&quot;</span><span class="nt">/&gt;</span>
+<span class="lineno">4</span> <span class="nt">&lt;/p&gt;</span>
+<span class="lineno">5</span> 
+<span class="lineno">6</span> <span class="nt">&lt;p</span> <span class="na">class=</span><span class="s">&quot;field&quot;</span><span class="nt">&gt;</span>
+<span class="lineno">7</span>     <span class="nt">&lt;label</span> <span class="na">for=</span><span class="s">&quot;number-ranged&quot;</span><span class="nt">&gt;</span>Rate your meal between 0 and 5<span class="nt">&lt;/label&gt;</span>
+<span class="lineno">8</span>     <span class="nt">&lt;input</span> <span class="na">name=</span><span class="s">&quot;number-ranged&quot;</span> <span class="na">type=</span><span class="s">&quot;number&quot;</span> <span class="na">min=</span><span class="s">&quot;0&quot;</span> <span class="na">max=</span><span class="s">&quot;5&quot;</span> <span class="na">step=</span><span class="s">&quot;0.5&quot;</span><span class="nt">/&gt;</span>
+<span class="lineno">9</span> <span class="nt">&lt;/p&gt;</span></code></pre></div>
+
+        <div class="xx-pattern-description"></div>
+
+    </details>
+
+    <div class="xx-pattern-preview">
+        <p class="field">
+    <label for="number">Pick a number</label>
+    <input name="number" type="number"/>
+</p>
+
+<p class="field">
+    <label for="number-ranged">Rate your meal between 0 and 5</label>
+    <input name="number-ranged" type="number" min="0" max="5" step="0.5"/>
+</p>
+
+    </div>
+
+</div>
+
+
+
+<div class="xx-pattern" id="form-input-password">
+
+    <details class="xx-pattern-details">
+
+        <summary class="xx-pattern-name">form-input-password</summary>
+
+        <div class="highlight"><pre><code class="language-html" data-lang="html"><span class="lineno">1</span> <span class="nt">&lt;p</span> <span class="na">class=</span><span class="s">&quot;field&quot;</span><span class="nt">&gt;</span>
+<span class="lineno">2</span>     <span class="nt">&lt;label</span> <span class="na">for=</span><span class="s">&quot;password&quot;</span><span class="nt">&gt;</span>Password <span class="nt">&lt;abbr</span> <span class="na">title=</span><span class="s">&quot;Required&quot;</span><span class="nt">&gt;</span>*<span class="nt">&lt;/abbr&gt;&lt;/label&gt;</span>
+<span class="lineno">3</span>     <span class="nt">&lt;input</span> <span class="na">id=</span><span class="s">&quot;password&quot;</span> <span class="na">type=</span><span class="s">&quot;password&quot;</span> <span class="na">required</span><span class="nt">/&gt;</span>
+<span class="lineno">4</span>     <span class="nt">&lt;small</span> <span class="na">class=</span><span class="s">&quot;note&quot;</span><span class="nt">&gt;</span>Note about this field<span class="nt">&lt;/small&gt;</span>
+<span class="lineno">5</span> <span class="nt">&lt;/p&gt;</span></code></pre></div>
+
+        <div class="xx-pattern-description"></div>
+
+    </details>
+
+    <div class="xx-pattern-preview">
+        <p class="field">
+    <label for="password">Password <abbr title="Required">*</abbr></label>
+    <input id="password" type="password" required/>
+    <small class="note">Note about this field</small>
+</p>
+
+    </div>
+
+</div>
+
+
+
+<div class="xx-pattern" id="form-input-range">
+
+    <details class="xx-pattern-details">
+
+        <summary class="xx-pattern-name">form-input-range</summary>
+
+        <div class="highlight"><pre><code class="language-html" data-lang="html"><span class="lineno">1</span> <span class="nt">&lt;p</span> <span class="na">class=</span><span class="s">&quot;field&quot;</span><span class="nt">&gt;</span>
+<span class="lineno">2</span>     <span class="nt">&lt;label</span> <span class="na">for=</span><span class="s">&quot;number-range&quot;</span><span class="nt">&gt;</span>Pick a number<span class="nt">&lt;/label&gt;</span>
+<span class="lineno">3</span>     <span class="nt">&lt;input</span> <span class="na">name=</span><span class="s">&quot;number-range&quot;</span> <span class="na">type=</span><span class="s">&quot;range&quot;</span> <span class="na">min=</span><span class="s">&quot;1&quot;</span> <span class="na">max=</span><span class="s">&quot;100&quot;</span> <span class="na">value=</span><span class="s">&quot;0&quot;</span><span class="nt">/&gt;</span>
+<span class="lineno">4</span> <span class="nt">&lt;/p&gt;</span></code></pre></div>
+
+        <div class="xx-pattern-description"></div>
+
+    </details>
+
+    <div class="xx-pattern-preview">
+        <p class="field">
+    <label for="number-range">Pick a number</label>
+    <input name="number-range" type="range" min="1" max="100" value="0"/>
+</p>
+
+    </div>
+
+</div>
+
+
+
+<div class="xx-pattern" id="form-input-search">
+
+    <details class="xx-pattern-details">
+
+        <summary class="xx-pattern-name">form-input-search</summary>
+
+        <div class="highlight"><pre><code class="language-html" data-lang="html"><span class="lineno">1</span> <span class="nt">&lt;p</span> <span class="na">class=</span><span class="s">&quot;field&quot;</span><span class="nt">&gt;</span>
+<span class="lineno">2</span>     <span class="nt">&lt;input</span> <span class="na">type=</span><span class="s">&quot;search&quot;</span> <span class="na">placeholder=</span><span class="s">&quot;Search&quot;</span> <span class="na">autocomplete=</span><span class="s">&quot;on&quot;</span> <span class="nt">/&gt;&lt;input</span> <span class="na">type=</span><span class="s">&quot;submit&quot;</span> <span class="na">value=</span><span class="s">&quot;Go&quot;</span> <span class="nt">/&gt;</span>
+<span class="lineno">3</span> <span class="nt">&lt;/p&gt;</span></code></pre></div>
+
+        <div class="xx-pattern-description"></div>
+
+    </details>
+
+    <div class="xx-pattern-preview">
+        <p class="field">
+    <input type="search" placeholder="Search" autocomplete="on" /><input type="submit" value="Go" />
+</p>
+
+    </div>
+
+</div>
+
+
+
+<div class="xx-pattern" id="form-input-tel">
+
+    <details class="xx-pattern-details">
+
+        <summary class="xx-pattern-name">form-input-tel</summary>
+
+        <div class="highlight"><pre><code class="language-html" data-lang="html"><span class="lineno">1</span> <span class="nt">&lt;p</span> <span class="na">class=</span><span class="s">&quot;field&quot;</span><span class="nt">&gt;</span>
+<span class="lineno">2</span>     <span class="nt">&lt;label</span> <span class="na">for=</span><span class="s">&quot;phone-number&quot;</span><span class="nt">&gt;</span>Phone number<span class="nt">&lt;/label&gt;</span>
+<span class="lineno">3</span>     <span class="nt">&lt;input</span> <span class="na">id=</span><span class="s">&quot;phone-number&quot;</span> <span class="na">type=</span><span class="s">&quot;tel&quot;</span> <span class="nt">/&gt;</span>
+<span class="lineno">4</span>     <span class="nt">&lt;small</span> <span class="na">class=</span><span class="s">&quot;note&quot;</span><span class="nt">&gt;</span>Note about this field<span class="nt">&lt;/small&gt;</span>
+<span class="lineno">5</span> <span class="nt">&lt;/p&gt;</span></code></pre></div>
+
+        <div class="xx-pattern-description"></div>
+
+    </details>
+
+    <div class="xx-pattern-preview">
+        <p class="field">
+    <label for="phone-number">Phone number</label>
+    <input id="phone-number" type="tel" />
+    <small class="note">Note about this field</small>
+</p>
+
+    </div>
+
+</div>
+
+
+
+<div class="xx-pattern" id="form-input-text-disabled">
+
+    <details class="xx-pattern-details">
+
+        <summary class="xx-pattern-name">form-input-text-disabled</summary>
+
+        <div class="highlight"><pre><code class="language-html" data-lang="html"><span class="lineno">1</span> <span class="nt">&lt;p&gt;</span>
+<span class="lineno">2</span>     <span class="nt">&lt;label</span> <span class="na">for=</span><span class="s">&quot;text-disabled&quot;</span><span class="nt">&gt;</span>Disabled text<span class="nt">&lt;/label&gt;</span>
+<span class="lineno">3</span>     <span class="nt">&lt;input</span> <span class="na">id=</span><span class="s">&quot;text-disabled&quot;</span> <span class="na">type=</span><span class="s">&quot;text&quot;</span> <span class="na">disabled</span><span class="nt">/&gt;</span>
+<span class="lineno">4</span>     <span class="nt">&lt;small</span> <span class="na">class=</span><span class="s">&quot;note&quot;</span><span class="nt">&gt;</span>Note about this field<span class="nt">&lt;/small&gt;</span>
+<span class="lineno">5</span> <span class="nt">&lt;/p&gt;</span></code></pre></div>
+
+        <div class="xx-pattern-description"></div>
+
+    </details>
+
+    <div class="xx-pattern-preview">
+        <p>
+    <label for="text-disabled">Disabled text</label>
+    <input id="text-disabled" type="text" disabled/>
+    <small class="note">Note about this field</small>
+</p>
+
+    </div>
+
+</div>
+
+
+
+<div class="xx-pattern" id="form-input-text">
+
+    <details class="xx-pattern-details">
+
+        <summary class="xx-pattern-name">form-input-text</summary>
+
+        <div class="highlight"><pre><code class="language-html" data-lang="html"><span class="lineno">1</span> <span class="nt">&lt;p</span> <span class="na">class=</span><span class="s">&quot;field&quot;</span><span class="nt">&gt;</span>
+<span class="lineno">2</span>     <span class="nt">&lt;label</span> <span class="na">for=</span><span class="s">&quot;text&quot;</span><span class="nt">&gt;</span>Text <span class="nt">&lt;abbr</span> <span class="na">title=</span><span class="s">&quot;Required&quot;</span><span class="nt">&gt;</span>*<span class="nt">&lt;/abbr&gt;&lt;/label&gt;</span>
+<span class="lineno">3</span>     <span class="nt">&lt;input</span> <span class="na">id=</span><span class="s">&quot;text&quot;</span> <span class="na">type=</span><span class="s">&quot;text&quot;</span> <span class="na">required</span><span class="nt">/&gt;</span>
+<span class="lineno">4</span>     <span class="nt">&lt;small</span> <span class="na">class=</span><span class="s">&quot;note&quot;</span><span class="nt">&gt;</span>Note about this field<span class="nt">&lt;/small&gt;</span>
+<span class="lineno">5</span> <span class="nt">&lt;/p&gt;</span></code></pre></div>
+
+        <div class="xx-pattern-description"></div>
+
+    </details>
+
+    <div class="xx-pattern-preview">
+        <p class="field">
+    <label for="text">Text <abbr title="Required">*</abbr></label>
+    <input id="text" type="text" required/>
+    <small class="note">Note about this field</small>
+</p>
+
+    </div>
+
+</div>
+
+
+
+<div class="xx-pattern" id="form-input-url">
+
+    <details class="xx-pattern-details">
+
+        <summary class="xx-pattern-name">form-input-url</summary>
+
+        <div class="highlight"><pre><code class="language-html" data-lang="html"><span class="lineno">1</span> <span class="nt">&lt;p</span> <span class="na">class=</span><span class="s">&quot;field&quot;</span><span class="nt">&gt;</span>
+<span class="lineno">2</span>     <span class="nt">&lt;label</span> <span class="na">for=</span><span class="s">&quot;url&quot;</span><span class="nt">&gt;</span>Web address <span class="nt">&lt;abbr</span> <span class="na">title=</span><span class="s">&quot;Required&quot;</span><span class="nt">&gt;</span>*<span class="nt">&lt;/abbr&gt;&lt;/label&gt;</span>
+<span class="lineno">3</span>     <span class="nt">&lt;input</span> <span class="na">id=</span><span class="s">&quot;url&quot;</span> <span class="na">type=</span><span class="s">&quot;url&quot;</span> <span class="na">placeholder=</span><span class="s">&quot;http://example.com&quot;</span> <span class="na">required</span><span class="nt">/&gt;</span>
+<span class="lineno">4</span>     <span class="nt">&lt;small</span> <span class="na">class=</span><span class="s">&quot;note&quot;</span><span class="nt">&gt;</span>Note about this field<span class="nt">&lt;/small&gt;</span>
+<span class="lineno">5</span> <span class="nt">&lt;/p&gt;</span></code></pre></div>
+
+        <div class="xx-pattern-description"></div>
+
+    </details>
+
+    <div class="xx-pattern-preview">
+        <p class="field">
+    <label for="url">Web address <abbr title="Required">*</abbr></label>
+    <input id="url" type="url" placeholder="http://example.com" required/>
+    <small class="note">Note about this field</small>
+</p>
+
+    </div>
+
+</div>
+
+
+
+<div class="xx-pattern" id="form-inputs-combined">
+
+    <details class="xx-pattern-details">
+
+        <summary class="xx-pattern-name">form-inputs-combined</summary>
+
+        <div class="highlight"><pre><code class="language-html" data-lang="html"><span class="lineno">1</span> <span class="nt">&lt;p&gt;</span>
+<span class="lineno">2</span> 	<span class="nt">&lt;label</span> <span class="na">for=</span><span class="s">&quot;combined&quot;</span><span class="nt">&gt;</span>Combined Input<span class="nt">&lt;/label&gt;</span>
+<span class="lineno">3</span> 	<span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">&quot;combined&quot;</span><span class="nt">&gt;</span>
+<span class="lineno">4</span> 		<span class="nt">&lt;input</span> <span class="na">id=</span><span class="s">&quot;combined&quot;</span> <span class="na">class=</span><span class="s">&quot;input&quot;</span> <span class="na">type=</span><span class="s">&quot;text&quot;</span><span class="nt">/&gt;</span><span class="c">&lt;!--</span>
+<span class="lineno">5</span> <span class="c">	 --&gt;</span><span class="nt">&lt;input</span> <span class="na">type=</span><span class="s">&quot;button&quot;</span> <span class="na">class=</span><span class="s">&quot;button&quot;</span> <span class="na">value=</span><span class="s">&quot;Input Button&quot;</span><span class="nt">/&gt;</span>
+<span class="lineno">6</span> 	<span class="nt">&lt;/span&gt;</span>
+<span class="lineno">7</span> <span class="nt">&lt;/p&gt;</span></code></pre></div>
+
+        <div class="xx-pattern-description"></div>
+
+    </details>
+
+    <div class="xx-pattern-preview">
+        <p>
+	<label for="combined">Combined Input</label>
+	<span class="combined">
+		<input id="combined" class="input" type="text"/><!--
+	 --><input type="button" class="button" value="Input Button"/>
+	</span>
+</p>
+
+    </div>
+
+</div>
+
+
+
+<div class="xx-pattern" id="form-options.checkboxes-captions">
+
+    <details class="xx-pattern-details">
+
+        <summary class="xx-pattern-name">form-options.checkboxes-captions</summary>
+
+        <div class="highlight"><pre><code class="language-html" data-lang="html"><span class="lineno"> 1</span> <span class="nt">&lt;form&gt;</span>
+<span class="lineno"> 2</span>     <span class="nt">&lt;fieldset&gt;</span>
+<span class="lineno"> 3</span>     	<span class="nt">&lt;legend&gt;</span>Checkbox <span class="nt">&lt;abbr</span> <span class="na">title=</span><span class="s">&quot;Required&quot;</span><span class="nt">&gt;</span>*<span class="nt">&lt;/abbr&gt;&lt;/legend&gt;</span>
+<span class="lineno"> 4</span>     	<span class="nt">&lt;ul</span> <span class="na">class=</span><span class="s">&quot;list-form&quot;</span><span class="nt">&gt;</span>
+<span class="lineno"> 5</span>     		<span class="nt">&lt;li&gt;</span>
+<span class="lineno"> 6</span>     			<span class="nt">&lt;label</span> <span class="na">for=</span><span class="s">&quot;checkbox1&quot;</span> <span class="na">class=</span><span class="s">&quot;check&quot;</span><span class="nt">&gt;&lt;input</span> <span class="na">id=</span><span class="s">&quot;checkbox1&quot;</span> <span class="na">name=</span><span class="s">&quot;checkbox&quot;</span> <span class="na">type=</span><span class="s">&quot;checkbox&quot;</span> <span class="na">checked=</span><span class="s">&quot;checked&quot;</span><span class="nt">/&gt;</span>Choice A<span class="nt">&lt;/label&gt;</span>
+<span class="lineno"> 7</span>     			<span class="nt">&lt;small</span> <span class="na">class=</span><span class="s">&quot;note&quot;</span><span class="nt">&gt;</span>Note about these option<span class="nt">&lt;/small&gt;</span>
+<span class="lineno"> 8</span>     		<span class="nt">&lt;/li&gt;</span>
+<span class="lineno"> 9</span>     		<span class="nt">&lt;li&gt;</span>
+<span class="lineno">10</span>     			<span class="nt">&lt;label</span> <span class="na">for=</span><span class="s">&quot;checkbox2&quot;</span> <span class="na">class=</span><span class="s">&quot;check&quot;</span><span class="nt">&gt;&lt;input</span> <span class="na">id=</span><span class="s">&quot;checkbox2&quot;</span> <span class="na">name=</span><span class="s">&quot;checkbox&quot;</span> <span class="na">type=</span><span class="s">&quot;checkbox&quot;</span><span class="nt">/&gt;</span>Choice B<span class="nt">&lt;/label&gt;</span>
+<span class="lineno">11</span>     			<span class="nt">&lt;small</span> <span class="na">class=</span><span class="s">&quot;note&quot;</span><span class="nt">&gt;</span>Note about these option<span class="nt">&lt;/small&gt;</span>
+<span class="lineno">12</span>     		<span class="nt">&lt;/li&gt;</span>
+<span class="lineno">13</span>     		<span class="nt">&lt;li&gt;</span>
+<span class="lineno">14</span>     			<span class="nt">&lt;label</span> <span class="na">for=</span><span class="s">&quot;checkbox3&quot;</span> <span class="na">class=</span><span class="s">&quot;check&quot;</span><span class="nt">&gt;&lt;input</span> <span class="na">id=</span><span class="s">&quot;checkbox3&quot;</span> <span class="na">name=</span><span class="s">&quot;checkbox&quot;</span> <span class="na">type=</span><span class="s">&quot;checkbox&quot;</span><span class="nt">/&gt;</span>Choice C<span class="nt">&lt;/label&gt;</span>
+<span class="lineno">15</span>     			<span class="nt">&lt;small</span> <span class="na">class=</span><span class="s">&quot;note&quot;</span><span class="nt">&gt;</span>Note about these option<span class="nt">&lt;/small&gt;</span>
+<span class="lineno">16</span>     		<span class="nt">&lt;/li&gt;</span>
+<span class="lineno">17</span>     	<span class="nt">&lt;/ul&gt;</span>
+<span class="lineno">18</span>     <span class="nt">&lt;/fieldset&gt;</span>
+<span class="lineno">19</span> <span class="nt">&lt;/form&gt;</span></code></pre></div>
+
+        <div class="xx-pattern-description"></div>
+
+    </details>
+
+    <div class="xx-pattern-preview">
+        <form>
+    <fieldset>
+    	<legend>Checkbox <abbr title="Required">*</abbr></legend>
+    	<ul class="list-form">
+    		<li>
+    			<label for="checkbox1" class="check"><input id="checkbox1" name="checkbox" type="checkbox" checked="checked"/>Choice A</label>
+    			<small class="note">Note about these option</small>
+    		</li>
+    		<li>
+    			<label for="checkbox2" class="check"><input id="checkbox2" name="checkbox" type="checkbox"/>Choice B</label>
+    			<small class="note">Note about these option</small>
+    		</li>
+    		<li>
+    			<label for="checkbox3" class="check"><input id="checkbox3" name="checkbox" type="checkbox"/>Choice C</label>
+    			<small class="note">Note about these option</small>
+    		</li>
+    	</ul>
+    </fieldset>
+</form>
+
+    </div>
+
+</div>
+
+
+
+<div class="xx-pattern" id="form-options.checkboxes">
+
+    <details class="xx-pattern-details">
+
+        <summary class="xx-pattern-name">form-options.checkboxes</summary>
+
+        <div class="highlight"><pre><code class="language-html" data-lang="html"><span class="lineno"> 1</span> <span class="nt">&lt;fieldset&gt;</span>
+<span class="lineno"> 2</span> 	<span class="nt">&lt;legend&gt;</span>Checkbox <span class="nt">&lt;abbr</span> <span class="na">title=</span><span class="s">&quot;Required&quot;</span><span class="nt">&gt;</span>*<span class="nt">&lt;/abbr&gt;&lt;/legend&gt;</span>
+<span class="lineno"> 3</span> 	<span class="nt">&lt;ul</span> <span class="na">class=</span><span class="s">&quot;list-form&quot;</span><span class="nt">&gt;</span>
+<span class="lineno"> 4</span> 		<span class="nt">&lt;li&gt;</span>
+<span class="lineno"> 5</span> 			<span class="nt">&lt;label</span> <span class="na">for=</span><span class="s">&quot;checkbox1&quot;</span> <span class="na">class=</span><span class="s">&quot;check&quot;</span><span class="nt">&gt;&lt;input</span> <span class="na">id=</span><span class="s">&quot;checkbox1&quot;</span> <span class="na">name=</span><span class="s">&quot;checkbox&quot;</span> <span class="na">type=</span><span class="s">&quot;checkbox&quot;</span> <span class="na">checked=</span><span class="s">&quot;checked&quot;</span><span class="nt">/&gt;</span>Choice A<span class="nt">&lt;/label&gt;</span>
+<span class="lineno"> 6</span> 		<span class="nt">&lt;/li&gt;</span>
+<span class="lineno"> 7</span> 		<span class="nt">&lt;li&gt;</span>
+<span class="lineno"> 8</span> 			<span class="nt">&lt;label</span> <span class="na">for=</span><span class="s">&quot;checkbox2&quot;</span> <span class="na">class=</span><span class="s">&quot;check&quot;</span><span class="nt">&gt;&lt;input</span> <span class="na">id=</span><span class="s">&quot;checkbox2&quot;</span> <span class="na">name=</span><span class="s">&quot;checkbox&quot;</span> <span class="na">type=</span><span class="s">&quot;checkbox&quot;</span><span class="nt">/&gt;</span>Choice B<span class="nt">&lt;/label&gt;</span>
+<span class="lineno"> 9</span> 		<span class="nt">&lt;/li&gt;</span>
+<span class="lineno">10</span> 		<span class="nt">&lt;li&gt;</span>
+<span class="lineno">11</span> 			<span class="nt">&lt;label</span> <span class="na">for=</span><span class="s">&quot;checkbox3&quot;</span> <span class="na">class=</span><span class="s">&quot;check&quot;</span><span class="nt">&gt;&lt;input</span> <span class="na">id=</span><span class="s">&quot;checkbox3&quot;</span> <span class="na">name=</span><span class="s">&quot;checkbox&quot;</span> <span class="na">type=</span><span class="s">&quot;checkbox&quot;</span><span class="nt">/&gt;</span>Choice C<span class="nt">&lt;/label&gt;</span>
+<span class="lineno">12</span> 		<span class="nt">&lt;/li&gt;</span>
+<span class="lineno">13</span> 	<span class="nt">&lt;/ul&gt;</span>
+<span class="lineno">14</span> 	<span class="nt">&lt;small</span> <span class="na">class=</span><span class="s">&quot;note&quot;</span><span class="nt">&gt;</span>Note about these options<span class="nt">&lt;/small&gt;</span>
+<span class="lineno">15</span> <span class="nt">&lt;/fieldset&gt;</span></code></pre></div>
+
+        <div class="xx-pattern-description"></div>
+
+    </details>
+
+    <div class="xx-pattern-preview">
+        <fieldset>
+	<legend>Checkbox <abbr title="Required">*</abbr></legend>
+	<ul class="list-form">
+		<li>
+			<label for="checkbox1" class="check"><input id="checkbox1" name="checkbox" type="checkbox" checked="checked"/>Choice A</label>
+		</li>
+		<li>
+			<label for="checkbox2" class="check"><input id="checkbox2" name="checkbox" type="checkbox"/>Choice B</label>
+		</li>
+		<li>
+			<label for="checkbox3" class="check"><input id="checkbox3" name="checkbox" type="checkbox"/>Choice C</label>
+		</li>
+	</ul>
+	<small class="note">Note about these options</small>
+</fieldset>
+
+    </div>
+
+</div>
+
+
+
+<div class="xx-pattern" id="form-options.radios">
+
+    <details class="xx-pattern-details">
+
+        <summary class="xx-pattern-name">form-options.radios</summary>
+
+        <div class="highlight"><pre><code class="language-html" data-lang="html"><span class="lineno"> 1</span> <span class="nt">&lt;form&gt;</span>
+<span class="lineno"> 2</span>     <span class="nt">&lt;fieldset&gt;</span>
+<span class="lineno"> 3</span>     	<span class="nt">&lt;legend&gt;</span>Radio <span class="nt">&lt;abbr</span> <span class="na">title=</span><span class="s">&quot;Required&quot;</span><span class="nt">&gt;</span>*<span class="nt">&lt;/abbr&gt;&lt;/legend&gt;</span>
+<span class="lineno"> 4</span>     	<span class="nt">&lt;ul</span> <span class="na">class=</span><span class="s">&quot;list-form&quot;</span><span class="nt">&gt;</span>
+<span class="lineno"> 5</span>     		<span class="nt">&lt;li&gt;</span>
+<span class="lineno"> 6</span>     			<span class="nt">&lt;label</span> <span class="na">for=</span><span class="s">&quot;radio1&quot;</span> <span class="na">class=</span><span class="s">&quot;check&quot;</span><span class="nt">&gt;&lt;input</span> <span class="na">id=</span><span class="s">&quot;radio1&quot;</span> <span class="na">name=</span><span class="s">&quot;radio&quot;</span> <span class="na">type=</span><span class="s">&quot;radio&quot;</span> <span class="na">class=</span><span class="s">&quot;radio&quot;</span> <span class="na">checked=</span><span class="s">&quot;checked&quot;</span><span class="nt">/&gt;</span>Option 1<span class="nt">&lt;/label&gt;</span>
+<span class="lineno"> 7</span>     		<span class="nt">&lt;/li&gt;</span>
+<span class="lineno"> 8</span>     		<span class="nt">&lt;li&gt;</span>
+<span class="lineno"> 9</span>     			<span class="nt">&lt;label</span> <span class="na">for=</span><span class="s">&quot;radio2&quot;</span> <span class="na">class=</span><span class="s">&quot;check&quot;</span><span class="nt">&gt;&lt;input</span> <span class="na">id=</span><span class="s">&quot;radio2&quot;</span> <span class="na">name=</span><span class="s">&quot;radio&quot;</span> <span class="na">type=</span><span class="s">&quot;radio&quot;</span> <span class="na">class=</span><span class="s">&quot;radio&quot;</span><span class="nt">/&gt;</span>Option 2<span class="nt">&lt;/label&gt;</span>
+<span class="lineno">10</span>     		<span class="nt">&lt;/li&gt;</span>
+<span class="lineno">11</span>     		<span class="nt">&lt;li&gt;</span>
+<span class="lineno">12</span>     			<span class="nt">&lt;label</span> <span class="na">for=</span><span class="s">&quot;radio3&quot;</span> <span class="na">class=</span><span class="s">&quot;check&quot;</span><span class="nt">&gt;&lt;input</span> <span class="na">id=</span><span class="s">&quot;radio3&quot;</span> <span class="na">name=</span><span class="s">&quot;radio&quot;</span> <span class="na">type=</span><span class="s">&quot;radio&quot;</span> <span class="na">class=</span><span class="s">&quot;radio&quot;</span><span class="nt">/&gt;</span>Option 3<span class="nt">&lt;/label&gt;</span>
+<span class="lineno">13</span>     		<span class="nt">&lt;/li&gt;</span>
+<span class="lineno">14</span>     	<span class="nt">&lt;/ul&gt;</span>
+<span class="lineno">15</span>     	<span class="nt">&lt;small</span> <span class="na">class=</span><span class="s">&quot;note&quot;</span><span class="nt">&gt;</span>Note about these options<span class="nt">&lt;/small&gt;</span>
+<span class="lineno">16</span>     <span class="nt">&lt;/fieldset&gt;</span>
+<span class="lineno">17</span> <span class="nt">&lt;/form&gt;</span></code></pre></div>
+
+        <div class="xx-pattern-description"></div>
+
+    </details>
+
+    <div class="xx-pattern-preview">
+        <form>
+    <fieldset>
+    	<legend>Radio <abbr title="Required">*</abbr></legend>
+    	<ul class="list-form">
+    		<li>
+    			<label for="radio1" class="check"><input id="radio1" name="radio" type="radio" class="radio" checked="checked"/>Option 1</label>
+    		</li>
+    		<li>
+    			<label for="radio2" class="check"><input id="radio2" name="radio" type="radio" class="radio"/>Option 2</label>
+    		</li>
+    		<li>
+    			<label for="radio3" class="check"><input id="radio3" name="radio" type="radio" class="radio"/>Option 3</label>
+    		</li>
+    	</ul>
+    	<small class="note">Note about these options</small>
+    </fieldset>
+</form>
+
+    </div>
+
+</div>
+
+
+
+<div class="xx-pattern" id="form-search-global">
+
+    <details class="xx-pattern-details">
+
+        <summary class="xx-pattern-name">form-search-global</summary>
+
+        <div class="highlight"><pre><code class="language-html" data-lang="html"><span class="lineno">1</span> <span class="nt">&lt;form</span> <span class="na">class=</span><span class="s">&quot;search-global&quot;</span> <span class="na">id=</span><span class="s">&quot;search-global&quot;</span><span class="nt">&gt;</span>
+<span class="lineno">2</span>     <span class="nt">&lt;input</span> <span class="na">type=</span><span class="s">&quot;search&quot;</span> <span class="na">id=</span><span class="s">&quot;search-global-input&quot;</span> <span class="na">class=</span><span class="s">&quot;search-global-input&quot;</span> <span class="na">autocomplete=</span><span class="s">&quot;off&quot;</span> <span class="na">placeholder=</span><span class="s">&quot;Search&quot;</span> <span class="na">name=</span><span class="s">&quot;search-global&quot;</span> <span class="nt">/&gt;</span>
+<span class="lineno">3</span>     <span class="c">&lt;!-- consider applying autofocus=&quot;autofocus&quot; to input --&gt;</span>
+<span class="lineno">4</span>     <span class="nt">&lt;button</span> <span class="na">class=</span><span class="s">&quot;search-global-submit&quot;</span> <span class="na">id=</span><span class="s">&quot;search-global-submit&quot;</span> <span class="na">value=</span><span class="s">&quot;Search&quot;</span> <span class="na">type=</span><span class="s">&quot;submit&quot;</span> <span class="na">name=</span><span class="s">&quot;search-global&quot;</span><span class="nt">&gt;</span>Search<span class="nt">&lt;/button&gt;</span>
+<span class="lineno">5</span> <span class="nt">&lt;/form&gt;</span></code></pre></div>
+
+        <div class="xx-pattern-description"></div>
+
+    </details>
+
+    <div class="xx-pattern-preview">
+        <form class="search-global" id="search-global">
+    <input type="search" id="search-global-input" class="search-global-input" autocomplete="off" placeholder="Search" name="search-global" />
+    <!-- consider applying autofocus="autofocus" to input -->
+    <button class="search-global-submit" id="search-global-submit" value="Search" type="submit" name="search-global">Search</button>
+</form>
+
+    </div>
+
+</div>
+
+
+
+<div class="xx-pattern" id="form-select-disabled">
+
+    <details class="xx-pattern-details">
+
+        <summary class="xx-pattern-name">form-select-disabled</summary>
+
+        <div class="highlight"><pre><code class="language-html" data-lang="html"><span class="lineno"> 1</span> <span class="nt">&lt;p&gt;</span>
+<span class="lineno"> 2</span>     <span class="nt">&lt;label</span> <span class="na">for=</span><span class="s">&quot;select-disabled&quot;</span><span class="nt">&gt;</span>Disabled select <span class="nt">&lt;abbr</span> <span class="na">title=</span><span class="s">&quot;Required&quot;</span><span class="nt">&gt;</span>*<span class="nt">&lt;/abbr&gt;&lt;/label&gt;</span>
+<span class="lineno"> 3</span>     <span class="nt">&lt;select</span> <span class="na">id=</span><span class="s">&quot;select-disabled&quot;</span> <span class="na">disabled</span><span class="nt">&gt;</span>
+<span class="lineno"> 4</span>         <span class="nt">&lt;optgroup</span> <span class="na">label=</span><span class="s">&quot;Option Group A&quot;</span><span class="nt">&gt;</span>
+<span class="lineno"> 5</span>             <span class="nt">&lt;option&gt;</span>Option One<span class="nt">&lt;/option&gt;</span>
+<span class="lineno"> 6</span>             <span class="nt">&lt;option&gt;</span>Option Two<span class="nt">&lt;/option&gt;</span>
+<span class="lineno"> 7</span>             <span class="nt">&lt;option&gt;</span>Option Three<span class="nt">&lt;/option&gt;</span>
+<span class="lineno"> 8</span>         <span class="nt">&lt;/optgroup&gt;</span>
+<span class="lineno"> 9</span>         <span class="nt">&lt;optgroup</span> <span class="na">label=</span><span class="s">&quot;Option Group B&quot;</span><span class="nt">&gt;</span>
+<span class="lineno">10</span>             <span class="nt">&lt;option&gt;</span>Option Four<span class="nt">&lt;/option&gt;</span>
+<span class="lineno">11</span>             <span class="nt">&lt;option&gt;</span>Option Five<span class="nt">&lt;/option&gt;</span>
+<span class="lineno">12</span>             <span class="nt">&lt;option&gt;</span>Option Six<span class="nt">&lt;/option&gt;</span>
+<span class="lineno">13</span>         <span class="nt">&lt;/optgroup&gt;</span>
+<span class="lineno">14</span>     <span class="nt">&lt;/select&gt;</span>
+<span class="lineno">15</span>     <span class="nt">&lt;small</span> <span class="na">class=</span><span class="s">&quot;note&quot;</span><span class="nt">&gt;</span>Note about this selection<span class="nt">&lt;/small&gt;</span>
+<span class="lineno">16</span> <span class="nt">&lt;/p&gt;</span></code></pre></div>
+
+        <div class="xx-pattern-description"></div>
+
+    </details>
+
+    <div class="xx-pattern-preview">
+        <p>
+    <label for="select-disabled">Disabled select <abbr title="Required">*</abbr></label>
+    <select id="select-disabled" disabled>
+        <optgroup label="Option Group A">
+            <option>Option One</option>
+            <option>Option Two</option>
+            <option>Option Three</option>
+        </optgroup>
+        <optgroup label="Option Group B">
+            <option>Option Four</option>
+            <option>Option Five</option>
+            <option>Option Six</option>
+        </optgroup>
+    </select>
+    <small class="note">Note about this selection</small>
+</p>
+
+    </div>
+
+</div>
+
+
+
+<div class="xx-pattern" id="form-select-multiple-disabled">
+
+    <details class="xx-pattern-details">
+
+        <summary class="xx-pattern-name">form-select-multiple-disabled</summary>
+
+        <div class="highlight"><pre><code class="language-html" data-lang="html"><span class="lineno"> 1</span> <span class="nt">&lt;p&gt;</span>
+<span class="lineno"> 2</span>     <span class="nt">&lt;label</span> <span class="na">for=</span><span class="s">&quot;select-multiple-disabled&quot;</span><span class="nt">&gt;</span>Disabled multiple select <span class="nt">&lt;abbr</span> <span class="na">title=</span><span class="s">&quot;Required&quot;</span><span class="nt">&gt;</span>*<span class="nt">&lt;/abbr&gt;&lt;/label&gt;</span>
+<span class="lineno"> 3</span>     <span class="nt">&lt;select</span> <span class="na">id=</span><span class="s">&quot;select-multiple-disabled&quot;</span> <span class="na">multiple</span> <span class="na">disabled</span><span class="nt">&gt;</span>
+<span class="lineno"> 4</span>         <span class="nt">&lt;optgroup</span> <span class="na">label=</span><span class="s">&quot;Option Group A&quot;</span><span class="nt">&gt;</span>
+<span class="lineno"> 5</span>             <span class="nt">&lt;option&gt;</span>Option One<span class="nt">&lt;/option&gt;</span>
+<span class="lineno"> 6</span>             <span class="nt">&lt;option&gt;</span>Option Two<span class="nt">&lt;/option&gt;</span>
+<span class="lineno"> 7</span>             <span class="nt">&lt;option&gt;</span>Option Three<span class="nt">&lt;/option&gt;</span>
+<span class="lineno"> 8</span>         <span class="nt">&lt;/optgroup&gt;</span>
+<span class="lineno"> 9</span>         <span class="nt">&lt;optgroup</span> <span class="na">label=</span><span class="s">&quot;Option Group B&quot;</span><span class="nt">&gt;</span>
+<span class="lineno">10</span>             <span class="nt">&lt;option&gt;</span>Option Four<span class="nt">&lt;/option&gt;</span>
+<span class="lineno">11</span>             <span class="nt">&lt;option&gt;</span>Option Five<span class="nt">&lt;/option&gt;</span>
+<span class="lineno">12</span>             <span class="nt">&lt;option&gt;</span>Option Six<span class="nt">&lt;/option&gt;</span>
+<span class="lineno">13</span>         <span class="nt">&lt;/optgroup&gt;</span>
+<span class="lineno">14</span>     <span class="nt">&lt;/select&gt;</span>
+<span class="lineno">15</span>     <span class="nt">&lt;small</span> <span class="na">class=</span><span class="s">&quot;note&quot;</span><span class="nt">&gt;</span>Note about this selection<span class="nt">&lt;/small&gt;</span>
+<span class="lineno">16</span> <span class="nt">&lt;/p&gt;</span></code></pre></div>
+
+        <div class="xx-pattern-description"></div>
+
+    </details>
+
+    <div class="xx-pattern-preview">
+        <p>
+    <label for="select-multiple-disabled">Disabled multiple select <abbr title="Required">*</abbr></label>
+    <select id="select-multiple-disabled" multiple disabled>
+        <optgroup label="Option Group A">
+            <option>Option One</option>
+            <option>Option Two</option>
+            <option>Option Three</option>
+        </optgroup>
+        <optgroup label="Option Group B">
+            <option>Option Four</option>
+            <option>Option Five</option>
+            <option>Option Six</option>
+        </optgroup>
+    </select>
+    <small class="note">Note about this selection</small>
+</p>
+
+    </div>
+
+</div>
+
+
+
+<div class="xx-pattern" id="form-select-multiple">
+
+    <details class="xx-pattern-details">
+
+        <summary class="xx-pattern-name">form-select-multiple</summary>
+
+        <div class="highlight"><pre><code class="language-html" data-lang="html"><span class="lineno"> 1</span> <span class="nt">&lt;p</span> <span class="na">class=</span><span class="s">&quot;field&quot;</span><span class="nt">&gt;</span>
+<span class="lineno"> 2</span>     <span class="nt">&lt;label</span> <span class="na">for=</span><span class="s">&quot;select-multiple&quot;</span><span class="nt">&gt;</span>Multiple select <span class="nt">&lt;abbr</span> <span class="na">title=</span><span class="s">&quot;Required&quot;</span><span class="nt">&gt;</span>*<span class="nt">&lt;/abbr&gt;&lt;/label&gt;</span>
+<span class="lineno"> 3</span>     <span class="nt">&lt;select</span> <span class="na">id=</span><span class="s">&quot;select-multiple&quot;</span> <span class="na">multiple</span><span class="nt">&gt;</span>
+<span class="lineno"> 4</span>         <span class="nt">&lt;optgroup</span> <span class="na">label=</span><span class="s">&quot;Option Group A&quot;</span><span class="nt">&gt;</span>
+<span class="lineno"> 5</span>             <span class="nt">&lt;option&gt;</span>Option One<span class="nt">&lt;/option&gt;</span>
+<span class="lineno"> 6</span>             <span class="nt">&lt;option&gt;</span>Option Two<span class="nt">&lt;/option&gt;</span>
+<span class="lineno"> 7</span>             <span class="nt">&lt;option&gt;</span>Option Three<span class="nt">&lt;/option&gt;</span>
+<span class="lineno"> 8</span>         <span class="nt">&lt;/optgroup&gt;</span>
+<span class="lineno"> 9</span>         <span class="nt">&lt;optgroup</span> <span class="na">label=</span><span class="s">&quot;Option Group B&quot;</span><span class="nt">&gt;</span>
+<span class="lineno">10</span>             <span class="nt">&lt;option&gt;</span>Option Four<span class="nt">&lt;/option&gt;</span>
+<span class="lineno">11</span>             <span class="nt">&lt;option&gt;</span>Option Five<span class="nt">&lt;/option&gt;</span>
+<span class="lineno">12</span>             <span class="nt">&lt;option&gt;</span>Option Six<span class="nt">&lt;/option&gt;</span>
+<span class="lineno">13</span>         <span class="nt">&lt;/optgroup&gt;</span>
+<span class="lineno">14</span>     <span class="nt">&lt;/select&gt;</span>
+<span class="lineno">15</span>     <span class="nt">&lt;small</span> <span class="na">class=</span><span class="s">&quot;note&quot;</span><span class="nt">&gt;</span>Note about this selection<span class="nt">&lt;/small&gt;</span>
+<span class="lineno">16</span> <span class="nt">&lt;/p&gt;</span></code></pre></div>
+
+        <div class="xx-pattern-description"></div>
+
+    </details>
+
+    <div class="xx-pattern-preview">
+        <p class="field">
+    <label for="select-multiple">Multiple select <abbr title="Required">*</abbr></label>
+    <select id="select-multiple" multiple>
+        <optgroup label="Option Group A">
+            <option>Option One</option>
+            <option>Option Two</option>
+            <option>Option Three</option>
+        </optgroup>
+        <optgroup label="Option Group B">
+            <option>Option Four</option>
+            <option>Option Five</option>
+            <option>Option Six</option>
+        </optgroup>
+    </select>
+    <small class="note">Note about this selection</small>
+</p>
+
+    </div>
+
+</div>
+
+
+
+<div class="xx-pattern" id="form-select">
+
+    <details class="xx-pattern-details">
+
+        <summary class="xx-pattern-name">form-select</summary>
+
+        <div class="highlight"><pre><code class="language-html" data-lang="html"><span class="lineno"> 1</span> <span class="nt">&lt;p&gt;</span>
+<span class="lineno"> 2</span> 	<span class="nt">&lt;label</span> <span class="na">for=</span><span class="s">&quot;select&quot;</span><span class="nt">&gt;</span>Select your State <span class="nt">&lt;abbr</span> <span class="na">title=</span><span class="s">&quot;Required&quot;</span><span class="nt">&gt;</span>*<span class="nt">&lt;/abbr&gt;&lt;/label&gt;</span>
+<span class="lineno"> 3</span> 	<span class="nt">&lt;select</span> <span class="na">id=</span><span class="s">&quot;state&quot;</span><span class="nt">&gt;</span>
+<span class="lineno"> 4</span> 	    <span class="nt">&lt;option&gt;</span>Alabama<span class="nt">&lt;/option&gt;</span>
+<span class="lineno"> 5</span> 	    <span class="nt">&lt;option&gt;</span>Alaska<span class="nt">&lt;/option&gt;</span>
+<span class="lineno"> 6</span> 	    <span class="nt">&lt;option&gt;</span>Arizona<span class="nt">&lt;/option&gt;</span>
+<span class="lineno"> 7</span> 	    <span class="nt">&lt;option&gt;</span>Arkansas<span class="nt">&lt;/option&gt;</span>
+<span class="lineno"> 8</span> 	    <span class="nt">&lt;option&gt;</span>American Samoa<span class="nt">&lt;/option&gt;</span>
+<span class="lineno"> 9</span> 	    <span class="nt">&lt;option&gt;</span>California<span class="nt">&lt;/option&gt;</span>
+<span class="lineno">10</span> 	    <span class="nt">&lt;option&gt;</span>Colorado<span class="nt">&lt;/option&gt;</span>
+<span class="lineno">11</span> 	    <span class="nt">&lt;option&gt;</span>Connecticut<span class="nt">&lt;/option&gt;</span>
+<span class="lineno">12</span> 	    <span class="nt">&lt;option&gt;</span>Delaware<span class="nt">&lt;/option&gt;</span>
+<span class="lineno">13</span> 	    <span class="nt">&lt;option&gt;</span>District of Columbia<span class="nt">&lt;/option&gt;</span>
+<span class="lineno">14</span> 	    <span class="nt">&lt;option&gt;</span>Florida<span class="nt">&lt;/option&gt;</span>
+<span class="lineno">15</span> 	    <span class="nt">&lt;option&gt;</span>Georgia<span class="nt">&lt;/option&gt;</span>
+<span class="lineno">16</span> 	    <span class="nt">&lt;option&gt;</span>Guam<span class="nt">&lt;/option&gt;</span>
+<span class="lineno">17</span> 	    <span class="nt">&lt;option&gt;</span>Hawaii<span class="nt">&lt;/option&gt;</span>
+<span class="lineno">18</span> 	    <span class="nt">&lt;option&gt;</span>Idaho<span class="nt">&lt;/option&gt;</span>
+<span class="lineno">19</span> 	    <span class="nt">&lt;option&gt;</span>Illinois<span class="nt">&lt;/option&gt;</span>
+<span class="lineno">20</span> 	    <span class="nt">&lt;option&gt;</span>Indiana<span class="nt">&lt;/option&gt;</span>
+<span class="lineno">21</span> 	    <span class="nt">&lt;option&gt;</span>Iowa<span class="nt">&lt;/option&gt;</span>
+<span class="lineno">22</span> 	    <span class="nt">&lt;option&gt;</span>Kansas<span class="nt">&lt;/option&gt;</span>
+<span class="lineno">23</span> 	    <span class="nt">&lt;option&gt;</span>Kentucky<span class="nt">&lt;/option&gt;</span>
+<span class="lineno">24</span> 	    <span class="nt">&lt;option&gt;</span>Louisiana<span class="nt">&lt;/option&gt;</span>
+<span class="lineno">25</span> 	    <span class="nt">&lt;option&gt;</span>Maine<span class="nt">&lt;/option&gt;</span>
+<span class="lineno">26</span> 	    <span class="nt">&lt;option&gt;</span>Maryland<span class="nt">&lt;/option&gt;</span>
+<span class="lineno">27</span> 	    <span class="nt">&lt;option&gt;</span>Massachusetts<span class="nt">&lt;/option&gt;</span>
+<span class="lineno">28</span> 	    <span class="nt">&lt;option&gt;</span>Michigan<span class="nt">&lt;/option&gt;</span>
+<span class="lineno">29</span> 	    <span class="nt">&lt;option&gt;</span>Minnesota<span class="nt">&lt;/option&gt;</span>
+<span class="lineno">30</span> 	    <span class="nt">&lt;option&gt;</span>Mississippi<span class="nt">&lt;/option&gt;</span>
+<span class="lineno">31</span> 	    <span class="nt">&lt;option&gt;</span>Missouri<span class="nt">&lt;/option&gt;</span>
+<span class="lineno">32</span> 	    <span class="nt">&lt;option&gt;</span>Montana<span class="nt">&lt;/option&gt;</span>
+<span class="lineno">33</span> 	    <span class="nt">&lt;option&gt;</span>Nebraska<span class="nt">&lt;/option&gt;</span>
+<span class="lineno">34</span> 	    <span class="nt">&lt;option&gt;</span>Nevada<span class="nt">&lt;/option&gt;</span>
+<span class="lineno">35</span> 	    <span class="nt">&lt;option&gt;</span>New Hampshire<span class="nt">&lt;/option&gt;</span>
+<span class="lineno">36</span> 	    <span class="nt">&lt;option&gt;</span>New Jersey<span class="nt">&lt;/option&gt;</span>
+<span class="lineno">37</span> 	    <span class="nt">&lt;option&gt;</span>New Mexico<span class="nt">&lt;/option&gt;</span>
+<span class="lineno">38</span> 	    <span class="nt">&lt;option&gt;</span>New York<span class="nt">&lt;/option&gt;</span>
+<span class="lineno">39</span> 	    <span class="nt">&lt;option&gt;</span>North Carolina<span class="nt">&lt;/option&gt;</span>
+<span class="lineno">40</span> 	    <span class="nt">&lt;option&gt;</span>North Dakota<span class="nt">&lt;/option&gt;</span>
+<span class="lineno">41</span> 	    <span class="nt">&lt;option&gt;</span>Northern Mariana Islands<span class="nt">&lt;/option&gt;</span>
+<span class="lineno">42</span> 	    <span class="nt">&lt;option&gt;</span>Ohio<span class="nt">&lt;/option&gt;</span>
+<span class="lineno">43</span> 	    <span class="nt">&lt;option&gt;</span>Oklahoma<span class="nt">&lt;/option&gt;</span>
+<span class="lineno">44</span> 	    <span class="nt">&lt;option&gt;</span>Oregon<span class="nt">&lt;/option&gt;</span>
+<span class="lineno">45</span> 	    <span class="nt">&lt;option&gt;</span>Pennsylvania<span class="nt">&lt;/option&gt;</span>
+<span class="lineno">46</span> 	    <span class="nt">&lt;option&gt;</span>Puerto Rico<span class="nt">&lt;/option&gt;</span>
+<span class="lineno">47</span> 	    <span class="nt">&lt;option&gt;</span>Rhode Island<span class="nt">&lt;/option&gt;</span>
+<span class="lineno">48</span> 	    <span class="nt">&lt;option&gt;</span>South Carolina<span class="nt">&lt;/option&gt;</span>
+<span class="lineno">49</span> 	    <span class="nt">&lt;option&gt;</span>South Dakota<span class="nt">&lt;/option&gt;</span>
+<span class="lineno">50</span> 	    <span class="nt">&lt;option&gt;</span>Tennessee<span class="nt">&lt;/option&gt;</span>
+<span class="lineno">51</span> 	    <span class="nt">&lt;option&gt;</span>Texas<span class="nt">&lt;/option&gt;</span>
+<span class="lineno">52</span> 	    <span class="nt">&lt;option&gt;</span>United States Virgin Islands<span class="nt">&lt;/option&gt;</span>
+<span class="lineno">53</span> 	    <span class="nt">&lt;option&gt;</span>Utah<span class="nt">&lt;/option&gt;</span>
+<span class="lineno">54</span> 	    <span class="nt">&lt;option&gt;</span>Vermont<span class="nt">&lt;/option&gt;</span>
+<span class="lineno">55</span> 	    <span class="nt">&lt;option&gt;</span>Virginia<span class="nt">&lt;/option&gt;</span>
+<span class="lineno">56</span> 	    <span class="nt">&lt;option&gt;</span>Washington<span class="nt">&lt;/option&gt;</span>
+<span class="lineno">57</span> 	    <span class="nt">&lt;option&gt;</span>West Virginia<span class="nt">&lt;/option&gt;</span>
+<span class="lineno">58</span> 	    <span class="nt">&lt;option&gt;</span>Wisconsin<span class="nt">&lt;/option&gt;</span>
+<span class="lineno">59</span> 	    <span class="nt">&lt;option&gt;</span>Wyoming<span class="nt">&lt;/option&gt;</span>
+<span class="lineno">60</span> 	<span class="nt">&lt;/select&gt;</span>
+<span class="lineno">61</span> 	<span class="nt">&lt;small</span> <span class="na">class=</span><span class="s">&quot;note&quot;</span><span class="nt">&gt;</span>Note about this selection<span class="nt">&lt;/small&gt;</span>
+<span class="lineno">62</span> <span class="nt">&lt;/p&gt;</span></code></pre></div>
+
+        <div class="xx-pattern-description"></div>
+
+    </details>
+
+    <div class="xx-pattern-preview">
+        <p>
+	<label for="select">Select your State <abbr title="Required">*</abbr></label>
+	<select id="state">
+	    <option>Alabama</option>
+	    <option>Alaska</option>
+	    <option>Arizona</option>
+	    <option>Arkansas</option>
+	    <option>American Samoa</option>
+	    <option>California</option>
+	    <option>Colorado</option>
+	    <option>Connecticut</option>
+	    <option>Delaware</option>
+	    <option>District of Columbia</option>
+	    <option>Florida</option>
+	    <option>Georgia</option>
+	    <option>Guam</option>
+	    <option>Hawaii</option>
+	    <option>Idaho</option>
+	    <option>Illinois</option>
+	    <option>Indiana</option>
+	    <option>Iowa</option>
+	    <option>Kansas</option>
+	    <option>Kentucky</option>
+	    <option>Louisiana</option>
+	    <option>Maine</option>
+	    <option>Maryland</option>
+	    <option>Massachusetts</option>
+	    <option>Michigan</option>
+	    <option>Minnesota</option>
+	    <option>Mississippi</option>
+	    <option>Missouri</option>
+	    <option>Montana</option>
+	    <option>Nebraska</option>
+	    <option>Nevada</option>
+	    <option>New Hampshire</option>
+	    <option>New Jersey</option>
+	    <option>New Mexico</option>
+	    <option>New York</option>
+	    <option>North Carolina</option>
+	    <option>North Dakota</option>
+	    <option>Northern Mariana Islands</option>
+	    <option>Ohio</option>
+	    <option>Oklahoma</option>
+	    <option>Oregon</option>
+	    <option>Pennsylvania</option>
+	    <option>Puerto Rico</option>
+	    <option>Rhode Island</option>
+	    <option>South Carolina</option>
+	    <option>South Dakota</option>
+	    <option>Tennessee</option>
+	    <option>Texas</option>
+	    <option>United States Virgin Islands</option>
+	    <option>Utah</option>
+	    <option>Vermont</option>
+	    <option>Virginia</option>
+	    <option>Washington</option>
+	    <option>West Virginia</option>
+	    <option>Wisconsin</option>
+	    <option>Wyoming</option>
+	</select>
+	<small class="note">Note about this selection</small>
+</p>
+
+    </div>
+
+</div>
+
+
+
+<div class="xx-pattern" id="form-signup">
+
+    <details class="xx-pattern-details">
+
+        <summary class="xx-pattern-name">form-signup</summary>
+
+        <div class="highlight"><pre><code class="language-html" data-lang="html"><span class="lineno"> 1</span> <span class="nt">&lt;form&gt;</span>
+<span class="lineno"> 2</span>     <span class="nt">&lt;ul</span> <span class="na">class=</span><span class="s">&quot;list-form&quot;</span><span class="nt">&gt;</span>
+<span class="lineno"> 3</span>         <span class="nt">&lt;li</span> <span class="na">class=</span><span class="s">&quot;form-field&quot;</span><span class="nt">&gt;</span>
+<span class="lineno"> 4</span>         	<span class="nt">&lt;input</span> <span class="na">id=</span><span class="s">&quot;text&quot;</span> <span class="na">class=</span><span class="s">&quot;input&quot;</span> <span class="na">type=</span><span class="s">&quot;email&quot;</span> <span class="na">placeholder=</span><span class="s">&quot;email&quot;</span> <span class="nt">/&gt;</span>
+<span class="lineno"> 5</span>         	<span class="nt">&lt;small</span> <span class="na">class=</span><span class="s">&quot;note&quot;</span><span class="nt">&gt;</span>Note about this field<span class="nt">&lt;/small&gt;</span>
+<span class="lineno"> 6</span>         <span class="nt">&lt;/li&gt;</span>
+<span class="lineno"> 7</span>         <span class="nt">&lt;li</span> <span class="na">class=</span><span class="s">&quot;form-field&quot;</span><span class="nt">&gt;</span>
+<span class="lineno"> 8</span>         	<span class="nt">&lt;input</span> <span class="na">id=</span><span class="s">&quot;text&quot;</span> <span class="na">class=</span><span class="s">&quot;input&quot;</span> <span class="na">type=</span><span class="s">&quot;text&quot;</span> <span class="na">placeholder=</span><span class="s">&quot;first name&quot;</span> <span class="nt">/&gt;</span>
+<span class="lineno"> 9</span>         <span class="nt">&lt;/li&gt;</span>
+<span class="lineno">10</span>         <span class="nt">&lt;li</span> <span class="na">class=</span><span class="s">&quot;form-field&quot;</span><span class="nt">&gt;</span>
+<span class="lineno">11</span>         	<span class="nt">&lt;select&gt;</span>
+<span class="lineno">12</span>         	  <span class="nt">&lt;option&gt;</span>1<span class="nt">&lt;/option&gt;</span>
+<span class="lineno">13</span>         	  <span class="nt">&lt;option&gt;</span>2<span class="nt">&lt;/option&gt;</span>
+<span class="lineno">14</span>         	  <span class="nt">&lt;option&gt;</span>3<span class="nt">&lt;/option&gt;</span>
+<span class="lineno">15</span>         	  <span class="nt">&lt;option&gt;</span>4<span class="nt">&lt;/option&gt;</span>
+<span class="lineno">16</span>         	  <span class="nt">&lt;option&gt;</span>5<span class="nt">&lt;/option&gt;</span>
+<span class="lineno">17</span>         	<span class="nt">&lt;/select&gt;</span>
+<span class="lineno">18</span>         <span class="nt">&lt;/li&gt;</span>
+<span class="lineno">19</span>     <span class="nt">&lt;/ul&gt;</span>
+<span class="lineno">20</span> <span class="nt">&lt;/form&gt;</span></code></pre></div>
+
+        <div class="xx-pattern-description"></div>
+
+    </details>
+
+    <div class="xx-pattern-preview">
+        <form>
+    <ul class="list-form">
+        <li class="form-field">
+        	<input id="text" class="input" type="email" placeholder="email" />
+        	<small class="note">Note about this field</small>
+        </li>
+        <li class="form-field">
+        	<input id="text" class="input" type="text" placeholder="first name" />
+        </li>
+        <li class="form-field">
+        	<select>
+        	  <option>1</option>
+        	  <option>2</option>
+        	  <option>3</option>
+        	  <option>4</option>
+        	  <option>5</option>
+        	</select>
+        </li>
+    </ul>
+</form>
+
+    </div>
+
+</div>
+
+
+
+<div class="xx-pattern" id="form-textarea-disabled">
+
+    <details class="xx-pattern-details">
+
+        <summary class="xx-pattern-name">form-textarea-disabled</summary>
+
+        <div class="highlight"><pre><code class="language-html" data-lang="html"><span class="lineno">1</span> <span class="nt">&lt;p&gt;</span>
+<span class="lineno">2</span>     <span class="nt">&lt;label</span> <span class="na">for=</span><span class="s">&quot;textarea&quot;</span><span class="nt">&gt;</span>Disabled textarea<span class="nt">&lt;/label&gt;</span>
+<span class="lineno">3</span>     <span class="nt">&lt;textarea</span> <span class="na">id=</span><span class="s">&quot;textarea&quot;</span> <span class="na">rows=</span><span class="s">&quot;8&quot;</span> <span class="na">cols=</span><span class="s">&quot;32&quot;</span> <span class="na">disabled</span><span class="nt">&gt;&lt;/textarea&gt;</span>
+<span class="lineno">4</span>     <span class="nt">&lt;small</span> <span class="na">class=</span><span class="s">&quot;note&quot;</span><span class="nt">&gt;</span>Note about this field<span class="nt">&lt;/small&gt;</span>
+<span class="lineno">5</span> <span class="nt">&lt;/p&gt;</span></code></pre></div>
+
+        <div class="xx-pattern-description"></div>
+
+    </details>
+
+    <div class="xx-pattern-preview">
+        <p>
+    <label for="textarea">Disabled textarea</label>
+    <textarea id="textarea" rows="8" cols="32" disabled></textarea>
+    <small class="note">Note about this field</small>
+</p>
+
+    </div>
+
+</div>
+
+
+
+<div class="xx-pattern" id="form-textarea">
+
+    <details class="xx-pattern-details">
+
+        <summary class="xx-pattern-name">form-textarea</summary>
+
+        <div class="highlight"><pre><code class="language-html" data-lang="html"><span class="lineno">1</span> <span class="nt">&lt;p&gt;</span>
+<span class="lineno">2</span> 	<span class="nt">&lt;label</span> <span class="na">for=</span><span class="s">&quot;textarea&quot;</span><span class="nt">&gt;</span>Textarea <span class="nt">&lt;abbr</span> <span class="na">title=</span><span class="s">&quot;Required&quot;</span><span class="nt">&gt;</span>*<span class="nt">&lt;/abbr&gt;&lt;/label&gt;</span>
+<span class="lineno">3</span> 	<span class="nt">&lt;textarea</span> <span class="na">id=</span><span class="s">&quot;textarea&quot;</span> <span class="na">class=</span><span class="s">&quot;input&quot;</span> <span class="na">rows=</span><span class="s">&quot;8&quot;</span> <span class="na">cols=</span><span class="s">&quot;32&quot;</span> <span class="na">required</span><span class="nt">&gt;&lt;/textarea&gt;</span>
+<span class="lineno">4</span> 	<span class="nt">&lt;small</span> <span class="na">class=</span><span class="s">&quot;note&quot;</span><span class="nt">&gt;</span>Note about this field<span class="nt">&lt;/small&gt;</span>
+<span class="lineno">5</span> <span class="nt">&lt;/p&gt;</span></code></pre></div>
+
+        <div class="xx-pattern-description"></div>
+
+    </details>
+
+    <div class="xx-pattern-preview">
+        <p>
+	<label for="textarea">Textarea <abbr title="Required">*</abbr></label>
+	<textarea id="textarea" class="input" rows="8" cols="32" required></textarea>
+	<small class="note">Note about this field</small>
+</p>
+
+    </div>
+
+</div>
+
+
+
+<div class="xx-pattern" id="heading-1">
+
+    <details class="xx-pattern-details">
+
+        <summary class="xx-pattern-name">heading-1</summary>
+
+        <div class="highlight"><pre><code class="language-html" data-lang="html"><span class="lineno">1</span> <span class="nt">&lt;h1&gt;</span>Heading One<span class="nt">&lt;/h1&gt;</span></code></pre></div>
+
+        <div class="xx-pattern-description"></div>
+
+    </details>
+
+    <div class="xx-pattern-preview">
+        <h1>Heading One</h1>
+
+    </div>
+
+</div>
+
+
+
+<div class="xx-pattern" id="heading-2">
+
+    <details class="xx-pattern-details">
+
+        <summary class="xx-pattern-name">heading-2</summary>
+
+        <div class="highlight"><pre><code class="language-html" data-lang="html"><span class="lineno">1</span> <span class="nt">&lt;h2&gt;</span>Heading Two<span class="nt">&lt;/h2&gt;</span></code></pre></div>
+
+        <div class="xx-pattern-description"></div>
+
+    </details>
+
+    <div class="xx-pattern-preview">
+        <h2>Heading Two</h2>
+
+    </div>
+
+</div>
+
+
+
+<div class="xx-pattern" id="heading-3">
+
+    <details class="xx-pattern-details">
+
+        <summary class="xx-pattern-name">heading-3</summary>
+
+        <div class="highlight"><pre><code class="language-html" data-lang="html"><span class="lineno">1</span> <span class="nt">&lt;h3&gt;</span>Heading Three<span class="nt">&lt;/h3&gt;</span></code></pre></div>
+
+        <div class="xx-pattern-description"></div>
+
+    </details>
+
+    <div class="xx-pattern-preview">
+        <h3>Heading Three</h3>
+
+    </div>
+
+</div>
+
+
+
+<div class="xx-pattern" id="heading-4">
+
+    <details class="xx-pattern-details">
+
+        <summary class="xx-pattern-name">heading-4</summary>
+
+        <div class="highlight"><pre><code class="language-html" data-lang="html"><span class="lineno">1</span> <span class="nt">&lt;h4&gt;</span>Heading Four<span class="nt">&lt;/h4&gt;</span></code></pre></div>
+
+        <div class="xx-pattern-description"></div>
+
+    </details>
+
+    <div class="xx-pattern-preview">
+        <h4>Heading Four</h4>
+
+    </div>
+
+</div>
+
+
+
+<div class="xx-pattern" id="heading-5">
+
+    <details class="xx-pattern-details">
+
+        <summary class="xx-pattern-name">heading-5</summary>
+
+        <div class="highlight"><pre><code class="language-html" data-lang="html"><span class="lineno">1</span> <span class="nt">&lt;h5&gt;</span>Heading Five<span class="nt">&lt;/h5&gt;</span></code></pre></div>
+
+        <div class="xx-pattern-description"></div>
+
+    </details>
+
+    <div class="xx-pattern-preview">
+        <h5>Heading Five</h5>
+
+    </div>
+
+</div>
+
+
+
+<div class="xx-pattern" id="heading-6">
+
+    <details class="xx-pattern-details">
+
+        <summary class="xx-pattern-name">heading-6</summary>
+
+        <div class="highlight"><pre><code class="language-html" data-lang="html"><span class="lineno">1</span> <span class="nt">&lt;h6&gt;</span>Heading Six<span class="nt">&lt;/h6&gt;</span></code></pre></div>
+
+        <div class="xx-pattern-description"></div>
+
+    </details>
+
+    <div class="xx-pattern-preview">
+        <h6>Heading Six</h6>
+
+    </div>
+
+</div>
+
+
+
+<div class="xx-pattern" id="lede">
+
+    <details class="xx-pattern-details">
+
+        <summary class="xx-pattern-name">lede</summary>
+
+        <div class="highlight"><pre><code class="language-html" data-lang="html"><span class="lineno">1</span> <span class="nt">&lt;p</span> <span class="na">class=</span><span class="s">&quot;lede&quot;</span><span class="nt">&gt;</span>A <span class="nt">&lt;strong&gt;</span>lede<span class="nt">&lt;/strong&gt;</span>, or <span class="nt">&lt;strong&gt;</span>lead<span class="nt">&lt;/strong&gt;</span>, paragraph in literature is the opening paragraph of an article, essay, news story or book chapter. It usually occurs together with the headline or title. It precedes the main body of the article, and it gives the reader the main idea of the story. In both spellings, the word rhymes with the word <span class="nt">&lt;em&gt;</span>need<span class="nt">&lt;/em&gt;</span>.<span class="nt">&lt;/p&gt;</span><span class="c">&lt;!--/.lede--&gt;</span></code></pre></div>
+
+        <div class="xx-pattern-description"></div>
+
+    </details>
+
+    <div class="xx-pattern-preview">
+        <p class="lede">A <strong>lede</strong>, or <strong>lead</strong>, paragraph in literature is the opening paragraph of an article, essay, news story or book chapter. It usually occurs together with the headline or title. It precedes the main body of the article, and it gives the reader the main idea of the story. In both spellings, the word rhymes with the word <em>need</em>.</p><!--/.lede-->
+
+    </div>
+
+</div>
+
+
+
+<div class="xx-pattern" id="list-horizontal">
+
+    <details class="xx-pattern-details">
+
+        <summary class="xx-pattern-name">list-horizontal</summary>
+
+        <div class="highlight"><pre><code class="language-html" data-lang="html"><span class="lineno">1</span> <span class="nt">&lt;nav</span> <span class="na">role=</span><span class="s">&quot;navigation&quot;</span> <span class="na">class=</span><span class="s">&quot;nav list-horizontal&quot;</span><span class="nt">&gt;</span>
+<span class="lineno">2</span>     <span class="nt">&lt;ul</span> <span class="na">class=</span><span class="s">&quot;list&quot;</span><span class="nt">&gt;</span>
+<span class="lineno">3</span>         <span class="nt">&lt;li&gt;&lt;a</span> <span class="na">href=</span><span class="s">&quot;#&quot;</span><span class="nt">&gt;</span>Lorem link<span class="nt">&lt;/a&gt;&lt;/li&gt;</span>
+<span class="lineno">4</span>         <span class="nt">&lt;li&gt;&lt;a</span> <span class="na">href=</span><span class="s">&quot;#&quot;</span> <span class="na">class=</span><span class="s">&quot;is-active&quot;</span><span class="nt">&gt;</span>Active link<span class="nt">&lt;/a&gt;&lt;/li&gt;</span>
+<span class="lineno">5</span>         <span class="nt">&lt;li&gt;&lt;a</span> <span class="na">href=</span><span class="s">&quot;#&quot;</span><span class="nt">&gt;</span>Ipsum link<span class="nt">&lt;/a&gt;&lt;/li&gt;</span>
+<span class="lineno">6</span>         <span class="nt">&lt;li&gt;&lt;a</span> <span class="na">href=</span><span class="s">&quot;#&quot;</span><span class="nt">&gt;</span>Dolor link<span class="nt">&lt;/a&gt;&lt;/li&gt;</span>
+<span class="lineno">7</span>     <span class="nt">&lt;/ul&gt;</span>
+<span class="lineno">8</span> <span class="nt">&lt;/nav&gt;</span><span class="c">&lt;!--/.nav-horizontal--&gt;</span></code></pre></div>
+
+        <div class="xx-pattern-description"></div>
+
+    </details>
+
+    <div class="xx-pattern-preview">
+        <nav role="navigation" class="nav list-horizontal">
+    <ul class="list">
+        <li><a href="#">Lorem link</a></li>
+        <li><a href="#" class="is-active">Active link</a></li>
+        <li><a href="#">Ipsum link</a></li>
+        <li><a href="#">Dolor link</a></li>
+    </ul>
+</nav><!--/.nav-horizontal-->
+
+    </div>
+
+</div>
+
+
+
+<div class="xx-pattern" id="list-ordered">
+
+    <details class="xx-pattern-details">
+
+        <summary class="xx-pattern-name">list-ordered</summary>
+
+        <div class="highlight"><pre><code class="language-html" data-lang="html"><span class="lineno">1</span> <span class="nt">&lt;ol&gt;</span>
+<span class="lineno">2</span>     <span class="nt">&lt;li&gt;</span>Bread<span class="nt">&lt;/li&gt;</span>
+<span class="lineno">3</span>     <span class="nt">&lt;li&gt;</span>Milk<span class="nt">&lt;/li&gt;</span>
+<span class="lineno">4</span>     <span class="nt">&lt;li&gt;</span>Eggs<span class="nt">&lt;/li&gt;</span>
+<span class="lineno">5</span>     <span class="nt">&lt;li&gt;</span>Butter<span class="nt">&lt;/li&gt;</span>
+<span class="lineno">6</span> <span class="nt">&lt;/ol&gt;</span></code></pre></div>
+
+        <div class="xx-pattern-description"></div>
+
+    </details>
+
+    <div class="xx-pattern-preview">
+        <ol>
+    <li>Bread</li>
+    <li>Milk</li>
+    <li>Eggs</li>
+    <li>Butter</li>
+</ol>
+
+    </div>
+
+</div>
+
+
+
+<div class="xx-pattern" id="list-unordered">
+
+    <details class="xx-pattern-details">
+
+        <summary class="xx-pattern-name">list-unordered</summary>
+
+        <div class="highlight"><pre><code class="language-html" data-lang="html"><span class="lineno">1</span> <span class="nt">&lt;ul&gt;</span>
+<span class="lineno">2</span>     <span class="nt">&lt;li&gt;</span>Preheat oven to 180°C<span class="nt">&lt;/li&gt;</span>
+<span class="lineno">3</span>     <span class="nt">&lt;li&gt;</span>Mix ingredients together in a bowl<span class="nt">&lt;/li&gt;</span>
+<span class="lineno">4</span>     <span class="nt">&lt;li&gt;</span>Grease a baking tin<span class="nt">&lt;/li&gt;</span>
+<span class="lineno">5</span>     <span class="nt">&lt;li&gt;</span>Pour the mixture into the baking tin<span class="nt">&lt;/li&gt;</span>
+<span class="lineno">6</span>     <span class="nt">&lt;li&gt;</span>Bake in oven for 40-45 minutes<span class="nt">&lt;/li&gt;</span>
+<span class="lineno">7</span> <span class="nt">&lt;/ul&gt;</span></code></pre></div>
+
+        <div class="xx-pattern-description"></div>
+
+    </details>
+
+    <div class="xx-pattern-preview">
+        <ul>
+    <li>Preheat oven to 180°C</li>
+    <li>Mix ingredients together in a bowl</li>
+    <li>Grease a baking tin</li>
+    <li>Pour the mixture into the baking tin</li>
+    <li>Bake in oven for 40-45 minutes</li>
+</ul>
+
+    </div>
+
+</div>
+
+
+
+<div class="xx-pattern" id="media-audio">
+
+    <details class="xx-pattern-details">
+
+        <summary class="xx-pattern-name">media-audio</summary>
+
+        <div class="highlight"><pre><code class="language-html" data-lang="html"><span class="lineno">1</span> <span class="nt">&lt;audio</span> <span class="na">src=</span><span class="s">&quot;/_media/audio/audio.mp3&quot;</span> <span class="na">controls</span><span class="nt">&gt;&lt;/audio&gt;</span></code></pre></div>
+
+        <div class="xx-pattern-description"></div>
+
+    </details>
+
+    <div class="xx-pattern-preview">
+        <audio src="/_media/audio/audio.mp3" controls></audio>
+
+    </div>
+
+</div>
+
+
+
+<div class="xx-pattern" id="media-image">
+
+    <details class="xx-pattern-details">
+
+        <summary class="xx-pattern-name">media-image</summary>
+
+        <div class="highlight"><pre><code class="language-html" data-lang="html"><span class="lineno">1</span> <span class="nt">&lt;img</span> <span class="na">src=</span><span class="s">&quot;/image/image.jpg&quot;</span> <span class="na">alt=</span><span class="s">&quot;Some alt text&quot;</span><span class="nt">/&gt;</span></code></pre></div>
+
+        <div class="xx-pattern-description"></div>
+
+    </details>
+
+    <div class="xx-pattern-preview">
+        <img src="/image/image.jpg" alt="Some alt text"/>
+
+    </div>
+
+</div>
+
+
+
+<div class="xx-pattern" id="media-video">
+
+    <details class="xx-pattern-details">
+
+        <summary class="xx-pattern-name">media-video</summary>
+
+        <div class="highlight"><pre><code class="language-html" data-lang="html"><span class="lineno">1</span> <span class="nt">&lt;video</span> <span class="na">controls</span><span class="nt">&gt;</span>
+<span class="lineno">2</span>     <span class="nt">&lt;source</span> <span class="na">src=</span><span class="s">&quot;/_media/video/video.webm&quot;</span> <span class="na">type=</span><span class="s">&quot;video/webm&quot;</span><span class="nt">/&gt;</span>
+<span class="lineno">3</span>     <span class="nt">&lt;source</span> <span class="na">src=</span><span class="s">&quot;/_media/video/video.mp4&quot;</span> <span class="na">type=</span><span class="s">&quot;video/mp4&quot;</span><span class="nt">/&gt;</span>
+<span class="lineno">4</span> <span class="nt">&lt;/video&gt;</span></code></pre></div>
+
+        <div class="xx-pattern-description"></div>
+
+    </details>
+
+    <div class="xx-pattern-preview">
+        <video controls>
+    <source src="/_media/video/video.webm" type="video/webm"/>
+    <source src="/_media/video/video.mp4" type="video/mp4"/>
+</video>
+
+    </div>
+
+</div>
+
+
+
+<div class="xx-pattern" id="nav-breadcrumb">
+
+    <details class="xx-pattern-details">
+
+        <summary class="xx-pattern-name">nav-breadcrumb</summary>
+
+        <div class="highlight"><pre><code class="language-html" data-lang="html"><span class="lineno">1</span> <span class="nt">&lt;nav</span> <span class="na">class=</span><span class="s">&quot;nav-breadcrumb list-horizontal&quot;</span> <span class="na">role=</span><span class="s">&quot;navigation&quot;</span> <span class="na">aria-label=</span><span class="s">&quot;Breadcrumb&quot;</span><span class="nt">&gt;</span>
+<span class="lineno">2</span>     <span class="nt">&lt;ol&gt;</span>
+<span class="lineno">3</span>         <span class="nt">&lt;li&gt;&lt;a</span> <span class="na">href=</span><span class="s">&quot;#&quot;</span><span class="nt">&gt;</span>Home<span class="nt">&lt;/a&gt;&lt;/li&gt;</span>
+<span class="lineno">4</span>         <span class="nt">&lt;li&gt;&lt;a</span> <span class="na">href=</span><span class="s">&quot;#&quot;</span><span class="nt">&gt;</span>Page Title<span class="nt">&lt;/a&gt;&lt;/li&gt;</span>
+<span class="lineno">5</span>         <span class="nt">&lt;li&gt;</span>Page Title<span class="nt">&lt;/li&gt;</span>
+<span class="lineno">6</span>     <span class="nt">&lt;/ol&gt;</span>
+<span class="lineno">7</span> <span class="nt">&lt;/nav&gt;</span><span class="c">&lt;!--/.nav-breadcrumb--&gt;</span></code></pre></div>
+
+        <div class="xx-pattern-description"></div>
+
+    </details>
+
+    <div class="xx-pattern-preview">
+        <nav class="nav-breadcrumb list-horizontal" role="navigation" aria-label="Breadcrumb">
+    <ol>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Page Title</a></li>
+        <li>Page Title</li>
+    </ol>
+</nav><!--/.nav-breadcrumb-->
+
+    </div>
+
+</div>
+
+
+
+<div class="xx-pattern" id="nav-page-alphabet">
+
+    <details class="xx-pattern-details">
+
+        <summary class="xx-pattern-name">nav-page-alphabet</summary>
+
+        <div class="highlight"><pre><code class="language-html" data-lang="html"><span class="lineno"> 1</span> <span class="nt">&lt;nav</span> <span class="na">role=</span><span class="s">&quot;navigation&quot;</span> <span class="na">class=</span><span class="s">&quot;nav nav-page list-horizontal&quot;</span> <span class="na">aria-label=</span><span class="s">&quot;Pagination&quot;</span><span class="nt">&gt;</span>
+<span class="lineno"> 2</span>     <span class="nt">&lt;ul</span> <span class="na">class=</span><span class="s">&quot;alphabet-links&quot;</span><span class="nt">&gt;</span>
+<span class="lineno"> 3</span>         <span class="nt">&lt;li&gt;&lt;a</span> <span class="na">href=</span><span class="s">&quot;#a&quot;</span><span class="nt">&gt;</span>A<span class="nt">&lt;/a&gt;&lt;/li&gt;</span>
+<span class="lineno"> 4</span>         <span class="nt">&lt;li&gt;&lt;a</span> <span class="na">href=</span><span class="s">&quot;#b&quot;</span><span class="nt">&gt;</span>B<span class="nt">&lt;/a&gt;&lt;/li&gt;</span>
+<span class="lineno"> 5</span>         <span class="nt">&lt;li&gt;&lt;span</span> <span class="na">class=</span><span class="s">&quot;is-active&quot;</span><span class="nt">&gt;</span>C<span class="nt">&lt;/span&gt;&lt;/li&gt;</span>
+<span class="lineno"> 6</span>         <span class="nt">&lt;li&gt;&lt;a</span> <span class="na">href=</span><span class="s">&quot;#d&quot;</span><span class="nt">&gt;</span>D<span class="nt">&lt;/a&gt;&lt;/li&gt;</span>
+<span class="lineno"> 7</span>         <span class="nt">&lt;li&gt;&lt;a</span> <span class="na">href=</span><span class="s">&quot;#e&quot;</span><span class="nt">&gt;</span>E<span class="nt">&lt;/a&gt;&lt;/li&gt;</span>
+<span class="lineno"> 8</span>         <span class="nt">&lt;li&gt;&lt;a</span> <span class="na">href=</span><span class="s">&quot;#f&quot;</span><span class="nt">&gt;</span>F<span class="nt">&lt;/a&gt;&lt;/li&gt;</span>
+<span class="lineno"> 9</span>         <span class="nt">&lt;li&gt;&lt;a</span> <span class="na">href=</span><span class="s">&quot;#g&quot;</span><span class="nt">&gt;</span>G<span class="nt">&lt;/a&gt;&lt;/li&gt;</span>
+<span class="lineno">10</span>         <span class="nt">&lt;li&gt;&lt;a</span> <span class="na">href=</span><span class="s">&quot;#h&quot;</span><span class="nt">&gt;</span>H<span class="nt">&lt;/a&gt;&lt;/li&gt;</span>
+<span class="lineno">11</span>         <span class="nt">&lt;li&gt;&lt;a</span> <span class="na">href=</span><span class="s">&quot;#i&quot;</span><span class="nt">&gt;</span>I<span class="nt">&lt;/a&gt;&lt;/li&gt;</span>
+<span class="lineno">12</span>         <span class="nt">&lt;li&gt;&lt;a</span> <span class="na">href=</span><span class="s">&quot;#j&quot;</span><span class="nt">&gt;</span>J<span class="nt">&lt;/a&gt;&lt;/li&gt;</span>
+<span class="lineno">13</span>         <span class="nt">&lt;li&gt;&lt;a</span> <span class="na">href=</span><span class="s">&quot;#k&quot;</span><span class="nt">&gt;</span>K<span class="nt">&lt;/a&gt;&lt;/li&gt;</span>
+<span class="lineno">14</span>         <span class="nt">&lt;li&gt;&lt;a</span> <span class="na">href=</span><span class="s">&quot;#l&quot;</span><span class="nt">&gt;</span>L<span class="nt">&lt;/a&gt;&lt;/li&gt;</span>
+<span class="lineno">15</span>         <span class="nt">&lt;li&gt;&lt;a</span> <span class="na">href=</span><span class="s">&quot;#m&quot;</span><span class="nt">&gt;</span>M<span class="nt">&lt;/a&gt;&lt;/li&gt;</span>
+<span class="lineno">16</span>         <span class="nt">&lt;li&gt;&lt;a</span> <span class="na">href=</span><span class="s">&quot;#n&quot;</span><span class="nt">&gt;</span>N<span class="nt">&lt;/a&gt;&lt;/li&gt;</span>
+<span class="lineno">17</span>         <span class="nt">&lt;li&gt;&lt;a</span> <span class="na">href=</span><span class="s">&quot;#o&quot;</span><span class="nt">&gt;</span>O<span class="nt">&lt;/a&gt;&lt;/li&gt;</span>
+<span class="lineno">18</span>         <span class="nt">&lt;li&gt;&lt;a</span> <span class="na">href=</span><span class="s">&quot;#p&quot;</span><span class="nt">&gt;</span>P<span class="nt">&lt;/a&gt;&lt;/li&gt;</span>
+<span class="lineno">19</span>         <span class="nt">&lt;li&gt;&lt;span</span> <span class="na">class=</span><span class="s">&quot;is-empty&quot;</span><span class="nt">&gt;</span>Q<span class="nt">&lt;/span&gt;&lt;/li&gt;</span>
+<span class="lineno">20</span>         <span class="nt">&lt;li&gt;&lt;a</span> <span class="na">href=</span><span class="s">&quot;#r&quot;</span><span class="nt">&gt;</span>R<span class="nt">&lt;/a&gt;&lt;/li&gt;</span>
+<span class="lineno">21</span>         <span class="nt">&lt;li&gt;&lt;a</span> <span class="na">href=</span><span class="s">&quot;#s&quot;</span><span class="nt">&gt;</span>S<span class="nt">&lt;/a&gt;&lt;/li&gt;</span>
+<span class="lineno">22</span>         <span class="nt">&lt;li&gt;&lt;a</span> <span class="na">href=</span><span class="s">&quot;#t&quot;</span><span class="nt">&gt;</span>T<span class="nt">&lt;/a&gt;&lt;/li&gt;</span>
+<span class="lineno">23</span>         <span class="nt">&lt;li&gt;&lt;a</span> <span class="na">href=</span><span class="s">&quot;#u&quot;</span><span class="nt">&gt;</span>U<span class="nt">&lt;/a&gt;&lt;/li&gt;</span>
+<span class="lineno">24</span>         <span class="nt">&lt;li&gt;&lt;a</span> <span class="na">href=</span><span class="s">&quot;#v&quot;</span><span class="nt">&gt;</span>V<span class="nt">&lt;/a&gt;&lt;/li&gt;</span>
+<span class="lineno">25</span>         <span class="nt">&lt;li&gt;&lt;a</span> <span class="na">href=</span><span class="s">&quot;#w&quot;</span><span class="nt">&gt;</span>W<span class="nt">&lt;/a&gt;&lt;/li&gt;</span>
+<span class="lineno">26</span>         <span class="nt">&lt;li&gt;&lt;span</span> <span class="na">class=</span><span class="s">&quot;is-empty&quot;</span><span class="nt">&gt;</span>X<span class="nt">&lt;/span&gt;&lt;/li&gt;</span>
+<span class="lineno">27</span>         <span class="nt">&lt;li&gt;&lt;a</span> <span class="na">href=</span><span class="s">&quot;#y&quot;</span><span class="nt">&gt;</span>Y<span class="nt">&lt;/a&gt;&lt;/li&gt;</span>
+<span class="lineno">28</span>         <span class="nt">&lt;li&gt;&lt;a</span> <span class="na">href=</span><span class="s">&quot;#z&quot;</span><span class="nt">&gt;</span>Z<span class="nt">&lt;/a&gt;&lt;/li&gt;</span>
+<span class="lineno">29</span>     <span class="nt">&lt;/ul&gt;</span>
+<span class="lineno">30</span> <span class="nt">&lt;/nav&gt;</span><span class="c">&lt;!--/.nav-page--&gt;</span></code></pre></div>
+
+        <div class="xx-pattern-description"></div>
+
+    </details>
+
+    <div class="xx-pattern-preview">
+        <nav role="navigation" class="nav nav-page list-horizontal" aria-label="Pagination">
+    <ul class="alphabet-links">
+        <li><a href="#a">A</a></li>
+        <li><a href="#b">B</a></li>
+        <li><span class="is-active">C</span></li>
+        <li><a href="#d">D</a></li>
+        <li><a href="#e">E</a></li>
+        <li><a href="#f">F</a></li>
+        <li><a href="#g">G</a></li>
+        <li><a href="#h">H</a></li>
+        <li><a href="#i">I</a></li>
+        <li><a href="#j">J</a></li>
+        <li><a href="#k">K</a></li>
+        <li><a href="#l">L</a></li>
+        <li><a href="#m">M</a></li>
+        <li><a href="#n">N</a></li>
+        <li><a href="#o">O</a></li>
+        <li><a href="#p">P</a></li>
+        <li><span class="is-empty">Q</span></li>
+        <li><a href="#r">R</a></li>
+        <li><a href="#s">S</a></li>
+        <li><a href="#t">T</a></li>
+        <li><a href="#u">U</a></li>
+        <li><a href="#v">V</a></li>
+        <li><a href="#w">W</a></li>
+        <li><span class="is-empty">X</span></li>
+        <li><a href="#y">Y</a></li>
+        <li><a href="#z">Z</a></li>
+    </ul>
+</nav><!--/.nav-page-->
+
+    </div>
+
+</div>
+
+
+
+
+
+<div class="xx-pattern" id="nav-page">
+
+    <details class="xx-pattern-details">
+
+        <summary class="xx-pattern-name">nav-page</summary>
+
+        <div class="highlight"><pre><code class="language-html" data-lang="html"><span class="lineno">1</span> <span class="nt">&lt;nav</span> <span class="na">role=</span><span class="s">&quot;navigation&quot;</span> <span class="na">class=</span><span class="s">&quot;nav nav-page list-horizontal&quot;</span> <span class="na">aria-label=</span><span class="s">&quot;Pagination&quot;</span><span class="nt">&gt;</span>
+<span class="lineno">2</span>     <span class="nt">&lt;ul&gt;</span>
+<span class="lineno">3</span>         <span class="nt">&lt;li&gt;&lt;a</span> <span class="na">href=</span><span class="s">&quot;#&quot;</span> <span class="na">rel=</span><span class="s">&quot;prev&quot;</span><span class="nt">&gt;</span>Previous<span class="nt">&lt;/a&gt;&lt;/li&gt;</span>
+<span class="lineno">4</span>         <span class="nt">&lt;li&gt;&lt;a</span> <span class="na">href=</span><span class="s">&quot;#&quot;</span><span class="nt">&gt;</span>1<span class="nt">&lt;/a&gt;&lt;/li&gt;</span>
+<span class="lineno">5</span>         <span class="nt">&lt;li&gt;&lt;span</span> <span class="na">class=</span><span class="s">&quot;is-active&quot;</span><span class="nt">&gt;</span>2<span class="nt">&lt;/span&gt;&lt;/li&gt;</span>
+<span class="lineno">6</span>         <span class="nt">&lt;li&gt;&lt;a</span> <span class="na">href=</span><span class="s">&quot;#&quot;</span><span class="nt">&gt;</span>3<span class="nt">&lt;/a&gt;&lt;/li&gt;</span>
+<span class="lineno">7</span>         <span class="nt">&lt;li&gt;&lt;a</span> <span class="na">href=</span><span class="s">&quot;#&quot;</span> <span class="na">rel=</span><span class="s">&quot;next&quot;</span><span class="nt">&gt;</span>Next<span class="nt">&lt;/a&gt;&lt;/li&gt;</span>
+<span class="lineno">8</span>     <span class="nt">&lt;/ul&gt;</span>
+<span class="lineno">9</span> <span class="nt">&lt;/nav&gt;</span><span class="c">&lt;!--/.nav-page--&gt;</span></code></pre></div>
+
+        <div class="xx-pattern-description"></div>
+
+    </details>
+
+    <div class="xx-pattern-preview">
+        <nav role="navigation" class="nav nav-page list-horizontal" aria-label="Pagination">
+    <ul>
+        <li><a href="#" rel="prev">Previous</a></li>
+        <li><a href="#">1</a></li>
+        <li><span class="is-active">2</span></li>
+        <li><a href="#">3</a></li>
+        <li><a href="#" rel="next">Next</a></li>
+    </ul>
+</nav><!--/.nav-page-->
+
+    </div>
+
+</div>
+
+
+
+
+
+<div class="xx-pattern" id="nav">
+
+    <details class="xx-pattern-details">
+
+        <summary class="xx-pattern-name">nav</summary>
+
+        <div class="highlight"><pre><code class="language-html" data-lang="html"><span class="lineno">1</span> <span class="nt">&lt;nav</span> <span class="na">role=</span><span class="s">&quot;navigation&quot;</span> <span class="na">class=</span><span class="s">&quot;nav&quot;</span> <span class="na">aria-label=</span><span class="s">&quot;Global&quot;</span><span class="nt">&gt;</span>
+<span class="lineno">2</span>     <span class="nt">&lt;ul</span> <span class="na">class=</span><span class="s">&quot;list&quot;</span><span class="nt">&gt;</span>
+<span class="lineno">3</span>         <span class="nt">&lt;li&gt;&lt;a</span> <span class="na">href=</span><span class="s">&quot;#&quot;</span><span class="nt">&gt;</span>Lorem link<span class="nt">&lt;/a&gt;&lt;/li&gt;</span>
+<span class="lineno">4</span>         <span class="nt">&lt;li&gt;&lt;a</span> <span class="na">href=</span><span class="s">&quot;#&quot;</span> <span class="na">class=</span><span class="s">&quot;is-active&quot;</span><span class="nt">&gt;</span>Active link<span class="nt">&lt;/a&gt;&lt;/li&gt;</span>
+<span class="lineno">5</span>         <span class="nt">&lt;li&gt;&lt;a</span> <span class="na">href=</span><span class="s">&quot;#&quot;</span><span class="nt">&gt;</span>Ipsum link<span class="nt">&lt;/a&gt;&lt;/li&gt;</span>
+<span class="lineno">6</span>         <span class="nt">&lt;li&gt;&lt;a</span> <span class="na">href=</span><span class="s">&quot;#&quot;</span><span class="nt">&gt;</span>Dolor link<span class="nt">&lt;/a&gt;&lt;/li&gt;</span>
+<span class="lineno">7</span>     <span class="nt">&lt;/ul&gt;</span>
+<span class="lineno">8</span> <span class="nt">&lt;/nav&gt;</span><span class="c">&lt;!--/.nav--&gt;</span></code></pre></div>
+
+        <div class="xx-pattern-description"></div>
+
+    </details>
+
+    <div class="xx-pattern-preview">
+        <nav role="navigation" class="nav" aria-label="Global">
+    <ul class="list">
+        <li><a href="#">Lorem link</a></li>
+        <li><a href="#" class="is-active">Active link</a></li>
+        <li><a href="#">Ipsum link</a></li>
+        <li><a href="#">Dolor link</a></li>
+    </ul>
+</nav><!--/.nav-->
+
+    </div>
+
+</div>
+
+
+
+<div class="xx-pattern" id="table">
+
+    <details class="xx-pattern-details">
+
+        <summary class="xx-pattern-name">table</summary>
+
+        <div class="highlight"><pre><code class="language-html" data-lang="html"><span class="lineno"> 1</span> <span class="nt">&lt;table&gt;</span>
+<span class="lineno"> 2</span>     <span class="nt">&lt;thead&gt;</span>
+<span class="lineno"> 3</span>         <span class="nt">&lt;tr&gt;</span>
+<span class="lineno"> 4</span>             <span class="nt">&lt;th&gt;</span>State<span class="nt">&lt;/th&gt;</span>
+<span class="lineno"> 5</span>         <span class="nt">&lt;/tr&gt;</span>
+<span class="lineno"> 6</span>         <span class="nt">&lt;tr&gt;</span>
+<span class="lineno"> 7</span>             <span class="nt">&lt;th&gt;</span>Minimum driving age<span class="nt">&lt;/th&gt;</span>
+<span class="lineno"> 8</span>         <span class="nt">&lt;/tr&gt;</span>
+<span class="lineno"> 9</span>     <span class="nt">&lt;/thead&gt;</span>
+<span class="lineno">10</span>     <span class="nt">&lt;tbody&gt;</span>
+<span class="lineno">11</span>         <span class="nt">&lt;tr&gt;</span>
+<span class="lineno">12</span>             <span class="nt">&lt;th&gt;</span>South Africa<span class="nt">&lt;/th&gt;</span>
+<span class="lineno">13</span>             <span class="nt">&lt;td&gt;</span>18<span class="nt">&lt;/td&gt;</span>
+<span class="lineno">14</span>         <span class="nt">&lt;/tr&gt;</span>
+<span class="lineno">15</span>         <span class="nt">&lt;tr&gt;</span>
+<span class="lineno">16</span>             <span class="nt">&lt;th&gt;</span>Canada<span class="nt">&lt;/th&gt;</span>
+<span class="lineno">17</span>             <span class="nt">&lt;td&gt;</span>16<span class="nt">&lt;/td&gt;</span>
+<span class="lineno">18</span>         <span class="nt">&lt;/tr&gt;</span>
+<span class="lineno">19</span>         <span class="nt">&lt;tr&gt;</span>
+<span class="lineno">20</span>             <span class="nt">&lt;th&gt;</span>United States<span class="nt">&lt;/th&gt;</span>
+<span class="lineno">21</span>             <span class="nt">&lt;td&gt;</span>14-21<span class="nt">&lt;/td&gt;</span>
+<span class="lineno">22</span>         <span class="nt">&lt;/tr&gt;</span>
+<span class="lineno">23</span>         <span class="nt">&lt;tr&gt;</span>
+<span class="lineno">24</span>             <span class="nt">&lt;th&gt;</span>Bahamas<span class="nt">&lt;/th&gt;</span>
+<span class="lineno">25</span>             <span class="nt">&lt;td&gt;</span>17<span class="nt">&lt;/td&gt;</span>
+<span class="lineno">26</span>         <span class="nt">&lt;/tr&gt;</span>
+<span class="lineno">27</span>         <span class="nt">&lt;tr&gt;</span>
+<span class="lineno">28</span>             <span class="nt">&lt;th&gt;</span>Bangladesh<span class="nt">&lt;/th&gt;</span>
+<span class="lineno">29</span>             <span class="nt">&lt;td&gt;</span>18<span class="nt">&lt;/td&gt;</span>
+<span class="lineno">30</span>         <span class="nt">&lt;/tr&gt;</span>
+<span class="lineno">31</span>         <span class="nt">&lt;tr&gt;</span>
+<span class="lineno">32</span>             <span class="nt">&lt;th&gt;</span>China<span class="nt">&lt;/th&gt;</span>
+<span class="lineno">33</span>             <span class="nt">&lt;td&gt;</span>18<span class="nt">&lt;/td&gt;</span>
+<span class="lineno">34</span>         <span class="nt">&lt;/tr&gt;</span>
+<span class="lineno">35</span>         <span class="nt">&lt;tr&gt;</span>
+<span class="lineno">36</span>             <span class="nt">&lt;th&gt;</span>Ireland<span class="nt">&lt;/th&gt;</span>
+<span class="lineno">37</span>             <span class="nt">&lt;td&gt;</span>17<span class="nt">&lt;/td&gt;</span>
+<span class="lineno">38</span>         <span class="nt">&lt;/tr&gt;</span>
+<span class="lineno">39</span>         <span class="nt">&lt;tr&gt;</span>
+<span class="lineno">40</span>             <span class="nt">&lt;th&gt;</span>Spain<span class="nt">&lt;/th&gt;</span>
+<span class="lineno">41</span>             <span class="nt">&lt;td&gt;</span>18<span class="nt">&lt;/td&gt;</span>
+<span class="lineno">42</span>         <span class="nt">&lt;/tr&gt;</span>
+<span class="lineno">43</span>         <span class="nt">&lt;tr&gt;</span>
+<span class="lineno">44</span>             <span class="nt">&lt;th&gt;</span>Australia<span class="nt">&lt;/th&gt;</span>
+<span class="lineno">45</span>             <span class="nt">&lt;td&gt;</span>16-18<span class="nt">&lt;/td&gt;</span>
+<span class="lineno">46</span>         <span class="nt">&lt;/tr&gt;</span>
+<span class="lineno">47</span>     <span class="nt">&lt;/tbody&gt;</span>
+<span class="lineno">48</span> <span class="nt">&lt;/table&gt;</span></code></pre></div>
+
+        <div class="xx-pattern-description"></div>
+
+    </details>
+
+    <div class="xx-pattern-preview">
+        <table>
+    <thead>
+        <tr>
+            <th>State</th>
+        </tr>
+        <tr>
+            <th>Minimum driving age</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <th>South Africa</th>
+            <td>18</td>
+        </tr>
+        <tr>
+            <th>Canada</th>
+            <td>16</td>
+        </tr>
+        <tr>
+            <th>United States</th>
+            <td>14-21</td>
+        </tr>
+        <tr>
+            <th>Bahamas</th>
+            <td>17</td>
+        </tr>
+        <tr>
+            <th>Bangladesh</th>
+            <td>18</td>
+        </tr>
+        <tr>
+            <th>China</th>
+            <td>18</td>
+        </tr>
+        <tr>
+            <th>Ireland</th>
+            <td>17</td>
+        </tr>
+        <tr>
+            <th>Spain</th>
+            <td>18</td>
+        </tr>
+        <tr>
+            <th>Australia</th>
+            <td>16-18</td>
+        </tr>
+    </tbody>
+</table>
+
+    </div>
+
+</div>
+
+
+
+<div class="xx-pattern" id="text-abbr">
+
+    <details class="xx-pattern-details">
+
+        <summary class="xx-pattern-name">text-abbr</summary>
+
+        <div class="highlight"><pre><code class="language-html" data-lang="html"><span class="lineno">1</span> <span class="nt">&lt;p&gt;&lt;abbr</span> <span class="na">title=</span><span class="s">&quot;HyperText Markup Language&quot;</span><span class="nt">&gt;</span>HTML<span class="nt">&lt;/abbr&gt;&lt;/p&gt;</span></code></pre></div>
+
+        <div class="xx-pattern-description"></div>
+
+    </details>
+
+    <div class="xx-pattern-preview">
+        <p><abbr title="HyperText Markup Language">HTML</abbr></p>
+
+    </div>
+
+</div>
+
+
+
+<div class="xx-pattern" id="text-addr">
+
+    <details class="xx-pattern-details">
+
+        <summary class="xx-pattern-name">text-addr</summary>
+
+        <div class="highlight"><pre><code class="language-html" data-lang="html"><span class="lineno">1</span> <span class="nt">&lt;p</span> <span class="na">class=</span><span class="s">&quot;adr&quot;</span><span class="nt">&gt;</span>
+<span class="lineno">2</span>     <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">&quot;street-address&quot;</span><span class="nt">&gt;</span>10 Downing Street<span class="nt">&lt;/span&gt;&lt;br/&gt;</span>
+<span class="lineno">3</span>     <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">&quot;locality&quot;</span><span class="nt">&gt;</span>London<span class="nt">&lt;/span&gt;&lt;br/&gt;</span>
+<span class="lineno">4</span>     <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">&quot;region&quot;</span><span class="nt">&gt;</span>City of London<span class="nt">&lt;/span&gt;&lt;br/&gt;</span>
+<span class="lineno">5</span>     <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">&quot;postal-code&quot;</span><span class="nt">&gt;</span>A12 3BC<span class="nt">&lt;/span&gt;&lt;br/&gt;</span>
+<span class="lineno">6</span>     <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">&quot;country-name&quot;</span><span class="nt">&gt;</span>United Kingdom<span class="nt">&lt;/span&gt;&lt;br/&gt;</span>
+<span class="lineno">7</span> <span class="nt">&lt;/p&gt;</span></code></pre></div>
+
+        <div class="xx-pattern-description"></div>
+
+    </details>
+
+    <div class="xx-pattern-preview">
+        <p class="adr">
+    <span class="street-address">10 Downing Street</span><br/>
+    <span class="locality">London</span><br/>
+    <span class="region">City of London</span><br/>
+    <span class="postal-code">A12 3BC</span><br/>
+    <span class="country-name">United Kingdom</span><br/>
+</p>
+
+    </div>
+
+</div>
+
+
+
+<div class="xx-pattern" id="text-blockquote">
+
+    <details class="xx-pattern-details">
+
+        <summary class="xx-pattern-name">text-blockquote</summary>
+
+        <div class="highlight"><pre><code class="language-html" data-lang="html"><span class="lineno">1</span> <span class="nt">&lt;blockquote&gt;</span>
+<span class="lineno">2</span>     <span class="nt">&lt;p&gt;</span>In matters of truth and justice, there is no difference between large and small problems, for issues concerning the treatment of people are all the same.<span class="nt">&lt;/p&gt;</span>
+<span class="lineno">3</span> <span class="nt">&lt;/blockquote&gt;</span></code></pre></div>
+
+        <div class="xx-pattern-description"></div>
+
+    </details>
+
+    <div class="xx-pattern-preview">
+        <blockquote>
+    <p>In matters of truth and justice, there is no difference between large and small problems, for issues concerning the treatment of people are all the same.</p>
+</blockquote>
+
+    </div>
+
+</div>
+
+
+
+<div class="xx-pattern" id="text-caption">
+
+    <details class="xx-pattern-details">
+
+        <summary class="xx-pattern-name">text-caption</summary>
+
+        <div class="highlight"><pre><code class="language-html" data-lang="html"><span class="lineno">1</span> <span class="nt">&lt;p</span> <span class="na">class=</span><span class="s">&quot;note&quot;</span><span class="nt">&gt;</span>Your email address will not be published.<span class="nt">&lt;/p&gt;</span><span class="c">&lt;!--/.caption--&gt;</span></code></pre></div>
+
+        <div class="xx-pattern-description"></div>
+
+    </details>
+
+    <div class="xx-pattern-preview">
+        <p class="note">Your email address will not be published.</p><!--/.caption-->
+
+    </div>
+
+</div>
+
+
+
+<div class="xx-pattern" id="text-cite">
+
+    <details class="xx-pattern-details">
+
+        <summary class="xx-pattern-name">text-cite</summary>
+
+        <div class="highlight"><pre><code class="language-html" data-lang="html"><span class="lineno">1</span> <span class="nt">&lt;p&gt;&lt;cite&gt;</span>The Guardian<span class="nt">&lt;/cite&gt;</span>, January 2nd, 2014<span class="nt">&lt;/p&gt;</span></code></pre></div>
+
+        <div class="xx-pattern-description"></div>
+
+    </details>
+
+    <div class="xx-pattern-preview">
+        <p><cite>The Guardian</cite>, January 2nd, 2014</p>
+
+    </div>
+
+</div>
+
+
+
+<div class="xx-pattern" id="text-code-pre">
+
+    <details class="xx-pattern-details">
+
+        <summary class="xx-pattern-name">text-code-pre</summary>
+
+        <div class="highlight"><pre><code class="language-html" data-lang="html"><span class="lineno">1</span> <span class="nt">&lt;pre</span> <span class="na">class=</span><span class="s">&quot;language-css&quot;</span><span class="nt">&gt;</span>
+<span class="lineno">2</span> <span class="nt">&lt;code&gt;</span>ul li {
+<span class="lineno">3</span>     list-style-type: square;
+<span class="lineno">4</span>     padding-left: 0;
+<span class="lineno">5</span>     }<span class="nt">&lt;/code&gt;</span>
+<span class="lineno">6</span> <span class="nt">&lt;/pre&gt;</span></code></pre></div>
+
+        <div class="xx-pattern-description"></div>
+
+    </details>
+
+    <div class="xx-pattern-preview">
+        <pre class="language-css">
+<code>ul li {
+    list-style-type: square;
+    padding-left: 0;
+    }</code>
+</pre>
+
+    </div>
+
+</div>
+
+
+
+
+
+<div class="xx-pattern" id="text-code">
+
+    <details class="xx-pattern-details">
+
+        <summary class="xx-pattern-name">text-code</summary>
+
+        <div class="highlight"><pre><code class="language-html" data-lang="html"><span class="lineno">1</span> <span class="nt">&lt;p&gt;</span>This is some <span class="nt">&lt;code&gt;</span>inline code<span class="nt">&lt;/code&gt;</span>.<span class="nt">&lt;/p&gt;</span></code></pre></div>
+
+        <div class="xx-pattern-description"></div>
+
+    </details>
+
+    <div class="xx-pattern-preview">
+        <p>This is some <code>inline code</code>.</p>
+
+    </div>
+
+</div>
+
+
+
+<div class="xx-pattern" id="text-dfn">
+
+    <details class="xx-pattern-details">
+
+        <summary class="xx-pattern-name">text-dfn</summary>
+
+        <div class="highlight"><pre><code class="language-html" data-lang="html"><span class="lineno">1</span> <span class="nt">&lt;p&gt;</span>A <span class="nt">&lt;dfn&gt;</span>kernel<span class="nt">&lt;/dfn&gt;</span> is a softer, usually edible part of a nut, seed, or fruit stone contained within its shell.<span class="nt">&lt;/p&gt;</span></code></pre></div>
+
+        <div class="xx-pattern-description"></div>
+
+    </details>
+
+    <div class="xx-pattern-preview">
+        <p>A <dfn>kernel</dfn> is a softer, usually edible part of a nut, seed, or fruit stone contained within its shell.</p>
+
+    </div>
+
+</div>
+
+
+
+<div class="xx-pattern" id="text-figure">
+
+    <details class="xx-pattern-details">
+
+        <summary class="xx-pattern-name">text-figure</summary>
+
+        <div class="highlight"><pre><code class="language-html" data-lang="html"><span class="lineno">1</span> <span class="nt">&lt;figure&gt;</span>
+<span class="lineno">2</span>     <span class="nt">&lt;img</span> <span class="na">src=</span><span class="s">&quot;image.jpg&quot;</span> <span class="na">alt=</span><span class="s">&quot;Some alt text&quot;</span><span class="nt">/&gt;</span>
+<span class="lineno">3</span>     <span class="nt">&lt;figcaption&gt;</span>
+<span class="lineno">4</span>         <span class="nt">&lt;p&gt;</span>This is a caption<span class="nt">&lt;/p&gt;</span>
+<span class="lineno">5</span>     <span class="nt">&lt;/figcaption&gt;</span>
+<span class="lineno">6</span> <span class="nt">&lt;/figure&gt;</span></code></pre></div>
+
+        <div class="xx-pattern-description"></div>
+
+    </details>
+
+    <div class="xx-pattern-preview">
+        <figure>
+    <img src="image.jpg" alt="Some alt text"/>
+    <figcaption>
+        <p>This is a caption</p>
+    </figcaption>
+</figure>
+
+    </div>
+
+</div>
+
+
+
+
+    </main>
+            
+</div>
+
+</body>
+
+<script>
+
+    // Adds class of js to the html tag if JS is enabled
+    document.getElementsByTagName('html')[0].className += ' js';
+    
+    // Adds class of svg to the html tag if svg is enabled
+    (function flagSVG() {
+        var ns = {'svg': 'http://www.w3.org/2000/svg'};
+        if(document.implementation.hasFeature("http://www.w3.org/TR/SVG11/feature#BasicStructure", "1.1")) {document.getElementsByTagName('html')[0].className += ' svg';}
+    })();
+    
+    (function (document, undefined) {
+        // Pattern selector
+        document.getElementById('pattern-submit').style.display = 'none';
+        document.getElementById('pattern-select').onchange = function() {
+            //document.location=this.options[this.selectedIndex].value;
+            var val = this.value;
+            if (val !== "") {
+                window.location = val;
+            }
+        }
+    })(document);
+
+</script>
+
+</html> 
