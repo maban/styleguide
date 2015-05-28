@@ -66,7 +66,7 @@ Jekyll includes only work with files within the _includes folder. Since the patt
 Another option is `include_relative`, which includes files from a different folder:
 
 ```
-{% include_relative _patterns/include-case-study.html %}
+{% include_relative _patterns/media-image.html %}
 ```
 
 But `include_relative` doesn't work when it's used in a layout file (any file within the _layouts folder).
